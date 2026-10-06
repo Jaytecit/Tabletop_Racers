@@ -1,0 +1,18 @@
+[gd_resource type="Resource" format=3 uid="uid://bpaadhwhh7sff"]
+
+[ext_resource type="PackedScene" uid="uid://cd2bkvsjlh1fd" path="res://environments/tabletop/firefly_bbq.tscn" id="1_t2g3g"]
+[ext_resource type="Texture2D" uid="uid://b3ueiqhk6fnwv" path="res://tracks/firefly_bbq/preview.res" id="2_qcdkc"]
+[ext_resource type="Resource" uid="uid://c0gitybdsk327" path="res://tracks/firefly_bbq/definition.tres" id="3_1qlic"]
+[ext_resource type="Script" uid="uid://dfomhj1p8s58n" path="res://scripts/tracks/track_entry.gd" id="4_mngix"]
+
+[resource]
+script = ExtResource("4_mngix")
+id = "firefly_bbq"
+title = "Firefly BBQ"
+cup = "Tabletop"
+route = ExtResource("3_1qlic")
+environment = ExtResource("1_t2g3g")
+preview = ExtResource("2_qcdkc")
+eligible_classes = PackedStringArray("buggy")
+target_lap_seconds = Vector2(30, 70)
+description = "Night barbecue circuit · cloth ramps and grill pan"

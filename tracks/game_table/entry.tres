@@ -1,0 +1,19 @@
+[gd_resource type="Resource" format=3 uid="uid://du1yiv2db83kd"]
+
+[ext_resource type="PackedScene" uid="uid://b77c7vl3x7syg" path="res://environments/casino/blackjack.tscn" id="1_kahi0"]
+[ext_resource type="Texture2D" uid="uid://5o87hs8pg8w6" path="res://tracks/game_table/preview.res" id="2_yfu1c"]
+[ext_resource type="Resource" uid="uid://cjndacn583ram" path="res://tracks/game_table/definition.tres" id="3_g13r4"]
+[ext_resource type="Script" uid="uid://dfomhj1p8s58n" path="res://scripts/tracks/track_entry.gd" id="4_6xjv4"]
+
+[resource]
+script = ExtResource("4_6xjv4")
+id = "game_table"
+title = "Roulette Grand Prix"
+cup = "Casino"
+order_in_cup = 3
+route = ExtResource("3_g13r4")
+environment = ExtResource("1_kahi0")
+preview = ExtResource("2_yfu1c")
+eligible_classes = PackedStringArray("buggy")
+target_lap_seconds = Vector2(45, 65)
+description = "Roulette salon · open felt · dealer ramp · exposed wheel-side trestle"

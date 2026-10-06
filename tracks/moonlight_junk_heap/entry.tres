@@ -1,0 +1,18 @@
+[gd_resource type="Resource" format=3 uid="uid://cyaf0imllgv52"]
+
+[ext_resource type="PackedScene" uid="uid://mpjx3du3q3x6" path="res://environments/tabletop/moonlight_junk_heap.tscn" id="1_x46ep"]
+[ext_resource type="Texture2D" uid="uid://ds50b4ig7wb5h" path="res://tracks/moonlight_junk_heap/preview.res" id="2_auns2"]
+[ext_resource type="Resource" uid="uid://dfqavdotxpjhc" path="res://tracks/moonlight_junk_heap/definition.tres" id="3_0dt1c"]
+[ext_resource type="Script" uid="uid://dfomhj1p8s58n" path="res://scripts/tracks/track_entry.gd" id="4_6ltqv"]
+
+[resource]
+script = ExtResource("4_6ltqv")
+id = "moonlight_junk_heap"
+title = "Moonlight Junk Heap"
+cup = "Tabletop"
+route = ExtResource("3_0dt1c")
+environment = ExtResource("1_x46ep")
+preview = ExtResource("2_auns2")
+eligible_classes = PackedStringArray("buggy")
+target_lap_seconds = Vector2(30, 70)
+description = "Moonlit workshop circuit"

@@ -1,0 +1,55 @@
+{
+  "source_sha256": "0bd4c3047fbcda91bdc04ae2b81e25a8aa110fad8dbf730e35193ede57a050fa",
+  "vehicle": "monster_truck",
+  "radius": 0.164,
+  "cut_plane": 0.185,
+  "parts": [
+    {
+      "name": "Body",
+      "triangles": 367599,
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "RearLeft",
+      "triangles": 33217,
+      "pivot": [
+        -0.233,
+        0.164,
+        -0.265
+      ]
+    },
+    {
+      "name": "RearRight",
+      "triangles": 34003,
+      "pivot": [
+        -0.233,
+        0.164,
+        0.265
+      ]
+    },
+    {
+      "name": "FrontLeft",
+      "triangles": 32119,
+      "pivot": [
+        0.278,
+        0.164,
+        -0.265
+      ]
+    },
+    {
+      "name": "FrontRight",
+      "triangles": 33062,
+      "pivot": [
+        0.278,
+        0.164,
+        0.265
+      ]
+    }
+  ],
+  "triangles_preserved": 500000,
+  "method": "Measured cylindrical face selection at four tyre hubs; prototype boundaries require rendered inspection."
+}

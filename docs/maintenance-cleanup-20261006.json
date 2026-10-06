@@ -1,0 +1,441 @@
+{
+  "date": "2026-10-06",
+  "status": "archived-not-deleted",
+  "targets": [
+    {
+      "path": "marketing/tabletop-racers-full-theme-promo.mp4",
+      "files": 1,
+      "bytes": 212330827,
+      "reason": "verified duplicate; canonical source/package retained",
+      "manifest": [
+        {
+          "path": "marketing/tabletop-racers-full-theme-promo.mp4",
+          "bytes": 212330827,
+          "sha256": "23d67a7c5f05a9bebd89c83ba44bcb288111edc886fb3cae87ede0ec9cadc21c"
+        }
+      ]
+    },
+    {
+      "path": "assets/video/opening/theme-review/opening-coming-soon-promo.mp4",
+      "files": 1,
+      "bytes": 212330827,
+      "reason": "verified duplicate; canonical source/package retained",
+      "manifest": [
+        {
+          "path": "assets/video/opening/theme-review/opening-coming-soon-promo.mp4",
+          "bytes": 212330827,
+          "sha256": "23d67a7c5f05a9bebd89c83ba44bcb288111edc886fb3cae87ede0ec9cadc21c"
+        }
+      ]
+    },
+    {
+      "path": "project.godot.bak",
+      "files": 1,
+      "bytes": 6226,
+      "reason": "verified duplicate; canonical source/package retained",
+      "manifest": [
+        {
+          "path": "project.godot.bak",
+          "bytes": 6226,
+          "sha256": "ea536202a20493b0c2bcecc78db0494f965f5b8f1a754af4f84740484bf766ea"
+        }
+      ]
+    },
+    {
+      "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips",
+      "files": 49,
+      "bytes": 606834592,
+      "reason": "verified duplicate; canonical source/package retained",
+      "manifest": [
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/contact-sheet.jpg",
+          "bytes": 2147823,
+          "sha256": "f2ff1c312892892f6a9691699a2e90b7af614462d66c20e1b15a8cc6a2864b82"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/contact-sheet.jpg.import",
+          "bytes": 994,
+          "sha256": "9f5c0523c1130c087fb047489847ff9a462cee15b2acfb5c82a17b9432557da1"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/manifest.json",
+          "bytes": 29135,
+          "sha256": "2aafd83d79b86d566693fa3f71f4dd234c7e20d0d79e4d1aab06725de68f8c86"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/preview.jpg",
+          "bytes": 800928,
+          "sha256": "b3340408f59d3745764ec12c80fd37150306e4056379bb9ebf43a4382a34af9e"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/preview.jpg.import",
+          "bytes": 976,
+          "sha256": "5beeb07c972e3928e1d83dba9621873c61134329f7032f2afb625264c70054a5"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/README.md",
+          "bytes": 3854,
+          "sha256": "19a0ea8eb4cbd6560309c5fb263a32a7d66af845d155f2010ffb098ffd5609cb"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/shot-list.audio.translation",
+          "bytes": 1414,
+          "sha256": "aa782fe3b494a50404b708d15a605d31b9af92571f867f68299d8992be72018e"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/shot-list.camera.translation",
+          "bytes": 1535,
+          "sha256": "e109a7fdf7f2348b80b5570cfb80e60297ce9e377c087102602ba96c05399b70"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/shot-list.course.translation",
+          "bytes": 1603,
+          "sha256": "50114b71733c164c9bed4e41a415b2f340fe986aeb9a7fbe0d9c52c3766baeb7"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/shot-list.csv",
+          "bytes": 4222,
+          "sha256": "0571ec70a5a86f0629699748bdb4ec1a53627858466c03e0b56f96aec7acd441"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/shot-list.csv.import",
+          "bytes": 2218,
+          "sha256": "3847f5c4f23709b11edc80f63c5f1b5820018da2b6c3fb1aefb0f7180b80d498"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/shot-list.end.translation",
+          "bytes": 1772,
+          "sha256": "8523fbc36e7accba57276b041c3e9e3189fc0999786e90cb1914cf93a0f1e879"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/shot-list.fps.translation",
+          "bytes": 1352,
+          "sha256": "a5d10763e2e59016daac0992e44c22863418fded8fbd35d0adc2c823943cdb6f"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/shot-list.height.translation",
+          "bytes": 1415,
+          "sha256": "3fbc8fe7d3e029ed83a93e6d361fb38c64a1cbff3866c6bbcb6372cfe05375f2"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/shot-list.route.translation",
+          "bytes": 1414,
+          "sha256": "4e5a5b6efae600aef6da00bd779072a3450c4c1921ea1cb948b304ca5dc01b59"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/shot-list.seconds.translation",
+          "bytes": 1324,
+          "sha256": "c13669d47a1527946bd6a6cbcc903d53cc5d3f588b338c5f4278eff486741cbf"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/shot-list.start.translation",
+          "bytes": 1774,
+          "sha256": "d20d90c98975ef625fdbcbe30477331709c69a3deb88ed592576b6d03355ee36"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/shot-list.vehicle.translation",
+          "bytes": 1560,
+          "sha256": "b7ccf11b0598c0c82a7111547db6912e60dedaa3b206ff0a4df731a9c26ec1ac"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/shot-list.width.translation",
+          "bytes": 1414,
+          "sha256": "1af62d5d1e37b90d20a87c8a4a458eef49e8375d653b6805277accd9d5c3cb9e"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/clips/game_table_buggy_chase.mp4",
+          "bytes": 4246048,
+          "sha256": "5c89d61cc6c042d2306530b09892bc8e8edd6dc570a9e2b0a6ee1ea55cb9696e"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/clips/game_table_buggy_close_chase.mp4",
+          "bytes": 9235780,
+          "sha256": "6a15f3de71c38143198a818a6dd2cdb5e532b0204bf2c6a1d6fb3081d462e8d5"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/clips/game_table_buggy_overhead.mp4",
+          "bytes": 5083558,
+          "sha256": "52217719f025035600ea29b64a93c89148dd91fa895b0af4289271d25458d44d"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/clips/game_table_monster_truck_chase.mp4",
+          "bytes": 4407595,
+          "sha256": "fee568e2ecbd9751a9f5ebadc89410b3229c75339ebd81f8d64ab8fe230d21b0"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/clips/game_table_monster_truck_close_chase.mp4",
+          "bytes": 8415865,
+          "sha256": "86c1ce1215af9c16da2047482bb62b652a9161dadfe19f10d430d91eb96c1b14"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/clips/game_table_monster_truck_overhead.mp4",
+          "bytes": 4739120,
+          "sha256": "7d8f53345f1a9338198a48ceeb4c1ff9bb937826f20f0a9c79d0ecc490831544"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/clips/mount_rainier_drift_car_chase.mp4",
+          "bytes": 34396664,
+          "sha256": "83ca73a203c96d4f6227c2f2928e9caca616ab2dc70c10e97106884809ff6ea8"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/clips/mount_rainier_drift_car_close_chase.mp4",
+          "bytes": 21291460,
+          "sha256": "f233c4d087758a46115cbfe1864bccd1bf8df1b2c067b47fb8701fb30623dbd4"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/clips/mount_rainier_drift_car_overhead.mp4",
+          "bytes": 24008593,
+          "sha256": "925579cf683bf321f8b85c5794b14e3d749c5889e8f65861538e8d73a01685f9"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/clips/mount_rainier_monster_truck_chase.mp4",
+          "bytes": 33679488,
+          "sha256": "f360e9f292386a635bebcde3e500b41ceb99918ccf96c58de3889c112bbeb665"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/clips/mount_rainier_monster_truck_close_chase.mp4",
+          "bytes": 20473738,
+          "sha256": "7f735c090f47225545c5edc8410720474bce0a791469813e1a7109a283ef7638"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/clips/mount_rainier_monster_truck_overhead.mp4",
+          "bytes": 24564199,
+          "sha256": "2116099f11de761315fcc11998d3e7371ac2c8ae4b0d43d54f9120c7ec0bae9d"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/clips/mount_rainier_racing_car_chase.mp4",
+          "bytes": 33409364,
+          "sha256": "83bd20468760a26e3122c95f6c5a7fa6073f0bfd259979c4464bd0102432ea18"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/clips/mount_rainier_racing_car_close_chase.mp4",
+          "bytes": 21571754,
+          "sha256": "2bef87f03f90c4d54dd9dbafa1180501f8d34d8865e22a3044a0498357b39b99"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/clips/mount_rainier_racing_car_overhead.mp4",
+          "bytes": 23059222,
+          "sha256": "4538628d5ceb1086152f384927a1aed875697e5107e6d82ed5154b5940b4d617"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/clips/topspeed_oval_drift_car_chase.mp4",
+          "bytes": 29846551,
+          "sha256": "3e267856026729b0ca60f6511347ca139a7c81d2602cf12f3811898cc42ea1ab"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/clips/topspeed_oval_drift_car_close_chase.mp4",
+          "bytes": 25059129,
+          "sha256": "758cb111f10dc98d095be48820e5679cf2809923e0a1a982bc0a65e070350c48"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/clips/topspeed_oval_drift_car_overhead.mp4",
+          "bytes": 25516110,
+          "sha256": "fbcf3b452c519a42f3fbd9e1fce270bd9b5e66af0b12d2d6bb76fe7fda846721"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/clips/topspeed_oval_monster_truck_chase.mp4",
+          "bytes": 30008110,
+          "sha256": "3338dc874685228393975f2c12dde723e26666564316b8217a6a64408bb473cf"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/clips/topspeed_oval_monster_truck_close_chase.mp4",
+          "bytes": 22951362,
+          "sha256": "81802a6c197f5ad228c394e4788e337a3db8042b22170ba9272b1fd007755d68"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/clips/topspeed_oval_monster_truck_overhead.mp4",
+          "bytes": 30053363,
+          "sha256": "0211cc02b1b7d811d4f307e9bb5d820dd20a97bd093243dee3e4b5e16e7bd1b4"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/clips/topspeed_oval_racing_car_chase.mp4",
+          "bytes": 29669619,
+          "sha256": "52dba26ead3d17340d7de1cf7902017b77ef25d057b60b788e077c14813ec9ec"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/clips/topspeed_oval_racing_car_close_chase.mp4",
+          "bytes": 24779368,
+          "sha256": "ee6ff5e4f619f3c2c1d75f9243c2fdd94d1fe539866be87ae200599c73f831ad"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/clips/topspeed_oval_racing_car_overhead.mp4",
+          "bytes": 32035834,
+          "sha256": "cf5152f9e81f34225073f09184166fc46818d6dd19bd3ecc7fb36dac908f68f3"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/clips/town_square_buggy_chase.mp4",
+          "bytes": 10294897,
+          "sha256": "bc573fc08915788c8e88449b2b3eca81e2e96f15f3e229eabe21a49e148ce69e"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/clips/town_square_buggy_close_chase.mp4",
+          "bytes": 13396560,
+          "sha256": "29d89e6c4c8a21b77713562bd5fbbcf4f8ed53ee21501b8d1ec58dc81ba2c84b"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/clips/town_square_buggy_overhead.mp4",
+          "bytes": 16197567,
+          "sha256": "9a76e2a10320df96860244c4a6854ee930a5437b71fd4af52628fd5ac9ef39b3"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/clips/town_square_racing_car_chase.mp4",
+          "bytes": 10885432,
+          "sha256": "086aef658be50f8608d206b84ddb48c08c99343750aa8d0b138934014d98c137"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/clips/town_square_racing_car_close_chase.mp4",
+          "bytes": 14050983,
+          "sha256": "6a4972c0fa7243dc84ab5d2569d0bc64fa354f64d684a7e0d23e92bb8436f9f0"
+        },
+        {
+          "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips/clips/town_square_racing_car_overhead.mp4",
+          "bytes": 16500532,
+          "sha256": "9e5da1c1cf255ece644d0f0546dbd71386721bd9d744b0112d04eb45f3b0f193"
+        }
+      ]
+    },
+    {
+      "path": "builds/loading",
+      "files": 5,
+      "bytes": 930987184,
+      "reason": "disposable loading benchmark export",
+      "manifest": [
+        {
+          "path": "builds/loading/libdd3d.windows.template_release.x86_64.dll",
+          "bytes": 621568,
+          "sha256": "55436711f807bd05eea654aca233be7d999c77b0e51808d5a0c8a8171c010f24"
+        },
+        {
+          "path": "builds/loading/libgodot_rapier.windows.x86_64-pc-windows-msvc.dll",
+          "bytes": 10018816,
+          "sha256": "4e26ffa78ec2aaff434c4a70cd2ec85288b10ba5237912c35f204cb1e6ed2180"
+        },
+        {
+          "path": "builds/loading/libterrain.windows.release.x86_64.dll",
+          "bytes": 3549184,
+          "sha256": "40900e649c3c6c7619c383d28732c3e2e8dc87c2938de43b29122a668aedcf86"
+        },
+        {
+          "path": "builds/loading/tabletop-loading.exe",
+          "bytes": 79100480,
+          "sha256": "48026e5a679ec25434c2abecb466b3a03f6112790e570cdab08a78e3185b5a25"
+        },
+        {
+          "path": "builds/loading/tabletop-loading.pck",
+          "bytes": 837697136,
+          "sha256": "db5fe62dfdf1b6aa14f01781ea9850fa4680ff1ca980be74a97144f5e4cbac61"
+        }
+      ]
+    },
+    {
+      "path": "tools/__pycache__",
+      "files": 6,
+      "bytes": 84276,
+      "reason": "generated Python cache",
+      "manifest": [
+        {
+          "path": "tools/__pycache__/build_cinematic_theme_promo.cpython-312.pyc",
+          "bytes": 33025,
+          "sha256": "95983edc7742b2313a76206eb39f4a905cfefa217a02c483b47420cba4d0797b"
+        },
+        {
+          "path": "tools/__pycache__/build_opening_video.cpython-312.pyc",
+          "bytes": 4418,
+          "sha256": "80d4488ab2074364fb1432c8ae23b666119d51d3583c7c4d75521e661efdb15b"
+        },
+        {
+          "path": "tools/__pycache__/build_redline_promo.cpython-312.pyc",
+          "bytes": 10935,
+          "sha256": "98fb112dbf6832d590987cb450f3f2b0a513e97b784403f91ef4035b154c40cf"
+        },
+        {
+          "path": "tools/__pycache__/build_theme_opening_preview.cpython-312.pyc",
+          "bytes": 20565,
+          "sha256": "8b75aeea1f6b8369da399a5af8bd9d1993b24dd36eb677a70d3adad05497cf79"
+        },
+        {
+          "path": "tools/__pycache__/package_gameplay_clips.cpython-312.pyc",
+          "bytes": 8740,
+          "sha256": "6a7678c487d2331604eb9601fc593f2d38d48fd5fbd1138d7856af03f4281120"
+        },
+        {
+          "path": "tools/__pycache__/project_audit.cpython-312.pyc",
+          "bytes": 6593,
+          "sha256": "cf8f094f1b58b458df86a4ce4ed181b6a423172db545321df910b0c0686b18bf"
+        }
+      ]
+    },
+    {
+      "path": "tools/tabletop_reference/__pycache__",
+      "files": 9,
+      "bytes": 128448,
+      "reason": "generated Python cache",
+      "manifest": [
+        {
+          "path": "tools/tabletop_reference/__pycache__/audit_glb_folder.cpython-312.pyc",
+          "bytes": 10895,
+          "sha256": "a4c18604242be6743ab0c05524ffdda92697a54c64ee8c0806bfd19ee5a788ef"
+        },
+        {
+          "path": "tools/tabletop_reference/__pycache__/extract_road_candidate.cpython-312.pyc",
+          "bytes": 18675,
+          "sha256": "aea2ec2bd10c42f30bdd7cffaf1dcfea14166677efd5f8b0874f8bdd4afa511d"
+        },
+        {
+          "path": "tools/tabletop_reference/__pycache__/glb_source.cpython-312.pyc",
+          "bytes": 10197,
+          "sha256": "6f5032eaacd80a207548eb6f7374cb45932f5941134fe7b4b8822793d23b4c14"
+        },
+        {
+          "path": "tools/tabletop_reference/__pycache__/inspect_mount_rainier.cpython-312.pyc",
+          "bytes": 16881,
+          "sha256": "445708da6b2124a6b0571bc9f286e042ee6fb7f918149c6421698f8793070c24"
+        },
+        {
+          "path": "tools/tabletop_reference/__pycache__/prepare_mount_rainier.cpython-312.pyc",
+          "bytes": 14734,
+          "sha256": "70a4228d6c8f918f4aeb60f162298db584bb8284b9a84742dcd9e785f0b90d49"
+        },
+        {
+          "path": "tools/tabletop_reference/__pycache__/raster_source.cpython-312.pyc",
+          "bytes": 6670,
+          "sha256": "691dc80f9511039f756669ed272f73111699e0313576062e9f1f39b67aad6521"
+        },
+        {
+          "path": "tools/tabletop_reference/__pycache__/road_geometry.cpython-312.pyc",
+          "bytes": 21849,
+          "sha256": "b9441ef08d9c00fa74a28174b5986bd5b8fa93281acd19ba5fbf492e759db93b"
+        },
+        {
+          "path": "tools/tabletop_reference/__pycache__/survey_road_topology.cpython-312.pyc",
+          "bytes": 9271,
+          "sha256": "fdf9399f2b58219850b53f77cf9fdc66fd980dbf10588e6b0f8fbb822e9dc8dd"
+        },
+        {
+          "path": "tools/tabletop_reference/__pycache__/test_road_geometry.cpython-312.pyc",
+          "bytes": 19276,
+          "sha256": "991287ff6cd7d811d60c198d988a7bd88e97ebe7630fafb3863315ff14923ba3"
+        }
+      ]
+    }
+  ],
+  "files": 72,
+  "bytes": 1962702380,
+  "retained": [
+    "original source models/textures/audio/video",
+    "current live opening",
+    "canonical cinematic promo",
+    "gameplay-clips.zip and canonical clips",
+    "raw captures and all failed verification evidence",
+    "archive source packs and geometry backups",
+    "running editor/playtest"
+  ],
+  "verified_package": {
+    "path": "marketing/gameplay-clips-2026-10-06/gameplay-clips.zip",
+    "entries": 35,
+    "sha256": "46d6d07b1c24883d15801aecb20e12a0440071c20928a04e748d5e99eb0b4253"
+  },
+  "canonical_promo_sha256": "23d67a7c5f05a9bebd89c83ba44bcb288111edc886fb3cae87ede0ec9cadc21c",
+  "archive_root": "archive/maintenance-quarantine-20261006",
+  "deletion_rejection": "Automatic approval review rejected bulk and explicit-path Remove-Item commands: blocked by policy. No permanent deletion performed."
+}

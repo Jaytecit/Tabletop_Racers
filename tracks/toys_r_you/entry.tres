@@ -1,0 +1,18 @@
+[gd_resource type="Resource" format=3 uid="uid://cprfoitbou828"]
+
+[ext_resource type="PackedScene" uid="uid://d021moxj2llwa" path="res://environments/tabletop/toys_r_you.tscn" id="1_bu17a"]
+[ext_resource type="Texture2D" uid="uid://3iao0jgf1pkt" path="res://tracks/toys_r_you/preview.res" id="2_epoo4"]
+[ext_resource type="Resource" uid="uid://bbbktawnmebir" path="res://tracks/toys_r_you/definition.tres" id="3_o2p67"]
+[ext_resource type="Script" uid="uid://dfomhj1p8s58n" path="res://scripts/tracks/track_entry.gd" id="4_cap81"]
+
+[resource]
+script = ExtResource("4_cap81")
+id = "toys_r_you"
+title = "Toys R You"
+cup = "Tabletop"
+route = ExtResource("3_o2p67")
+environment = ExtResource("1_bu17a")
+preview = ExtResource("2_epoo4")
+eligible_classes = PackedStringArray("buggy")
+target_lap_seconds = Vector2(40, 75)
+description = "Toy-room circuit · winding ramps and bridge"

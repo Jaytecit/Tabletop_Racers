@@ -1,0 +1,162 @@
+{
+  "shots": [
+    {
+      "shot": "world",
+      "source": "_uqcTT9WVG7kyzar-7B59_minimax-h3.mp4",
+      "start_beat": 0,
+      "used_seconds": 5.15625,
+      "start_seconds": 0.0,
+      "sha256": "2775d0180b8bed1f94cd5fd27352e7cb3e4fd4832e546ca5ad2a623581a345b5"
+    },
+    {
+      "shot": "buggy",
+      "source": "reg5SlSfwemjc6ynHqQrp_minimax-h3.mp4",
+      "start_beat": 10,
+      "used_seconds": 5.15625,
+      "start_seconds": 4.6875,
+      "sha256": "457a9d4b04188eca25b1e9bc51a72dbe530c51d106b915913393ce85ef2e5a8e"
+    },
+    {
+      "shot": "monster_truck",
+      "source": "CLqvkzgMTucwsUxALjLOT_minimax-h3.mp4",
+      "start_beat": 20,
+      "used_seconds": 5.15625,
+      "start_seconds": 9.375,
+      "sha256": "c063777c9cdb2c4e57eee4984206586cf605ef921e7e71c15f747e38271be950"
+    },
+    {
+      "shot": "drift",
+      "source": "9egcf8exa3rVPpYHmQgtt_minimax-h3.mp4",
+      "start_beat": 30,
+      "used_seconds": 5.15625,
+      "start_seconds": 14.0625,
+      "sha256": "fac1e66cb5088eb420adba49cc8077ee1928d4aeb360e50e63e1ef71c136face"
+    },
+    {
+      "shot": "racing_car",
+      "source": "9olKVw7ISx19dC2gl_M4j_minimax-h3.mp4",
+      "start_beat": 40,
+      "used_seconds": 5.15625,
+      "start_seconds": 18.75,
+      "sha256": "6a5f208a6062b303db43d8cafe02b6f81481b12991fba6668c14fac9ddaff976"
+    },
+    {
+      "shot": "speedboat",
+      "source": "OWf94HG91GTwzkYcbhxf1_minimax-h3 (1).mp4",
+      "start_beat": 50,
+      "used_seconds": 4.6875,
+      "start_seconds": 23.4375,
+      "sha256": "b76b3e25390ce396952f4640354495bc793bfe4186c89c722943f2af3e9f90a9"
+    },
+    {
+      "shot": "driver_0",
+      "source": "jump.png",
+      "start_beat": 60,
+      "used_seconds": 1.40625,
+      "sha256": "38d27bf56ead811e84e42d4cb23976bb4331b43749481d84c67c3b01d9a253f8",
+      "start_seconds": 28.125
+    },
+    {
+      "shot": "driver_1",
+      "source": "jump.png",
+      "start_beat": 63,
+      "used_seconds": 1.40625,
+      "sha256": "38d27bf56ead811e84e42d4cb23976bb4331b43749481d84c67c3b01d9a253f8",
+      "start_seconds": 29.53125
+    },
+    {
+      "shot": "driver_2",
+      "source": "drift.png",
+      "start_beat": 66,
+      "used_seconds": 1.40625,
+      "sha256": "15654b44d85ea9298ea1f0cd260d9c6d02579640bd5d2484505a5b29ed57194c",
+      "start_seconds": 30.9375
+    },
+    {
+      "shot": "driver_3",
+      "source": "drift.png",
+      "start_beat": 69,
+      "used_seconds": 1.40625,
+      "sha256": "15654b44d85ea9298ea1f0cd260d9c6d02579640bd5d2484505a5b29ed57194c",
+      "start_seconds": 32.34375
+    },
+    {
+      "shot": "stunt",
+      "source": "3kFvpSzoHLPQvC15dW5tU_minimax-h3.mp4",
+      "start_beat": 72,
+      "used_seconds": 4.6875,
+      "start_seconds": 33.75,
+      "sha256": "231a0c689f417b459a35300b017bf72bd6b7187916cb20584bb72718c24a84fa"
+    },
+    {
+      "shot": "charge",
+      "source": "uE_fHp60zUZLY9bdGChr__minimax-h3.mp4",
+      "start_beat": 82,
+      "used_seconds": 4.6875,
+      "start_seconds": 38.4375,
+      "sha256": "768d0df94ab489a9e38815cd4eeb562ba27e139579891f0f6040386fd44ba6db"
+    },
+    {
+      "shot": "callback_monster_truck",
+      "source": "CLqvkzgMTucwsUxALjLOT_minimax-h3.mp4",
+      "start_beat": 92,
+      "used_seconds": 0.46875,
+      "source_start_seconds": 2.0,
+      "start_seconds": 43.125,
+      "sha256": "c063777c9cdb2c4e57eee4984206586cf605ef921e7e71c15f747e38271be950"
+    },
+    {
+      "shot": "callback_drift",
+      "source": "9egcf8exa3rVPpYHmQgtt_minimax-h3.mp4",
+      "start_beat": 93,
+      "used_seconds": 0.46875,
+      "source_start_seconds": 2.0,
+      "start_seconds": 43.59375,
+      "sha256": "fac1e66cb5088eb420adba49cc8077ee1928d4aeb360e50e63e1ef71c136face"
+    },
+    {
+      "shot": "callback_speedboat",
+      "source": "OWf94HG91GTwzkYcbhxf1_minimax-h3 (1).mp4",
+      "start_beat": 94,
+      "used_seconds": 0.46875,
+      "source_start_seconds": 2.0,
+      "start_seconds": 44.0625,
+      "sha256": "b76b3e25390ce396952f4640354495bc793bfe4186c89c722943f2af3e9f90a9"
+    },
+    {
+      "shot": "callback_charge",
+      "source": "uE_fHp60zUZLY9bdGChr__minimax-h3.mp4",
+      "start_beat": 95,
+      "used_seconds": 0.46875,
+      "source_start_seconds": 4.0,
+      "start_seconds": 44.53125,
+      "sha256": "768d0df94ab489a9e38815cd4eeb562ba27e139579891f0f6040386fd44ba6db"
+    }
+  ],
+  "scene_beats": [
+    0,
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    72,
+    82,
+    92
+  ],
+  "fade_seconds": 0.46875,
+  "duration_seconds": 45.0,
+  "logo_beat": 96,
+  "logo_seconds": 45.03,
+  "not_impact_beat": 100,
+  "start_prompt_beat": 104,
+  "audio": "removed; opening uses existing shared menu music and impact sound",
+  "encoder": "C:\\Users\\jayte\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe",
+  "output": "montage.ogv",
+  "fps": 32,
+  "size": [
+    1280,
+    720
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "topspeed_oval",
+  "title": "Topspeed Oval",
+  "description": "Stadium oval with independently measured asphalt edges",
+  "source": "tracks/GLB Tracks/gt_racing_2_-_topspeed_oval.glb",
+  "source_sha256": "6478db57e4c7687eb536bb97efb7ca368ee4e0f76afcb5aef4b9448b5a179749",
+  "road_primitives": [
+    {"name": "ringoval_road_road1red_0", "surface": 0},
+    {"name": "ringoval_road_road2blue_0", "surface": 0}
+  ],
+  "boundary_definition": "Asphalt perimeter of the oval road primitives; excludes drag strips and cement scenery",
+  "source_height_tolerance": 0.001,
+  "native_clearance_spacing": 1.0,
+  "scale_to_median_width": 6.0,
+  "start_anchor_source": [-280.0, 0.2],
+  "clockwise_xz": true,
+  "start_cue": "Provisional left bend seam for extraction; review source START artwork before game authoring",
+  "handling_preset": "wood",
+  "handling_note": "Existing neutral wood handling preset for candidate compatibility; asphalt handling has not been changed",
+  "height_tolerance": 0.02,
+  "minimum_width": 3.5,
+  "ring_spacing": 0.5,
+  "sample_spacing": 0.3,
+  "pairing_band": 100,
+  "max_pairing_cells": 4000000,
+  "boundary_tolerance": 0.05,
+  "refinement_attempts": 3,
+  "preview_spacing": 0.05,
+  "max_preview_pixels": 6000000
+}

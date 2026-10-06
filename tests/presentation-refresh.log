@@ -1,0 +1,37 @@
+Welcome to Summer Engine (c) built on the awesome work by Godot 2007-present Juan Linietsky, Ariel Manzur & Godot Contributors.
+
+[SE] AuthManager: CLI credential found; desktop session exchange required
+PHYSICS ENGINE 2D: DEFAULT. Go to Advanced Settings -> Physics -> 2D to change it to Rapier2D.
+PASS controls footer removed
+PASS compact HUD dimensions
+PASS portrait caption centred
+PASS portrait caption centred
+PASS portrait caption centred
+PASS portrait caption centred
+PASS controls setup opens with modal mask
+PASS modal focus stays in setup
+PASS keyboard remapping
+PASS binding persisted
+PASS duplicate keyboard binding rejected
+PASS restore default bindings
+PASS preview waits without starting timer
+PASS preview holds cars on grid
+PASS course camera orbits
+PASS select input starts countdown
+PASS countdown reaches racing
+PASS driving camera restored
+PASS pause freezes race timer
+PASS menu return resets preview/race
+PASS buggy roll cage present
+PASS felt_sprint loads
+PASS felt_sprint pulled-out preview
+PASS card_bridge loads
+PASS card_bridge pulled-out preview
+PASS consistent deck scale
+PASS consistent deck scale
+PASS consistent deck scale
+PASS consistent deck scale
+PASS consistent deck scale
+PASS consistent deck scale
+PASS consistent deck scale
+PRESENTATION_CHECK PASS

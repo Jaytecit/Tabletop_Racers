@@ -1,0 +1,1399 @@
+{
+  "files": 2245,
+  "bytes": 5178308849,
+  "types": {
+    "other": 605,
+    "scenes": 65,
+    "images": 1458,
+    "shaders": 12,
+    "materials": 3,
+    "models": 73,
+    "videos": 3,
+    "sounds": 6,
+    "music": 20
+  },
+  "licence_confirmation": "See scoped source notices and docs/credits.md; no blanket licence asserted.",
+  "active_courses": [
+    "game_table",
+    "toys_r_you",
+    "toys_r_asleep",
+    "rusty_nuts_workshop",
+    "moonlight_junk_heap",
+    "firefly_bbq",
+    "nighttime_noodles",
+    "mount_rainier",
+    "topspeed_oval",
+    "bazaar",
+    "town_square"
+  ],
+  "statuses": {
+    "tooling": 297,
+    "defer": 190,
+    "current": 344,
+    "retain": 1414
+  },
+  "families": {
+    "addons/asset_manager": 109,
+    "addons/debug_draw_3d": 46,
+    "addons/godot-rapier2d": 56,
+    "addons/godot_mcp_toolkit": 142,
+    "addons/terrain_3d": 118,
+    "Root files (mixed provenance)": 24,
+    "assets": 321,
+    "audio": 26,
+    "environments": 38,
+    "scenes": 11,
+    "scripts": 105,
+    "tracks": 1249
+  },
+  "duplicate_groups": [
+    [
+      "addons/debug_draw_3d/libs/libdd3d.windows.editor.x86_64.dll",
+      "addons/debug_draw_3d/libs/~libdd3d.windows.editor.x86_64.dll~RF2b75e8f8.TMP",
+      "addons/debug_draw_3d/libs/~libdd3d.windows.editor.x86_64.dll~RF2b77d901.TMP",
+      "addons/debug_draw_3d/libs/~libdd3d.windows.editor.x86_64.dll~RF2b915d89.TMP",
+      "addons/debug_draw_3d/libs/~libdd3d.windows.editor.x86_64.dll~RF2ddc804c.TMP",
+      "addons/debug_draw_3d/libs/~libdd3d.windows.editor.x86_64.dll~RF2e11d0eb.TMP",
+      "addons/debug_draw_3d/libs/~libdd3d.windows.editor.x86_64.dll~RF2f2f6bc9.TMP",
+      "addons/debug_draw_3d/libs/~libdd3d.windows.editor.x86_64.dll~RF330f7e5e.TMP",
+      "addons/debug_draw_3d/libs/~libdd3d.windows.editor.x86_64.dll~RF3909e7c4.TMP",
+      "addons/debug_draw_3d/libs/~libdd3d.windows.editor.x86_64.dll~RF3e4d0e21.TMP"
+    ],
+    [
+      "addons/godot-rapier2d/bin/libgodot_rapier.windows.x86_64-pc-windows-msvc.dll",
+      "addons/godot-rapier2d/bin/~libgodot_rapier.windows.x86_64-pc-windows-msvc.dll~RF2b75e9c3.TMP",
+      "addons/godot-rapier2d/bin/~libgodot_rapier.windows.x86_64-pc-windows-msvc.dll~RF2b77d93f.TMP",
+      "addons/godot-rapier2d/bin/~libgodot_rapier.windows.x86_64-pc-windows-msvc.dll~RF2b915da8.TMP",
+      "addons/godot-rapier2d/bin/~libgodot_rapier.windows.x86_64-pc-windows-msvc.dll~RF2ddc806b.TMP",
+      "addons/godot-rapier2d/bin/~libgodot_rapier.windows.x86_64-pc-windows-msvc.dll~RF2e11d10a.TMP",
+      "addons/godot-rapier2d/bin/~libgodot_rapier.windows.x86_64-pc-windows-msvc.dll~RF2f2f6c17.TMP",
+      "addons/godot-rapier2d/bin/~libgodot_rapier.windows.x86_64-pc-windows-msvc.dll~RF330f7eac.TMP",
+      "addons/godot-rapier2d/bin/~libgodot_rapier.windows.x86_64-pc-windows-msvc.dll~RF3909e812.TMP",
+      "addons/godot-rapier2d/bin/~libgodot_rapier.windows.x86_64-pc-windows-msvc.dll~RF3e4d0e50.TMP"
+    ],
+    [
+      "addons/terrain_3d/bin/libterrain.windows.debug.x86_64.dll",
+      "addons/terrain_3d/bin/~libterrain.windows.debug.x86_64.dll~RF2b75ea50.TMP",
+      "addons/terrain_3d/bin/~libterrain.windows.debug.x86_64.dll~RF2b77da39.TMP",
+      "addons/terrain_3d/bin/~libterrain.windows.debug.x86_64.dll~RF2b915e44.TMP",
+      "addons/terrain_3d/bin/~libterrain.windows.debug.x86_64.dll~RF2ddc8127.TMP",
+      "addons/terrain_3d/bin/~libterrain.windows.debug.x86_64.dll~RF2e11d1a6.TMP",
+      "addons/terrain_3d/bin/~libterrain.windows.debug.x86_64.dll~RF2f2f6cd3.TMP",
+      "addons/terrain_3d/bin/~libterrain.windows.debug.x86_64.dll~RF330f7f77.TMP",
+      "addons/terrain_3d/bin/~libterrain.windows.debug.x86_64.dll~RF3909e8de.TMP",
+      "addons/terrain_3d/bin/~libterrain.windows.debug.x86_64.dll~RF3e4d0f0b.TMP"
+    ],
+    [
+      "assets/imported/courtyard/civitaretenga.glb",
+      "tracks/GLB Tracks/chiostro_ex_convento_di_civitaretenga_laquila.glb"
+    ],
+    [
+      "assets/imported/courtyard/civitaretenga_0.jpg",
+      "tracks/GLB Tracks/chiostro_ex_convento_di_civitaretenga_laquila_0.jpg"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_0.png",
+      "assets/imported/tabletop/mount_rainier_0.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_0.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_1.png",
+      "assets/imported/tabletop/mount_rainier_1.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_1.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_10.png",
+      "assets/imported/tabletop/mount_rainier_10.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_10.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_11.png",
+      "assets/imported/tabletop/mount_rainier_11.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_11.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_12.png",
+      "assets/imported/tabletop/mount_rainier_12.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_12.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_13.png",
+      "assets/imported/tabletop/mount_rainier_13.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_13.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_14.png",
+      "assets/imported/tabletop/mount_rainier_14.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_14.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_15.png",
+      "assets/imported/tabletop/mount_rainier_15.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_15.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_16.png",
+      "assets/imported/tabletop/mount_rainier_16.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_16.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_17.png",
+      "assets/imported/tabletop/mount_rainier_17.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_17.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_18.png",
+      "assets/imported/tabletop/mount_rainier_18.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_18.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_19.png",
+      "assets/imported/tabletop/mount_rainier_19.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_19.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_2.png",
+      "assets/imported/tabletop/mount_rainier_2.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_2.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_20.png",
+      "assets/imported/tabletop/mount_rainier_20.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_20.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_21.png",
+      "assets/imported/tabletop/mount_rainier_21.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_21.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_22.png",
+      "assets/imported/tabletop/mount_rainier_22.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_22.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_23.png",
+      "assets/imported/tabletop/mount_rainier_23.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_23.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_24.png",
+      "assets/imported/tabletop/mount_rainier_24.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_24.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_25.png",
+      "assets/imported/tabletop/mount_rainier_25.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_25.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_26.png",
+      "assets/imported/tabletop/mount_rainier_26.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_26.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_27.png",
+      "assets/imported/tabletop/mount_rainier_27.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_27.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_28.png",
+      "assets/imported/tabletop/mount_rainier_28.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_28.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_29.png",
+      "assets/imported/tabletop/mount_rainier_29.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_29.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_3.png",
+      "assets/imported/tabletop/mount_rainier_3.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_3.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_30.png",
+      "assets/imported/tabletop/mount_rainier_30.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_30.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_31.png",
+      "assets/imported/tabletop/mount_rainier_31.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_31.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_32.png",
+      "assets/imported/tabletop/mount_rainier_32.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_32.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_33.png",
+      "assets/imported/tabletop/mount_rainier_33.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_33.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_4.png",
+      "assets/imported/tabletop/mount_rainier_4.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_4.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_5.png",
+      "assets/imported/tabletop/mount_rainier_5.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_5.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_6.png",
+      "assets/imported/tabletop/mount_rainier_6.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_6.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_7.png",
+      "assets/imported/tabletop/mount_rainier_7.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_7.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_8.png",
+      "assets/imported/tabletop/mount_rainier_8.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_8.png"
+    ],
+    [
+      "assets/imported/racing/mount_rainier_9.png",
+      "assets/imported/tabletop/mount_rainier_9.png",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier_9.png"
+    ],
+    [
+      "assets/imported/tabletop/bazaar.glb",
+      "tracks/GLB Tracks/bazaar_track.glb"
+    ],
+    [
+      "assets/imported/tabletop/bazaar_0.png",
+      "tracks/GLB Tracks/bazaar_track_0.png"
+    ],
+    [
+      "assets/imported/tabletop/bazaar_1.png",
+      "tracks/GLB Tracks/bazaar_track_1.png"
+    ],
+    [
+      "assets/imported/tabletop/bazaar_2.png",
+      "tracks/GLB Tracks/bazaar_track_2.png"
+    ],
+    [
+      "assets/imported/tabletop/beach_buggies.glb",
+      "tracks/GLB Tracks/table_top_racing_beach_buggies.glb"
+    ],
+    [
+      "assets/imported/tabletop/beach_buggies_0.png",
+      "tracks/GLB Tracks/table_top_racing_beach_buggies_0.png"
+    ],
+    [
+      "assets/imported/tabletop/beach_buggies_1.png",
+      "tracks/GLB Tracks/table_top_racing_beach_buggies_1.png"
+    ],
+    [
+      "assets/imported/tabletop/beach_buggies_10.png",
+      "tracks/GLB Tracks/table_top_racing_beach_buggies_10.png"
+    ],
+    [
+      "assets/imported/tabletop/beach_buggies_2.png",
+      "tracks/GLB Tracks/table_top_racing_beach_buggies_2.png"
+    ],
+    [
+      "assets/imported/tabletop/beach_buggies_3.png",
+      "tracks/GLB Tracks/table_top_racing_beach_buggies_3.png"
+    ],
+    [
+      "assets/imported/tabletop/beach_buggies_4.png",
+      "tracks/GLB Tracks/table_top_racing_beach_buggies_4.png"
+    ],
+    [
+      "assets/imported/tabletop/beach_buggies_5.png",
+      "tracks/GLB Tracks/table_top_racing_beach_buggies_5.png"
+    ],
+    [
+      "assets/imported/tabletop/beach_buggies_6.png",
+      "tracks/GLB Tracks/table_top_racing_beach_buggies_6.png"
+    ],
+    [
+      "assets/imported/tabletop/beach_buggies_7.png",
+      "tracks/GLB Tracks/table_top_racing_beach_buggies_7.png"
+    ],
+    [
+      "assets/imported/tabletop/beach_buggies_8.png",
+      "tracks/GLB Tracks/table_top_racing_beach_buggies_8.png"
+    ],
+    [
+      "assets/imported/tabletop/beach_buggies_9.png",
+      "tracks/GLB Tracks/table_top_racing_beach_buggies_9.png"
+    ],
+    [
+      "assets/imported/tabletop/firefly_bbq.glb",
+      "tracks/GLB Tracks/table_top_racing_-_firefly_bbq.glb"
+    ],
+    [
+      "assets/imported/tabletop/firefly_bbq_0.png",
+      "tracks/GLB Tracks/table_top_racing_-_firefly_bbq_0.png"
+    ],
+    [
+      "assets/imported/tabletop/firefly_bbq_1.png",
+      "tracks/GLB Tracks/table_top_racing_-_firefly_bbq_1.png"
+    ],
+    [
+      "assets/imported/tabletop/firefly_bbq_2.png",
+      "tracks/GLB Tracks/table_top_racing_-_firefly_bbq_2.png"
+    ],
+    [
+      "assets/imported/tabletop/firefly_bbq_3.png",
+      "tracks/GLB Tracks/table_top_racing_-_firefly_bbq_3.png"
+    ],
+    [
+      "assets/imported/tabletop/firefly_bbq_4.png",
+      "tracks/GLB Tracks/table_top_racing_-_firefly_bbq_4.png"
+    ],
+    [
+      "assets/imported/tabletop/firefly_bbq_5.png",
+      "tracks/GLB Tracks/table_top_racing_-_firefly_bbq_5.png"
+    ],
+    [
+      "assets/imported/tabletop/firefly_bbq_6.png",
+      "tracks/GLB Tracks/table_top_racing_-_firefly_bbq_6.png"
+    ],
+    [
+      "assets/imported/tabletop/firefly_bbq_7.png",
+      "tracks/GLB Tracks/table_top_racing_-_firefly_bbq_7.png"
+    ],
+    [
+      "assets/imported/tabletop/firefly_bbq_8.png",
+      "tracks/GLB Tracks/table_top_racing_-_firefly_bbq_8.png"
+    ],
+    [
+      "assets/imported/tabletop/moonlight_junk_heap.glb",
+      "tracks/GLB Tracks/table_top_racing_-_moonlight_junk_heap.glb"
+    ],
+    [
+      "assets/imported/tabletop/moonlight_junk_heap_0.png",
+      "tracks/GLB Tracks/table_top_racing_-_moonlight_junk_heap_0.png"
+    ],
+    [
+      "assets/imported/tabletop/moonlight_junk_heap_1.png",
+      "tracks/GLB Tracks/table_top_racing_-_moonlight_junk_heap_1.png"
+    ],
+    [
+      "assets/imported/tabletop/moonlight_junk_heap_2.png",
+      "tracks/GLB Tracks/table_top_racing_-_moonlight_junk_heap_2.png"
+    ],
+    [
+      "assets/imported/tabletop/moonlight_junk_heap_3.png",
+      "tracks/GLB Tracks/table_top_racing_-_moonlight_junk_heap_3.png"
+    ],
+    [
+      "assets/imported/tabletop/moonlight_junk_heap_4.png",
+      "tracks/GLB Tracks/table_top_racing_-_moonlight_junk_heap_4.png"
+    ],
+    [
+      "assets/imported/tabletop/moonlight_junk_heap_5.png",
+      "tracks/GLB Tracks/table_top_racing_-_moonlight_junk_heap_5.png"
+    ],
+    [
+      "assets/imported/tabletop/moonlight_junk_heap_6.png",
+      "tracks/GLB Tracks/table_top_racing_-_moonlight_junk_heap_6.png"
+    ],
+    [
+      "assets/imported/tabletop/moonlight_junk_heap_7.png",
+      "tracks/GLB Tracks/table_top_racing_-_moonlight_junk_heap_7.png"
+    ],
+    [
+      "assets/imported/tabletop/mount_rainier.glb",
+      "tracks/GLB Tracks/gt_racing_2_-_mount_rainier.glb"
+    ],
+    [
+      "assets/imported/tabletop/nighttime_noodles.glb",
+      "tracks/GLB Tracks/table_top_racing_-_nighttime_noodles.glb"
+    ],
+    [
+      "assets/imported/tabletop/nighttime_noodles_0.png",
+      "tracks/GLB Tracks/table_top_racing_-_nighttime_noodles_0.png"
+    ],
+    [
+      "assets/imported/tabletop/nighttime_noodles_1.png",
+      "tracks/GLB Tracks/table_top_racing_-_nighttime_noodles_1.png"
+    ],
+    [
+      "assets/imported/tabletop/nighttime_noodles_2.png",
+      "tracks/GLB Tracks/table_top_racing_-_nighttime_noodles_2.png"
+    ],
+    [
+      "assets/imported/tabletop/nighttime_noodles_3.png",
+      "tracks/GLB Tracks/table_top_racing_-_nighttime_noodles_3.png"
+    ],
+    [
+      "assets/imported/tabletop/nighttime_noodles_4.png",
+      "tracks/GLB Tracks/table_top_racing_-_nighttime_noodles_4.png"
+    ],
+    [
+      "assets/imported/tabletop/nighttime_noodles_5.png",
+      "tracks/GLB Tracks/table_top_racing_-_nighttime_noodles_5.png"
+    ],
+    [
+      "assets/imported/tabletop/nighttime_noodles_6.png",
+      "tracks/GLB Tracks/table_top_racing_-_nighttime_noodles_6.png"
+    ],
+    [
+      "assets/imported/tabletop/nighttime_noodles_7.png",
+      "tracks/GLB Tracks/table_top_racing_-_nighttime_noodles_7.png"
+    ],
+    [
+      "assets/imported/tabletop/nighttime_noodles_8.png",
+      "tracks/GLB Tracks/table_top_racing_-_nighttime_noodles_8.png"
+    ],
+    [
+      "assets/imported/tabletop/rusty_nuts_workshop.glb",
+      "tracks/GLB Tracks/table_top_racing_-_rusty_nuts_workshop.glb"
+    ],
+    [
+      "assets/imported/tabletop/rusty_nuts_workshop_0.png",
+      "tracks/GLB Tracks/table_top_racing_-_rusty_nuts_workshop_0.png"
+    ],
+    [
+      "assets/imported/tabletop/rusty_nuts_workshop_1.png",
+      "tracks/GLB Tracks/table_top_racing_-_rusty_nuts_workshop_1.png"
+    ],
+    [
+      "assets/imported/tabletop/rusty_nuts_workshop_2.png",
+      "tracks/GLB Tracks/table_top_racing_-_rusty_nuts_workshop_2.png"
+    ],
+    [
+      "assets/imported/tabletop/rusty_nuts_workshop_3.png",
+      "tracks/GLB Tracks/table_top_racing_-_rusty_nuts_workshop_3.png"
+    ],
+    [
+      "assets/imported/tabletop/rusty_nuts_workshop_4.png",
+      "tracks/GLB Tracks/table_top_racing_-_rusty_nuts_workshop_4.png"
+    ],
+    [
+      "assets/imported/tabletop/rusty_nuts_workshop_5.png",
+      "tracks/GLB Tracks/table_top_racing_-_rusty_nuts_workshop_5.png"
+    ],
+    [
+      "assets/imported/tabletop/rusty_nuts_workshop_6.png",
+      "tracks/GLB Tracks/table_top_racing_-_rusty_nuts_workshop_6.png"
+    ],
+    [
+      "assets/imported/tabletop/rusty_nuts_workshop_7.png",
+      "tracks/GLB Tracks/table_top_racing_-_rusty_nuts_workshop_7.png"
+    ],
+    [
+      "assets/imported/tabletop/rusty_nuts_workshop_8.png",
+      "tracks/GLB Tracks/table_top_racing_-_rusty_nuts_workshop_8.png"
+    ],
+    [
+      "assets/imported/tabletop/topspeed_oval.glb",
+      "tracks/GLB Tracks/gt_racing_2_-_topspeed_oval.glb"
+    ],
+    [
+      "assets/imported/tabletop/topspeed_oval_0.png",
+      "tracks/GLB Tracks/gt_racing_2_-_topspeed_oval_0.png"
+    ],
+    [
+      "assets/imported/tabletop/topspeed_oval_1.png",
+      "tracks/GLB Tracks/gt_racing_2_-_topspeed_oval_1.png"
+    ],
+    [
+      "assets/imported/tabletop/topspeed_oval_10.png",
+      "tracks/GLB Tracks/gt_racing_2_-_topspeed_oval_10.png"
+    ],
+    [
+      "assets/imported/tabletop/topspeed_oval_11.png",
+      "tracks/GLB Tracks/gt_racing_2_-_topspeed_oval_11.png"
+    ],
+    [
+      "assets/imported/tabletop/topspeed_oval_12.png",
+      "tracks/GLB Tracks/gt_racing_2_-_topspeed_oval_12.png"
+    ],
+    [
+      "assets/imported/tabletop/topspeed_oval_13.png",
+      "tracks/GLB Tracks/gt_racing_2_-_topspeed_oval_13.png"
+    ],
+    [
+      "assets/imported/tabletop/topspeed_oval_14.png",
+      "tracks/GLB Tracks/gt_racing_2_-_topspeed_oval_14.png"
+    ],
+    [
+      "assets/imported/tabletop/topspeed_oval_15.png",
+      "tracks/GLB Tracks/gt_racing_2_-_topspeed_oval_15.png"
+    ],
+    [
+      "assets/imported/tabletop/topspeed_oval_16.png",
+      "tracks/GLB Tracks/gt_racing_2_-_topspeed_oval_16.png"
+    ],
+    [
+      "assets/imported/tabletop/topspeed_oval_17.png",
+      "tracks/GLB Tracks/gt_racing_2_-_topspeed_oval_17.png"
+    ],
+    [
+      "assets/imported/tabletop/topspeed_oval_18.png",
+      "tracks/GLB Tracks/gt_racing_2_-_topspeed_oval_18.png"
+    ],
+    [
+      "assets/imported/tabletop/topspeed_oval_2.png",
+      "tracks/GLB Tracks/gt_racing_2_-_topspeed_oval_2.png"
+    ],
+    [
+      "assets/imported/tabletop/topspeed_oval_3.png",
+      "tracks/GLB Tracks/gt_racing_2_-_topspeed_oval_3.png"
+    ],
+    [
+      "assets/imported/tabletop/topspeed_oval_4.png",
+      "tracks/GLB Tracks/gt_racing_2_-_topspeed_oval_4.png"
+    ],
+    [
+      "assets/imported/tabletop/topspeed_oval_5.png",
+      "tracks/GLB Tracks/gt_racing_2_-_topspeed_oval_5.png"
+    ],
+    [
+      "assets/imported/tabletop/topspeed_oval_6.png",
+      "tracks/GLB Tracks/gt_racing_2_-_topspeed_oval_6.png"
+    ],
+    [
+      "assets/imported/tabletop/topspeed_oval_7.png",
+      "tracks/GLB Tracks/gt_racing_2_-_topspeed_oval_7.png"
+    ],
+    [
+      "assets/imported/tabletop/topspeed_oval_8.png",
+      "tracks/GLB Tracks/gt_racing_2_-_topspeed_oval_8.png"
+    ],
+    [
+      "assets/imported/tabletop/topspeed_oval_9.png",
+      "tracks/GLB Tracks/gt_racing_2_-_topspeed_oval_9.png"
+    ],
+    [
+      "assets/imported/tabletop/town_square.glb",
+      "tracks/GLB Tracks/town_square_track.glb"
+    ],
+    [
+      "assets/imported/tabletop/town_square_0.png",
+      "tracks/GLB Tracks/town_square_track_0.png"
+    ],
+    [
+      "assets/imported/tabletop/town_square_1.png",
+      "tracks/GLB Tracks/town_square_track_1.png"
+    ],
+    [
+      "assets/imported/tabletop/town_square_2.png",
+      "tracks/GLB Tracks/town_square_track_2.png"
+    ],
+    [
+      "assets/imported/tabletop/toys_r_asleep.glb",
+      "tracks/GLB Tracks/table_top_racing_-_toys_r_asleep.glb"
+    ],
+    [
+      "assets/imported/tabletop/toys_r_asleep_0.png",
+      "tracks/GLB Tracks/table_top_racing_-_toys_r_asleep_0.png"
+    ],
+    [
+      "assets/imported/tabletop/toys_r_asleep_1.png",
+      "tracks/GLB Tracks/table_top_racing_-_toys_r_asleep_1.png"
+    ],
+    [
+      "assets/imported/tabletop/toys_r_asleep_2.png",
+      "tracks/GLB Tracks/table_top_racing_-_toys_r_asleep_2.png"
+    ],
+    [
+      "assets/imported/tabletop/toys_r_asleep_3.png",
+      "tracks/GLB Tracks/table_top_racing_-_toys_r_asleep_3.png"
+    ],
+    [
+      "assets/imported/tabletop/toys_r_asleep_4.png",
+      "tracks/GLB Tracks/table_top_racing_-_toys_r_asleep_4.png"
+    ],
+    [
+      "assets/imported/tabletop/toys_r_asleep_5.png",
+      "tracks/GLB Tracks/table_top_racing_-_toys_r_asleep_5.png"
+    ],
+    [
+      "assets/imported/tabletop/toys_r_asleep_6.png",
+      "tracks/GLB Tracks/table_top_racing_-_toys_r_asleep_6.png"
+    ],
+    [
+      "assets/imported/tabletop/toys_r_asleep_7.png",
+      "tracks/GLB Tracks/table_top_racing_-_toys_r_asleep_7.png"
+    ],
+    [
+      "assets/imported/tabletop/toys_r_you.glb",
+      "tracks/GLB Tracks/table_top_racing_-_toys_r_you.glb"
+    ],
+    [
+      "assets/imported/tabletop/toys_r_you_0.png",
+      "tracks/GLB Tracks/table_top_racing_-_toys_r_you_0.png"
+    ],
+    [
+      "assets/imported/tabletop/toys_r_you_1.png",
+      "tracks/GLB Tracks/table_top_racing_-_toys_r_you_1.png"
+    ],
+    [
+      "assets/imported/tabletop/toys_r_you_2.png",
+      "tracks/GLB Tracks/table_top_racing_-_toys_r_you_2.png"
+    ],
+    [
+      "assets/imported/tabletop/toys_r_you_3.png",
+      "tracks/GLB Tracks/table_top_racing_-_toys_r_you_3.png"
+    ],
+    [
+      "assets/imported/tabletop/toys_r_you_4.png",
+      "tracks/GLB Tracks/table_top_racing_-_toys_r_you_4.png"
+    ],
+    [
+      "assets/imported/tabletop/toys_r_you_5.png",
+      "tracks/GLB Tracks/table_top_racing_-_toys_r_you_5.png"
+    ],
+    [
+      "assets/imported/tabletop/toys_r_you_6.png",
+      "tracks/GLB Tracks/table_top_racing_-_toys_r_you_6.png"
+    ],
+    [
+      "assets/imported/tabletop/toys_r_you_7.png",
+      "tracks/GLB Tracks/table_top_racing_-_toys_r_you_7.png"
+    ],
+    [
+      "assets/imported/tabletop/toys_r_you_8.png",
+      "tracks/GLB Tracks/table_top_racing_-_toys_r_you_8.png"
+    ],
+    [
+      "assets/imported/tabletop/toys_r_you_9.png",
+      "tracks/GLB Tracks/table_top_racing_-_toys_r_you_9.png"
+    ],
+    [
+      "assets/vehicles/animated/BeachBuggy_wheels_0.png",
+      "assets/vehicles/BeachBuggy_texture_20250901.png",
+      "assets/vehicles/prototypes/BeachBuggy_wheel_proof_0.png"
+    ],
+    [
+      "assets/vehicles/animated/DriftCar_wheels_0.png",
+      "assets/vehicles/DriftCar_texture_20250901.png"
+    ],
+    [
+      "assets/vehicles/animated/MonsterTruck_wheels_0.png",
+      "assets/vehicles/MonsterTruck_texture_20250901.png"
+    ],
+    [
+      "assets/vehicles/animated/RacingCar_wheels_0.png",
+      "assets/vehicles/RacingCar_texture_20250901.png"
+    ],
+    [
+      "assets/video/opening/theme-review/a6371a06-1052-47aa-85e1-e069401ff37b_music_create_a_high_energy_main_them__1791236472590.mp3",
+      "audio/music/Main Theme - not The Real Thing.mp3"
+    ],
+    [
+      "tracks/GLB Tracks/asphalt_injection_-_chamonixalps_10.png",
+      "tracks/GLB Tracks/asphalt_injection_-_shanghai_13.png"
+    ],
+    [
+      "tracks/GLB Tracks/asphalt_injection_-_chamonixalps_11.png",
+      "tracks/GLB Tracks/asphalt_injection_-_shanghai_1.png"
+    ],
+    [
+      "tracks/GLB Tracks/chicken_gun_fruzer_-_encampment_61.png",
+      "tracks/GLB Tracks/chicken_gun_fruzer_-_encampment_81.png"
+    ],
+    [
+      "tracks/GLB Tracks/chicken_gun_fruzer_-_encampment_68.png",
+      "tracks/GLB Tracks/chicken_gun_fruzer_-_encampment_69.png"
+    ],
+    [
+      "tracks/GLB Tracks/gt_racing_2_-_barcelona_22.png",
+      "tracks/GLB Tracks/gt_racing_2_-_montreal_16.png"
+    ],
+    [
+      "tracks/GLB Tracks/gt_racing_2_-_barcelona_24.png",
+      "tracks/GLB Tracks/gt_racing_2_-_montreal_12.png"
+    ],
+    [
+      "tracks/GLB Tracks/gt_racing_2_-_barcelona_25.png",
+      "tracks/GLB Tracks/gt_racing_2_-_montreal_13.png"
+    ],
+    [
+      "tracks/GLB Tracks/monza_circuit_1998_layout_84.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_34.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_34.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1).glb",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout.glb"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_0.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_0.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_1.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_1.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_10.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_10.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_11.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_11.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_12.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_12.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_13.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_13.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_14.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_14.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_15.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_15.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_16.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_16.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_17.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_17.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_18.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_18.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_19.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_19.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_2.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_2.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_20.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_20.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_21.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_21.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_22.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_22.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_23.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_23.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_24.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_24.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_25.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_25.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_26.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_26.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_27.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_27.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_28.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_28.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_29.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_29.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_3.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_3.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_30.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_30.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_31.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_31.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_32.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_32.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_33.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_33.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_35.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_35.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_36.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_36.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_37.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_37.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_38.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_38.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_39.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_39.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_4.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_4.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_40.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_40.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_41.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_41.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_42.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_42.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_43.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_43.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_44.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_44.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_45.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_45.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_46.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_46.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_47.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_47.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_48.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_48.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_49.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_49.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_5.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_5.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_50.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_50.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_51.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_51.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_52.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_52.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_53.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_53.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_54.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_54.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_55.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_55.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_56.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_56.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_57.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_57.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_58.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_58.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_59.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_59.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_6.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_6.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_60.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_60.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_61.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_61.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_62.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_62.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_63.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_63.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_64.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_64.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_65.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_65.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_66.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_66.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_67.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_67.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_68.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_68.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_7.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_7.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_8.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_8.png"
+    ],
+    [
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout (1)_9.png",
+      "tracks/GLB Tracks/silverstone_circuit_2024_layout_9.png"
+    ]
+  ],
+  "reachable_paths": [
+    "assets/arcade/arcade_font.fnt",
+    "assets/arcade/arrow_left.svg",
+    "assets/arcade/arrow_right.svg",
+    "assets/arcade/banknote.svg",
+    "assets/arcade/betting_spot.svg",
+    "assets/arcade/blackjack.png",
+    "assets/arcade/blackjack_felt.gdshader",
+    "assets/arcade/casino_wood.gdshader",
+    "assets/arcade/driver_4.png",
+    "assets/arcade/driver_5.png",
+    "assets/arcade/driver_6_cyan.png",
+    "assets/arcade/driver_7_magenta.png",
+    "assets/arcade/drivers.png",
+    "assets/arcade/menu_pattern.svg",
+    "assets/blackjack/ace_spades.svg",
+    "assets/blackjack/card_back.svg",
+    "assets/blackjack/seven_hearts.svg",
+    "assets/brand/real_thing_logo.png",
+    "assets/brand/real_thing_poster.png",
+    "assets/drivers/driver_%d.svg",
+    "assets/effects/kenney/light_01.png",
+    "assets/effects/kenney/smoke_01.png",
+    "assets/effects/kenney/spark_05.png",
+    "assets/effects/smoke.gdshader",
+    "assets/effects/tyre_marks.gdshader",
+    "assets/imported/casino/bridge_wood.gdshader",
+    "assets/imported/casino/chips/chip_new_M_Inst_1_MetallicRoughness.jpg",
+    "assets/imported/casino/chips/chip_new_M_Inst_2_MetallicRoughness.jpg",
+    "assets/imported/casino/chips/chip_new_M_Inst_3_MetallicRoughness.jpg",
+    "assets/imported/casino/chips/chip_new_M_Inst_4_MetallicRoughness.jpg",
+    "assets/imported/casino/chips/chip_new_M_Inst_5_MetallicRoughness.jpg",
+    "assets/imported/casino/chips/chip_new_M_Inst_6_MetallicRoughness.jpg",
+    "assets/imported/casino/chips/chip_new_M_Inst_7_MetallicRoughness.jpg",
+    "assets/imported/casino/chips/sop_chip_stack_8573_25776_0_main_geo_1_BaseColor_1D9D3AC5.jpg",
+    "assets/imported/casino/chips/sop_chip_stack_8573_25776_0_main_geo_1_BaseColor_2D0F1524.jpg",
+    "assets/imported/casino/chips/sop_chip_stack_8573_25776_0_main_geo_1_BaseColor_457587B9.jpg",
+    "assets/imported/casino/chips/sop_chip_stack_8573_25776_0_main_geo_1_BaseColor_5815D64F.jpg",
+    "assets/imported/casino/chips/sop_chip_stack_8573_25776_0_main_geo_1_BaseColor_6795DC86.jpg",
+    "assets/imported/casino/chips/sop_chip_stack_8573_25776_0_main_geo_1_BaseColor_C4B53A57.jpg",
+    "assets/imported/casino/chips/sop_chip_stack_8573_25776_0_main_geo_1_BaseColor_E4FA43DF.jpg",
+    "assets/imported/casino/chips/sop_chip_stack_8573_25776_0_main_geo_1_TangentNormal_24323D98.jpg",
+    "assets/imported/casino/chips/sop_chip_stack_8573_25776_0_main_geo_1_TangentNormal_2F3EAB44.jpg",
+    "assets/imported/casino/chips/sop_chip_stack_8573_25776_0_main_geo_1_TangentNormal_5087ABE8.jpg",
+    "assets/imported/casino/chips/sop_chip_stack_8573_25776_0_main_geo_1_TangentNormal_558F63C0.jpg",
+    "assets/imported/casino/chips/sop_chip_stack_8573_25776_0_main_geo_1_TangentNormal_98C7C107.jpg",
+    "assets/imported/casino/chips/sop_chip_stack_8573_25776_0_main_geo_1_TangentNormal_BC31622C.jpg",
+    "assets/imported/casino/chips/sop_chip_stack_8573_25776_0_main_geo_1_TangentNormal_E7EE7988.jpg",
+    "assets/imported/casino/textures/lambert1_BaseColor.png",
+    "assets/imported/casino/textures/lambert1_Normal.png",
+    "assets/imported/casino/textures/roulette_table_lambert1_BaseColor.png",
+    "assets/imported/casino/textures/roulette_table_lambert1_Normal.png",
+    "assets/imported/tabletop/bazaar_0.png",
+    "assets/imported/tabletop/bazaar_1.png",
+    "assets/imported/tabletop/bazaar_2.png",
+    "assets/imported/tabletop/firefly_bbq_0.png",
+    "assets/imported/tabletop/firefly_bbq_1.png",
+    "assets/imported/tabletop/firefly_bbq_2.png",
+    "assets/imported/tabletop/firefly_bbq_3.png",
+    "assets/imported/tabletop/firefly_bbq_4.png",
+    "assets/imported/tabletop/firefly_bbq_5.png",
+    "assets/imported/tabletop/firefly_bbq_6.png",
+    "assets/imported/tabletop/firefly_bbq_7.png",
+    "assets/imported/tabletop/firefly_bbq_8.png",
+    "assets/imported/tabletop/moonlight_junk_heap_0.png",
+    "assets/imported/tabletop/moonlight_junk_heap_1.png",
+    "assets/imported/tabletop/moonlight_junk_heap_2.png",
+    "assets/imported/tabletop/moonlight_junk_heap_3.png",
+    "assets/imported/tabletop/moonlight_junk_heap_4.png",
+    "assets/imported/tabletop/moonlight_junk_heap_5.png",
+    "assets/imported/tabletop/moonlight_junk_heap_6.png",
+    "assets/imported/tabletop/moonlight_junk_heap_7.png",
+    "assets/imported/tabletop/mount_rainier_0.png",
+    "assets/imported/tabletop/mount_rainier_1.png",
+    "assets/imported/tabletop/mount_rainier_10.png",
+    "assets/imported/tabletop/mount_rainier_11.png",
+    "assets/imported/tabletop/mount_rainier_12.png",
+    "assets/imported/tabletop/mount_rainier_13.png",
+    "assets/imported/tabletop/mount_rainier_14.png",
+    "assets/imported/tabletop/mount_rainier_15.png",
+    "assets/imported/tabletop/mount_rainier_16.png",
+    "assets/imported/tabletop/mount_rainier_17.png",
+    "assets/imported/tabletop/mount_rainier_18.png",
+    "assets/imported/tabletop/mount_rainier_19.png",
+    "assets/imported/tabletop/mount_rainier_2.png",
+    "assets/imported/tabletop/mount_rainier_20.png",
+    "assets/imported/tabletop/mount_rainier_21.png",
+    "assets/imported/tabletop/mount_rainier_22.png",
+    "assets/imported/tabletop/mount_rainier_23.png",
+    "assets/imported/tabletop/mount_rainier_24.png",
+    "assets/imported/tabletop/mount_rainier_25.png",
+    "assets/imported/tabletop/mount_rainier_26.png",
+    "assets/imported/tabletop/mount_rainier_27.png",
+    "assets/imported/tabletop/mount_rainier_28.png",
+    "assets/imported/tabletop/mount_rainier_29.png",
+    "assets/imported/tabletop/mount_rainier_3.png",
+    "assets/imported/tabletop/mount_rainier_30.png",
+    "assets/imported/tabletop/mount_rainier_31.png",
+    "assets/imported/tabletop/mount_rainier_32.png",
+    "assets/imported/tabletop/mount_rainier_33.png",
+    "assets/imported/tabletop/mount_rainier_4.png",
+    "assets/imported/tabletop/mount_rainier_5.png",
+    "assets/imported/tabletop/mount_rainier_6.png",
+    "assets/imported/tabletop/mount_rainier_7.png",
+    "assets/imported/tabletop/mount_rainier_8.png",
+    "assets/imported/tabletop/mount_rainier_9.png",
+    "assets/imported/tabletop/nighttime_noodles_0.png",
+    "assets/imported/tabletop/nighttime_noodles_1.png",
+    "assets/imported/tabletop/nighttime_noodles_2.png",
+    "assets/imported/tabletop/nighttime_noodles_3.png",
+    "assets/imported/tabletop/nighttime_noodles_4.png",
+    "assets/imported/tabletop/nighttime_noodles_5.png",
+    "assets/imported/tabletop/nighttime_noodles_6.png",
+    "assets/imported/tabletop/nighttime_noodles_7.png",
+    "assets/imported/tabletop/nighttime_noodles_8.png",
+    "assets/imported/tabletop/rusty_nuts_workshop_0.png",
+    "assets/imported/tabletop/rusty_nuts_workshop_1.png",
+    "assets/imported/tabletop/rusty_nuts_workshop_2.png",
+    "assets/imported/tabletop/rusty_nuts_workshop_3.png",
+    "assets/imported/tabletop/rusty_nuts_workshop_4.png",
+    "assets/imported/tabletop/rusty_nuts_workshop_5.png",
+    "assets/imported/tabletop/rusty_nuts_workshop_6.png",
+    "assets/imported/tabletop/rusty_nuts_workshop_7.png",
+    "assets/imported/tabletop/rusty_nuts_workshop_8.png",
+    "assets/imported/tabletop/topspeed_oval_0.png",
+    "assets/imported/tabletop/topspeed_oval_1.png",
+    "assets/imported/tabletop/topspeed_oval_10.png",
+    "assets/imported/tabletop/topspeed_oval_11.png",
+    "assets/imported/tabletop/topspeed_oval_12.png",
+    "assets/imported/tabletop/topspeed_oval_13.png",
+    "assets/imported/tabletop/topspeed_oval_14.png",
+    "assets/imported/tabletop/topspeed_oval_15.png",
+    "assets/imported/tabletop/topspeed_oval_16.png",
+    "assets/imported/tabletop/topspeed_oval_18.png",
+    "assets/imported/tabletop/topspeed_oval_2.png",
+    "assets/imported/tabletop/topspeed_oval_3.png",
+    "assets/imported/tabletop/topspeed_oval_4.png",
+    "assets/imported/tabletop/topspeed_oval_5.png",
+    "assets/imported/tabletop/topspeed_oval_6.png",
+    "assets/imported/tabletop/topspeed_oval_7.png",
+    "assets/imported/tabletop/topspeed_oval_8.png",
+    "assets/imported/tabletop/topspeed_oval_9.png",
+    "assets/imported/tabletop/town_square_0.png",
+    "assets/imported/tabletop/town_square_1.png",
+    "assets/imported/tabletop/town_square_2.png",
+    "assets/imported/tabletop/toys_r_asleep_0.png",
+    "assets/imported/tabletop/toys_r_asleep_1.png",
+    "assets/imported/tabletop/toys_r_asleep_2.png",
+    "assets/imported/tabletop/toys_r_asleep_3.png",
+    "assets/imported/tabletop/toys_r_asleep_4.png",
+    "assets/imported/tabletop/toys_r_asleep_5.png",
+    "assets/imported/tabletop/toys_r_asleep_6.png",
+    "assets/imported/tabletop/toys_r_asleep_7.png",
+    "assets/imported/tabletop/toys_r_you_0.png",
+    "assets/imported/tabletop/toys_r_you_1.png",
+    "assets/imported/tabletop/toys_r_you_2.png",
+    "assets/imported/tabletop/toys_r_you_3.png",
+    "assets/imported/tabletop/toys_r_you_4.png",
+    "assets/imported/tabletop/toys_r_you_5.png",
+    "assets/imported/tabletop/toys_r_you_6.png",
+    "assets/imported/tabletop/toys_r_you_7.png",
+    "assets/imported/tabletop/toys_r_you_8.png",
+    "assets/imported/tabletop/toys_r_you_9.png",
+    "assets/vehicles/BeachBuggy.glb",
+    "assets/vehicles/DriftCar.glb",
+    "assets/vehicles/MonsterTruck.glb",
+    "assets/vehicles/RacingCar.glb",
+    "assets/vehicles/Sppedboat.glb",
+    "assets/vehicles/animated/%s_wheels.glb",
+    "assets/vehicles/animated/player_paint.gdshader",
+    "assets/vehicles/menu/",
+    "assets/video/opening/logo_main.png",
+    "assets/video/opening/theme-opening.ogv",
+    "audio/music/After Bedtime.mp3",
+    "audio/music/Backyard Afterburner.mp3",
+    "audio/music/High Stakes Overdrive.mp3",
+    "audio/music/Maximum Velocity.mp3",
+    "audio/music/Midnight Takeout.mp3",
+    "audio/music/Redline Assembly.mp3",
+    "audio/music/Scrapyard Pursuit.mp3",
+    "audio/music/Summit Rush.mp3",
+    "audio/music/Toybox Turbo.mp3",
+    "audio/music/Wake Velocity.mp3",
+    "audio/music/hard_jungle.mp3",
+    "audio/music/main_theme_menu.ogg",
+    "audio/music/menu_driving_excitement.ogg",
+    "audio/music/menu_pulsing.mp3",
+    "audio/music/nightmare_driving.mp3",
+    "audio/music/opening_theme_mix.ogg",
+    "audio/music/race1.ogg",
+    "audio/sfx/opening_thud.wav",
+    "car.gd",
+    "controller.gd",
+    "environments/%s/%s.tscn",
+    "environments/bedroom/desk_drawer.tscn",
+    "environments/bedroom/stylized_room_panorama.res",
+    "environments/bedroom/toybox_trestle.tscn",
+    "environments/casino/blackjack.tscn",
+    "environments/casino/felt_sprint.tscn",
+    "environments/casino/practice_patch.tscn",
+    "environments/kitchen",
+    "environments/kitchen/cereal_slalom.tscn",
+    "environments/kitchen/countertop_table.tscn",
+    "environments/kitchen/plate_rim.tscn",
+    "environments/shared/felt_table.tscn",
+    "environments/tabletop/bazaar.tscn",
+    "environments/tabletop/firefly_bbq.tscn",
+    "environments/tabletop/moonlight_junk_heap.tscn",
+    "environments/tabletop/mount_rainier.tscn",
+    "environments/tabletop/nighttime_noodles.tscn",
+    "environments/tabletop/rusty_nuts_workshop.tscn",
+    "environments/tabletop/topspeed_oval.tscn",
+    "environments/tabletop/town_square.tscn",
+    "environments/tabletop/toys_r_asleep.tscn",
+    "environments/tabletop/toys_r_you.tscn",
+    "flame.gd",
+    "main.tscn",
+    "minimap.gd",
+    "race.gd",
+    "race_particles.gd",
+    "room_track.gd",
+    "scenes/app.tscn",
+    "scenes/race/race.tscn",
+    "scenes/vehicles/%s_definition.tres",
+    "scenes/vehicles/arcade_car.tscn",
+    "scenes/vehicles/buggy_2.tscn",
+    "scenes/vehicles/buggy_3.tscn",
+    "scenes/vehicles/buggy_4.tscn",
+    "scenes/vehicles/buggy_definition.tres",
+    "scripts/app.gd",
+    "scripts/profile_store.gd",
+    "scripts/profiles/character_catalog.gd",
+    "scripts/profiles/driver_stats_page.gd",
+    "scripts/profiles/gamepad_name_keyboard.gd",
+    "scripts/profiles/machine_settings.gd",
+    "scripts/profiles/profile_directory.gd",
+    "scripts/profiles/profile_menu.gd",
+    "scripts/race/arcade_menu_flow.gd",
+    "scripts/race/arcade_podium.gd",
+    "scripts/race/arcade_presentation.gd",
+    "scripts/race/asset_credits.gd",
+    "scripts/race/challenge_controller.gd",
+    "scripts/race/challenge_roadmap.gd",
+    "scripts/race/challenge_rules.gd",
+    "scripts/race/controls_setup.gd",
+    "scripts/race/course_soundtrack.gd",
+    "scripts/race/cup_rules.gd",
+    "scripts/race/developer_menu.gd",
+    "scripts/race/drift_controller.gd",
+    "scripts/race/drift_rules.gd",
+    "scripts/race/elimination_rules.gd",
+    "scripts/race/game_brand.gd",
+    "scripts/race/menu_course_flyover.gd",
+    "scripts/race/menu_navigation.gd",
+    "scripts/race/menu_vehicle_rotation.gd",
+    "scripts/race/opening_sequence.gd",
+    "scripts/race/owner_benchmark.gd",
+    "scripts/race/owner_benchmark_rules.gd",
+    "scripts/race/player_stats_menu.gd",
+    "scripts/race/race_camera.gd",
+    "scripts/race/race_feedback.gd",
+    "scripts/race/race_garage.gd",
+    "scripts/race/race_lighting.gd",
+    "scripts/race/race_minimap.gd",
+    "scripts/race/race_presentation.gd",
+    "scripts/race/race_progress.gd",
+    "scripts/race/race_recovery.gd",
+    "scripts/race/race_session.gd",
+    "scripts/race/racer_identity.gd",
+    "scripts/race/setup_menu.gd",
+    "scripts/race/start_lights.gd",
+    "scripts/race/time_attack_rules.gd",
+    "scripts/race/time_trial.gd",
+    "scripts/race/tournament_controller.gd",
+    "scripts/race/tournament_rules.gd",
+    "scripts/race/victory_celebration.gd",
+    "scripts/tracks/author_countertop.gd",
+    "scripts/tracks/author_desk.gd",
+    "scripts/tracks/author_intro_courses.gd",
+    "scripts/tracks/author_plate_rim.gd",
+    "scripts/tracks/author_toybox.gd",
+    "scripts/tracks/bedroom_art.gd",
+    "scripts/tracks/bedroom_display.gd",
+    "scripts/tracks/blackjack_art.gd",
+    "scripts/tracks/blackjack_surface.gd",
+    "scripts/tracks/content_catalog.gd",
+    "scripts/tracks/course_capabilities.gd",
+    "scripts/tracks/flat_course_art.gd",
+    "scripts/tracks/imported_checkpoint_flags.gd",
+    "scripts/tracks/kitchen_art.gd",
+    "scripts/tracks/route_debug_overlay.gd",
+    "scripts/tracks/route_section.gd",
+    "scripts/tracks/selected_course.gd",
+    "scripts/tracks/surface_definition.gd",
+    "scripts/tracks/track_builder.gd",
+    "scripts/tracks/track_definition.gd",
+    "scripts/tracks/track_entry.gd",
+    "scripts/tracks/track_validator.gd",
+    "scripts/vehicles/ai_driver.gd",
+    "scripts/vehicles/arcade_car.gd",
+    "scripts/vehicles/class_visual.gd",
+    "scripts/vehicles/developer_export.gd",
+    "scripts/vehicles/developer_tuning.gd",
+    "scripts/vehicles/imported_visual.gd",
+    "scripts/vehicles/player_input.gd",
+    "scripts/vehicles/player_stats.gd",
+    "scripts/vehicles/tuning_defaults.gd",
+    "scripts/vehicles/tyre_marks.gd",
+    "scripts/vehicles/vehicle_catalog.gd",
+    "scripts/vehicles/vehicle_definition.gd",
+    "scripts/vehicles/vehicle_effects.gd",
+    "scripts/vehicles/vehicle_progression.gd",
+    "scripts/vehicles/vehicle_visual_motion.gd",
+    "showcase_3d.tscn",
+    "showcase_track.gd",
+    "skids.gd",
+    "track_catalog.gd",
+    "tracks/",
+    "tracks/%s/definition.tres",
+    "tracks/%s/entry.tres",
+    "tracks/%s/preview.res",
+    "tracks/bazaar/definition.tres",
+    "tracks/bazaar/entry.tres",
+    "tracks/bazaar/preview.res",
+    "tracks/carpet_sprint.json",
+    "tracks/catalog.json",
+    "tracks/cereal_slalom",
+    "tracks/cereal_slalom/definition.tres",
+    "tracks/cereal_slalom/entry.tres",
+    "tracks/cereal_slalom/preview.res",
+    "tracks/countertop_table",
+    "tracks/countertop_table/definition.tres",
+    "tracks/countertop_table/entry.tres",
+    "tracks/countertop_table/preview.res",
+    "tracks/desk_drawer",
+    "tracks/desk_drawer/definition.tres",
+    "tracks/desk_drawer/entry.tres",
+    "tracks/desk_drawer/preview.res",
+    "tracks/firefly_bbq/definition.tres",
+    "tracks/firefly_bbq/entry.tres",
+    "tracks/firefly_bbq/preview.res",
+    "tracks/game_table/definition.tres",
+    "tracks/game_table/entry.tres",
+    "tracks/game_table/preview.res",
+    "tracks/moonlight_junk_heap/definition.tres",
+    "tracks/moonlight_junk_heap/entry.tres",
+    "tracks/moonlight_junk_heap/preview.res",
+    "tracks/mount_rainier/definition.tres",
+    "tracks/mount_rainier/entry.tres",
+    "tracks/mount_rainier/preview.res",
+    "tracks/nighttime_noodles/definition.tres",
+    "tracks/nighttime_noodles/entry.tres",
+    "tracks/nighttime_noodles/preview.res",
+    "tracks/plate_rim",
+    "tracks/plate_rim/definition.tres",
+    "tracks/plate_rim/entry.tres",
+    "tracks/plate_rim/preview.res",
+    "tracks/reverse_room.json",
+    "tracks/room_run.json",
+    "tracks/rusty_nuts_workshop/definition.tres",
+    "tracks/rusty_nuts_workshop/entry.tres",
+    "tracks/rusty_nuts_workshop/preview.res",
+    "tracks/topspeed_oval/definition.tres",
+    "tracks/topspeed_oval/entry.tres",
+    "tracks/topspeed_oval/preview.res",
+    "tracks/town_square/definition.tres",
+    "tracks/town_square/entry.tres",
+    "tracks/town_square/preview.res",
+    "tracks/toybox_trestle",
+    "tracks/toybox_trestle/definition.tres",
+    "tracks/toybox_trestle/entry.tres",
+    "tracks/toybox_trestle/preview.res",
+    "tracks/toys_r_asleep/definition.tres",
+    "tracks/toys_r_asleep/entry.tres",
+    "tracks/toys_r_asleep/preview.res",
+    "tracks/toys_r_you/definition.tres",
+    "tracks/toys_r_you/entry.tres",
+    "tracks/toys_r_you/preview.res"
+  ],
+  "missing_literal_references": [
+    "tracks/carpet_sprint.json",
+    "tracks/cereal_slalom",
+    "tracks/cereal_slalom/definition.tres",
+    "tracks/cereal_slalom/entry.tres",
+    "tracks/cereal_slalom/preview.res",
+    "tracks/countertop_table",
+    "tracks/countertop_table/definition.tres",
+    "tracks/countertop_table/entry.tres",
+    "tracks/countertop_table/preview.res",
+    "tracks/desk_drawer",
+    "tracks/desk_drawer/definition.tres",
+    "tracks/desk_drawer/entry.tres",
+    "tracks/desk_drawer/preview.res",
+    "tracks/plate_rim",
+    "tracks/plate_rim/definition.tres",
+    "tracks/plate_rim/entry.tres",
+    "tracks/plate_rim/preview.res",
+    "tracks/reverse_room.json",
+    "tracks/room_run.json",
+    "tracks/toybox_trestle",
+    "tracks/toybox_trestle/definition.tres",
+    "tracks/toybox_trestle/entry.tres",
+    "tracks/toybox_trestle/preview.res"
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "source": "C:/Users/jayte/Downloads/table_top_racing_-_toys_r_asleep.glb",
+  "scale": 40,
+  "offset": [
+    -37.2,
+    2.16,
+    1.5
+  ],
+  "origin": [
+    -55,
+    -60
+  ],
+  "spacing": 0.05,
+  "shape": [
+    2400,
+    2200
+  ],
+  "output": "tests/baselines/content/toys_r_asleep/alignment",
+  "maps": {
+    "all_visible": {
+      "surfaces": [
+        "0000_bake_08_tex_bake_08_0",
+        "0001_bake_02_tex_bake_02_0",
+        "0002_bake_03_tex_bake_03_0",
+        "0003_bake_04_tex_bake_04_0",
+        "0004_bake_05_tex_bake_05_0",
+        "0005_bake_06_tex_bake_06_0",
+        "0006_bake_01_tex_bake_01_0",
+        "0007_bake_07_tex_bake_07_0"
+      ]
+    },
+    "ground": {
+      "surfaces": [
+        "0000_bake_08_tex_bake_08_0",
+        "0001_bake_02_tex_bake_02_0",
+        "0002_bake_03_tex_bake_03_0",
+        "0003_bake_04_tex_bake_04_0",
+        "0004_bake_05_tex_bake_05_0",
+        "0005_bake_06_tex_bake_06_0",
+        "0006_bake_01_tex_bake_01_0",
+        "0007_bake_07_tex_bake_07_0"
+      ],
+      "height_range": [
+        -0.1,
+        0.1
+      ]
+    },
+    "floor_parts": {
+      "surfaces": [
+        "0001_bake_02_tex_bake_02_0",
+        "0002_bake_03_tex_bake_03_0",
+        "0003_bake_04_tex_bake_04_0",
+        "0006_bake_01_tex_bake_01_0"
+      ]
+    }
+  },
+  "fit_map": "floor_parts.npz",
+  "section_count": 60,
+  "seed_display_width": 1504,
+  "seed_pixels": [
+    [
+      241,
+      565
+    ],
+    [
+      241,
+      450
+    ],
+    [
+      270,
+      371
+    ],
+    [
+      332,
+      321
+    ],
+    [
+      410,
+      299
+    ],
+    [
+      516,
+      295
+    ],
+    [
+      602,
+      316
+    ],
+    [
+      686,
+      346
+    ],
+    [
+      767,
+      330
+    ],
+    [
+      808,
+      274
+    ],
+    [
+      840,
+      200
+    ],
+    [
+      897,
+      166
+    ],
+    [
+      968,
+      167
+    ],
+    [
+      1043,
+      206
+    ],
+    [
+      1070,
+      276
+    ],
+    [
+      1070,
+      383
+    ],
+    [
+      1070,
+      489
+    ],
+    [
+      1087,
+      580
+    ],
+    [
+      1128,
+      685
+    ],
+    [
+      1174,
+      785
+    ],
+    [
+      1180,
+      865
+    ],
+    [
+      1153,
+      908
+    ],
+    [
+      1085,
+      917
+    ],
+    [
+      1039,
+      882
+    ],
+    [
+      1003,
+      806
+    ],
+    [
+      965,
+      723
+    ],
+    [
+      924,
+      642
+    ],
+    [
+      861,
+      590
+    ],
+    [
+      782,
+      559
+    ],
+    [
+      703,
+      563
+    ],
+    [
+      654,
+      610
+    ],
+    [
+      653,
+      696
+    ],
+    [
+      662,
+      805
+    ],
+    [
+      689,
+      937
+    ],
+    [
+      738,
+      1074
+    ],
+    [
+      776,
+      1192
+    ],
+    [
+      770,
+      1296
+    ],
+    [
+      721,
+      1362
+    ],
+    [
+      639,
+      1416
+    ],
+    [
+      534,
+      1434
+    ],
+    [
+      417,
+      1422
+    ],
+    [
+      324,
+      1384
+    ],
+    [
+      267,
+      1314
+    ],
+    [
+      241,
+      1224
+    ],
+    [
+      241,
+      1090
+    ],
+    [
+      241,
+      960
+    ],
+    [
+      241,
+      825
+    ],
+    [
+      241,
+      696
+    ]
+  ],
+  "search_distances": [
+    0.8,
+    7.5,
+    0.04
+  ],
+  "ridge_neighborhood": 0.2,
+  "ridge_scale": 35,
+  "white_min": 75,
+  "white_range": 100,
+  "distance_bias": 0.015,
+  "nominal_half_width": 4,
+  "continuity": 26,
+  "refinements": 2,
+  "boundary_reviews": [
+    {
+      "side": 1,
+      "start": 525,
+      "end": 625,
+      "pixels": [
+        [
+          1614.7,
+          1141.8
+        ],
+        [
+          1614,
+          1157
+        ],
+        [
+          1616,
+          1170
+        ],
+        [
+          1612,
+          1185
+        ],
+        [
+          1605,
+          1196
+        ],
+        [
+          1594,
+          1205
+        ],
+        [
+          1581,
+          1210
+        ],
+        [
+          1570,
+          1211
+        ],
+        [
+          1560.5,
+          1215.9
+        ]
+      ],
+      "reason": "Concave packaging/ramp corner: measured visible tape/dash centres from corner_source.png; monotonic boundary pairing replaces folded normal correspondence. Dashes and white-on-white gaps use reviewed continuity."
+    }
+  ],
+  "driving_height_range": [
+    0,
+    2.2
+  ],
+  "height_range_reason": "Driving decks and ramps reach 2.1648 units. Raised carton rim triangles (e.g. floor primitive 0003 triangle 832 at 2.7104) are scenery, not painted driving surface.",
+  "height_continuity_snap_radius": 0.05,
+  "snap_reviewed_ridge_bands": true,
+  "ambiguous_source_sections": [
+    8,
+    9,
+    10,
+    21,
+    22,
+    23,
+    24,
+    25,
+    29,
+    30,
+    31,
+    32,
+    37,
+    56,
+    57
+  ],
+  "paint_band_half_width": 0.08
+}

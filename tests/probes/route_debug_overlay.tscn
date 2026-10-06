@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://di3lpmp1dgheh"]
+
+[ext_resource type="Script" uid="uid://wbl3h5qpq6ed" path="res://scripts/tracks/route_debug_overlay.gd" id="1_mbtt4"]
+
+[node name="RouteDebugOverlay" type="Node3D" unique_id=263070617]
+script = ExtResource("1_mbtt4")

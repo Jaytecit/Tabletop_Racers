@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dim7m30kvnn2d"]
+
+[ext_resource type="Script" uid="uid://pjay2i17t53o" path="res://tests/probes/toybox_live.gd" id="1_7sppt"]
+
+[node name="ToyboxPlaytest" type="Node" unique_id=1451885874]
+script = ExtResource("1_7sppt")

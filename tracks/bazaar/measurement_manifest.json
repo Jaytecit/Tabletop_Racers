@@ -1,0 +1,234 @@
+{
+  "id": "bazaar",
+  "title": "Bazaar",
+  "description": "Colourful market circuit with tight walled hairpins",
+  "revision": 1,
+  "status": "source and rendered candidate accepted; playable acceptance pending",
+  "source": "C:\\Users\\jayte\\Desktop\\Coding Projects\\Summer engine\\tabletop-racers\\tracks\\GLB Tracks\\bazaar_track.glb",
+  "source_sha256": "994bdf86f683867086dd2f92f1696c926c73ad6a2205284903538e9f9b81757d",
+  "source_metadata": {
+    "extras": {
+      "author": "amogusstrikesback2 (https://sketchfab.com/amogusstrikesback2)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/bazaar-track-ce96ebef18d54982836ff7a86b1a6d85",
+      "title": "bazaar track"
+    },
+    "generator": "Sketchfab-17.17.0",
+    "version": "2.0"
+  },
+  "transform": {
+    "scale": 80.0,
+    "offset": [
+      20.46,
+      0.0,
+      19.66
+    ]
+  },
+  "road_primitives": [
+    {
+      "name": "Mesh_Bazaar_Collision_Track4_Bazaar_Collision_new_0",
+      "surface": 0
+    }
+  ],
+  "road_meshes": [
+    "Mesh_Bazaar_Collision_Track4_Bazaar_Collision_new_0"
+  ],
+  "boundary_definition": "Road-facing raised barriers, represented by the dedicated driving mesh perimeter; decorative inset paint is not the wall boundary",
+  "start_station": 0.4360307247218092,
+  "start_cue": "Original source checker stripe; measured timing plane and FINISH flags",
+  "route_direction": "clockwise X/Z",
+  "section_surfaces": [
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood"
+  ],
+  "section_layers": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "handling_note": "Neutral dry handling preset on paved market floor; final class balance remains pending",
+  "mesh_compression": false,
+  "topology": {
+    "components": 1,
+    "holes": 1,
+    "valid": true,
+    "conflicting_layers": false
+  },
+  "height_tolerance": 0.02,
+  "boundary_tolerance": 0.05,
+  "native_clearance_percentiles": [
+    0.08211566696802522,
+    0.08225066776013368,
+    0.09156874284227812,
+    0.11099242915975072,
+    0.12427813599985207
+  ],
+  "uncertainty": [],
+  "geometry_checks": {
+    "passed": true,
+    "failures": [],
+    "rows": 888,
+    "sections": 37,
+    "length": 236.40416697177216,
+    "width_percentiles": [
+      6.7461713985326,
+      6.887897965888248,
+      7.880518253055058,
+      10.592284763953598,
+      12.45804209643641
+    ],
+    "sampled_boundary_residual_max": 2.146425999927424e-14,
+    "sampled_boundary_residual_p99": 5.066394850667017e-15,
+    "source_checks": 8880,
+    "boundary_residual_samples": 5328,
+    "attempt": 0,
+    "sample_spacing": 0.5
+  },
+  "source_landmarks_game": [
+    [
+      -28.640316285334883,
+      1.1588357926506594e-06,
+      -16.867503723036368
+    ],
+    [
+      35.045086353456526,
+      -6.172847495646426e-07,
+      23.76539775255177
+    ],
+    [
+      31.30176454152693,
+      1.5870799511779564e-06,
+      -26.642433981691976
+    ]
+  ],
+  "landmark_tolerance": 0.001,
+  "visible_meshes": [
+    "Track4_Bazaar_Track4_Bazaar_03_Day_Map_0",
+    "Track4_Bazaar_Track4_Bazaar_02_Day_Map_0",
+    "Track4_Bazaar_Track4_Bazaar_01_Day_Map_0"
+  ],
+  "collision_meshes": [
+    "Mesh_Bazaar_Collision_Track4_Bazaar_Collision_new_0",
+    "Mesh_Bazaar_Collision_W_Track4_Bazaar_Collision_new_0",
+    "Track4_Bazaar_Track4_Bazaar_03_Day_Map_0",
+    "Track4_Bazaar_Track4_Bazaar_02_Day_Map_0",
+    "Track4_Bazaar_Track4_Bazaar_01_Day_Map_0"
+  ],
+  "source_start_cue": {
+    "method": "UV-raster bright checker-cell PCA, midpoint of transverse extrema; independently measured corridor intersection",
+    "pixel_measurement": "checker-pixel-measurement.json",
+    "source_sha256": "994bdf86f683867086dd2f92f1696c926c73ad6a2205284903538e9f9b81757d",
+    "plane_center_xz": [
+      -20.245822321588946,
+      9.35105519172639
+    ],
+    "plane_normal_xz": [
+      0.7932577120910732,
+      0.6088860338421599
+    ],
+    "start_station": 0.4360307247218092,
+    "route_point_xz": [
+      -19.94287141280982,
+      8.95637025658738
+    ],
+    "gate_edge_plane_residuals": [
+      0.012770440313427223,
+      0.01277044031343011
+    ],
+    "stripe_half_width": 0.2257129784017983,
+    "center_offset": 0.49754944594058537,
+    "source_pixel_resolution": 0.056,
+    "candidate": "extraction02"
+  },
+  "height_surfaces": [
+    "Mesh_Bazaar_Collision_Track4_Bazaar_Collision_new_0"
+  ],
+  "unresolved_intervals": [],
+  "physics_support_tolerance": 0.02,
+  "section_count": 37,
+  "route_sample_count": 888,
+  "source_url": "https://sketchfab.com/3d-models/bazaar-track-ce96ebef18d54982836ff7a86b1a6d85",
+  "author": "amogusstrikesback2 (https://sketchfab.com/amogusstrikesback2)",
+  "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+  "collision_note": "Dedicated road and walls plus visible scenery: camera and checkpoint clearance must include stalls, canopies and props.",
+  "bake_collision_transform": true,
+  "sampling_method": "Every source boundary corner and monotone correspondence knot preserved; only long intervals subdivided; padded to 24 spans per section",
+  "preserve_boundary_corners": true,
+  "group": "ROAD",
+  "assigned_vehicle": "racing_car",
+  "target_lap_seconds": [
+    20,
+    24
+  ],
+  "classification_note": "Inspected flat paved market circuit with continuous raised barriers; racing car is the standard road class. Other classes remain available through Freestyle.",
+  "target_note": "Provisional designer range informed by neutral Hard racing-car three-lap times 65.55\u201367.86s, not an owner benchmark."
+}

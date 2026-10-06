@@ -1,0 +1,339 @@
+{
+  "source": "C:\\Users\\jayte\\Downloads\\table_top_racing_-_rusty_nuts_workshop.glb",
+  "scale": 40,
+  "offset": [
+    12,
+    0,
+    -8
+  ],
+  "origin": [
+    -55,
+    -55
+  ],
+  "spacing": 0.05,
+  "shape": [
+    2200,
+    2200
+  ],
+  "output": "tests/baselines/content/rusty_nuts_workshop/alignment",
+  "maps": {
+    "all_visible": {
+      "surfaces": [
+        "BAKE_01_tex_DIFF_BAKE_01_0",
+        "BAKE_02_tex_DIFF_BAKE_02_0",
+        "BAKE_03_tex_DIFF_BAKE_03_0",
+        "BAKE_04_tex_DIFF_BAKE_04_0",
+        "BAKE_05_tex_DIFF_BAKE_05_0",
+        "BAKE_06_tex_DIFF_BAKE_06_0",
+        "BAKE_07_tex_DIFF_BAKE_07_0",
+        "BAKE_09_tex_DIFF_BAKE_09_0",
+        "BAKE_08_tex_DIFF_BAKE_08_0"
+      ]
+    },
+    "floor_parts": {
+      "surfaces": [
+        "BAKE_01_tex_DIFF_BAKE_01_0",
+        "BAKE_02_tex_DIFF_BAKE_02_0",
+        "BAKE_03_tex_DIFF_BAKE_03_0"
+      ]
+    },
+    "ground": {
+      "surfaces": [
+        "BAKE_01_tex_DIFF_BAKE_01_0",
+        "BAKE_02_tex_DIFF_BAKE_02_0",
+        "BAKE_03_tex_DIFF_BAKE_03_0"
+      ],
+      "height_range": [
+        -0.08,
+        0.08
+      ]
+    }
+  },
+  "fit_map": "floor_parts.npz",
+  "section_count": 60,
+  "seed_display_width": 1600,
+  "seed_pixels": [
+    [
+      970,
+      940
+    ],
+    [
+      970,
+      830
+    ],
+    [
+      970,
+      700
+    ],
+    [
+      970,
+      570
+    ],
+    [
+      970,
+      447
+    ],
+    [
+      992,
+      365
+    ],
+    [
+      1043,
+      308
+    ],
+    [
+      1124,
+      270
+    ],
+    [
+      1208,
+      267
+    ],
+    [
+      1294,
+      290
+    ],
+    [
+      1334,
+      336
+    ],
+    [
+      1331,
+      405
+    ],
+    [
+      1293,
+      480
+    ],
+    [
+      1290,
+      543
+    ],
+    [
+      1315,
+      624
+    ],
+    [
+      1322,
+      699
+    ],
+    [
+      1289,
+      756
+    ],
+    [
+      1255,
+      808
+    ],
+    [
+      1266,
+      893
+    ],
+    [
+      1296,
+      1001
+    ],
+    [
+      1322,
+      1111
+    ],
+    [
+      1352,
+      1207
+    ],
+    [
+      1341,
+      1280
+    ],
+    [
+      1295,
+      1327
+    ],
+    [
+      1224,
+      1337
+    ],
+    [
+      1119,
+      1324
+    ],
+    [
+      1009,
+      1322
+    ],
+    [
+      887,
+      1322
+    ],
+    [
+      768,
+      1319
+    ],
+    [
+      694,
+      1282
+    ],
+    [
+      649,
+      1246
+    ],
+    [
+      603,
+      1227
+    ],
+    [
+      550,
+      1243
+    ],
+    [
+      492,
+      1260
+    ],
+    [
+      433,
+      1251
+    ],
+    [
+      385,
+      1213
+    ],
+    [
+      356,
+      1148
+    ],
+    [
+      349,
+      1069
+    ],
+    [
+      349,
+      963
+    ],
+    [
+      348,
+      857
+    ],
+    [
+      348,
+      748
+    ],
+    [
+      348,
+      646
+    ],
+    [
+      348,
+      542
+    ],
+    [
+      350,
+      436
+    ],
+    [
+      365,
+      363
+    ],
+    [
+      410,
+      307
+    ],
+    [
+      476,
+      270
+    ],
+    [
+      544,
+      267
+    ],
+    [
+      602,
+      279
+    ],
+    [
+      644,
+      320
+    ],
+    [
+      645,
+      378
+    ],
+    [
+      617,
+      446
+    ],
+    [
+      587,
+      505
+    ],
+    [
+      559,
+      577
+    ],
+    [
+      541,
+      653
+    ],
+    [
+      530,
+      724
+    ],
+    [
+      544,
+      773
+    ],
+    [
+      598,
+      812
+    ],
+    [
+      650,
+      868
+    ],
+    [
+      684,
+      932
+    ],
+    [
+      713,
+      1003
+    ],
+    [
+      750,
+      1023
+    ],
+    [
+      828,
+      1023
+    ],
+    [
+      930,
+      1021
+    ],
+    [
+      971,
+      994
+    ]
+  ],
+  "search_distances": [
+    0.5,
+    7,
+    0.03
+  ],
+  "ridge_neighborhood": 0.22,
+  "ridge_scale": 30,
+  "white_min": 95,
+  "white_range": 85,
+  "distance_bias": 0.015,
+  "nominal_half_width": 3.5,
+  "continuity": 30,
+  "refinements": 2,
+  "paint_band_half_width": 0.075,
+  "ambiguous_source_sections": [],
+  "snap_reviewed_ridge_bands": false,
+  "driving_height_range": [
+    -0.06,
+    1.15
+  ],
+  "height_range_reason": "Named first three floor/ramp source primitives inspected; highest driving ramps reach approximately 1.12 units.",
+  "height_continuity_snap_radius": 0.05
+}

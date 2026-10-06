@@ -1,0 +1,18 @@
+[gd_resource type="Resource" format=3 uid="uid://bjwdu2mdyfvsv"]
+
+[ext_resource type="PackedScene" uid="uid://bwektxedu7jib" path="res://environments/tabletop/beach_buggies.tscn" id="1_y2qpf"]
+[ext_resource type="Texture2D" uid="uid://lka5nku28new" path="res://tracks/beach_buggies/preview.res" id="2_ta8ki"]
+[ext_resource type="Resource" uid="uid://cq034s1rgecbg" path="res://tracks/beach_buggies/definition.tres" id="3_epdl7"]
+[ext_resource type="Script" uid="uid://dfomhj1p8s58n" path="res://scripts/tracks/track_entry.gd" id="4_r4hdu"]
+
+[resource]
+script = ExtResource("4_r4hdu")
+id = "beach_buggies"
+title = "Beach Buggies"
+cup = "Tabletop"
+route = ExtResource("3_epdl7")
+environment = ExtResource("1_y2qpf")
+preview = ExtResource("2_ta8ki")
+eligible_classes = PackedStringArray("buggy")
+target_lap_seconds = Vector2(30, 70)
+description = "Picnic-table paint curves, a raised serving-board hairpin and narrow cloth ramps over the grill."

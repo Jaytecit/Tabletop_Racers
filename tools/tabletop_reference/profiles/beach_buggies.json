@@ -1,0 +1,1212 @@
+{
+  "source": "C:\\Users\\jayte\\Downloads\\table_top_racing_beach_buggies.glb",
+  "scale": 40,
+  "offset": [
+    -8,
+    2.88,
+    -26
+  ],
+  "origin": [
+    -60,
+    -100
+  ],
+  "spacing": 0.05,
+  "shape": [
+    4000,
+    2400
+  ],
+  "output": "tests/baselines/content/beach_buggies/alignment",
+  "maps": {
+    "all_visible": {
+      "surfaces": [
+        "bake_01_tex_bake_01_0",
+        "bake_02_tex_bake_02_0",
+        "bake_03_tex_bake_03_0",
+        "bake_04_tex_bake_04_0",
+        "bake_05_lowspec_tex_default.002_0",
+        "bake_05_tex_bake_05_0",
+        "bake_06_tex_bake_06_0",
+        "bake_07_tex_bake_07_0",
+        "bake_08_tex_bake_08_0",
+        "bake_09_lowspec_tex_default_0",
+        "bake_09_tex_bake_09_0",
+        "bake_10_tex_bake_10_0"
+      ]
+    },
+    "floor_parts": {
+      "surfaces": [
+        "bake_01_tex_bake_01_0",
+        "bake_02_tex_bake_02_0",
+        "bake_03_tex_bake_03_0",
+        "bake_05_lowspec_tex_default.002_0",
+        "bake_05_tex_bake_05_0",
+        "bake_09_lowspec_tex_default_0",
+        "bake_09_tex_bake_09_0",
+        "bake_06_tex_bake_06_0"
+      ],
+      "height_range": [
+        -0.08,
+        5.3
+      ]
+    }
+  },
+  "fit_map": "floor_parts.npz",
+  "section_count": 80,
+  "seed_display_width": 1000,
+  "search_distances": [
+    0.4,
+    8,
+    0.03
+  ],
+  "ridge_neighborhood": 0.22,
+  "ridge_scale": 28,
+  "white_min": 70,
+  "white_range": 110,
+  "distance_bias": 0.015,
+  "nominal_half_width": 4,
+  "continuity": 30,
+  "refinements": 0,
+  "paint_band_half_width": 0.075,
+  "snap_reviewed_ridge_bands": true,
+  "height_continuity_snap_radius": 0.05,
+  "driving_height_range": [
+    -0.08,
+    5.3
+  ],
+  "height_range_reason": "Named table tops, low grill pan and cloth ramps, including the painted serving-board hairpin in bake_06, reviewed separately from food and legs.",
+  "seed_pixels": [
+    [
+      438,
+      700
+    ],
+    [
+      438,
+      600
+    ],
+    [
+      444,
+      510
+    ],
+    [
+      454,
+      430
+    ],
+    [
+      465,
+      355
+    ],
+    [
+      476,
+      290
+    ],
+    [
+      484,
+      227
+    ],
+    [
+      502,
+      200
+    ],
+    [
+      536,
+      190
+    ],
+    [
+      571,
+      193
+    ],
+    [
+      595,
+      209
+    ],
+    [
+      609,
+      239
+    ],
+    [
+      612,
+      285
+    ],
+    [
+      610,
+      325
+    ],
+    [
+      625,
+      350
+    ],
+    [
+      650,
+      380
+    ],
+    [
+      687,
+      405
+    ],
+    [
+      710,
+      436
+    ],
+    [
+      713,
+      470
+    ],
+    [
+      710,
+      520
+    ],
+    [
+      702,
+      567
+    ],
+    [
+      666,
+      601
+    ],
+    [
+      633,
+      625
+    ],
+    [
+      608,
+      657
+    ],
+    [
+      565,
+      699
+    ],
+    [
+      563,
+      728
+    ],
+    [
+      570,
+      746
+    ],
+    [
+      606,
+      752
+    ],
+    [
+      650,
+      762
+    ],
+    [
+      678,
+      782
+    ],
+    [
+      683,
+      817
+    ],
+    [
+      670,
+      842
+    ],
+    [
+      643,
+      868
+    ],
+    [
+      612,
+      899
+    ],
+    [
+      598,
+      937
+    ],
+    [
+      598,
+      1009
+    ],
+    [
+      599,
+      1080
+    ],
+    [
+      612,
+      1141
+    ],
+    [
+      641,
+      1196
+    ],
+    [
+      652,
+      1243
+    ],
+    [
+      633,
+      1280
+    ],
+    [
+      593,
+      1305
+    ],
+    [
+      553,
+      1306
+    ],
+    [
+      512,
+      1300
+    ],
+    [
+      479,
+      1310
+    ],
+    [
+      449,
+      1330
+    ],
+    [
+      423,
+      1367
+    ],
+    [
+      405,
+      1413
+    ],
+    [
+      386,
+      1451
+    ],
+    [
+      355,
+      1479
+    ],
+    [
+      315,
+      1488
+    ],
+    [
+      278,
+      1476
+    ],
+    [
+      249,
+      1444
+    ],
+    [
+      243,
+      1403
+    ],
+    [
+      247,
+      1367
+    ],
+    [
+      271,
+      1335
+    ],
+    [
+      320,
+      1305
+    ],
+    [
+      381,
+      1265
+    ],
+    [
+      448,
+      1223
+    ],
+    [
+      499,
+      1190
+    ],
+    [
+      518,
+      1157
+    ],
+    [
+      518,
+      1102
+    ],
+    [
+      518,
+      1044
+    ],
+    [
+      517,
+      983
+    ],
+    [
+      515,
+      943
+    ],
+    [
+      493,
+      910
+    ],
+    [
+      468,
+      881
+    ],
+    [
+      448,
+      852
+    ],
+    [
+      438,
+      815
+    ],
+    [
+      438,
+      762
+    ]
+  ],
+  "source_surface_labels": {
+    "bake_01_tex_bake_01_0": "wood",
+    "bake_02_tex_bake_02_0": "wood",
+    "bake_03_tex_bake_03_0": "wood",
+    "bake_05_lowspec_tex_default.002_0": "wood",
+    "bake_05_tex_bake_05_0": "fabric",
+    "bake_09_lowspec_tex_default_0": "fabric",
+    "bake_09_tex_bake_09_0": "fabric",
+    "bake_06_tex_bake_06_0": "wood"
+  },
+  "boundary_reviews": [
+    {
+      "side": 1,
+      "start": 1650,
+      "end": 1790,
+      "transverse": true,
+      "pixels": [
+        [
+          1307.2131655930552,
+          2748.286808309092
+        ],
+        [
+          1311,
+          2700
+        ],
+        [
+          1311,
+          2580
+        ],
+        [
+          1311,
+          2460
+        ],
+        [
+          1311,
+          2340
+        ],
+        [
+          1312,
+          2240
+        ],
+        [
+          1312,
+          2200
+        ],
+        [
+          1312,
+          2160
+        ],
+        [
+          1300,
+          2125
+        ],
+        [
+          1282.1653935451754,
+          2101.746160382871
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 1155,
+      "end": 1240,
+      "transverse": true,
+      "pixels": [
+        [
+          1332.9629614680211,
+          3124.968067388535
+        ],
+        [
+          1314,
+          3128
+        ],
+        [
+          1274,
+          3128
+        ],
+        [
+          1230,
+          3120
+        ],
+        [
+          1207,
+          3124
+        ],
+        [
+          1167,
+          3140
+        ],
+        [
+          1124,
+          3160
+        ],
+        [
+          1080,
+          3187
+        ],
+        [
+          1032,
+          3218
+        ],
+        [
+          1010.88535062793,
+          3243.180297762706
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 550,
+      "end": 880,
+      "transverse": false,
+      "pixels": [
+        [
+          1627.0571858119265,
+          1213.2994568564259
+        ],
+        [
+          1620,
+          1260
+        ],
+        [
+          1610,
+          1300
+        ],
+        [
+          1597,
+          1328
+        ],
+        [
+          1580,
+          1352
+        ],
+        [
+          1540,
+          1377
+        ],
+        [
+          1490,
+          1405
+        ],
+        [
+          1453,
+          1433
+        ],
+        [
+          1415,
+          1465
+        ],
+        [
+          1379,
+          1499
+        ],
+        [
+          1343,
+          1535
+        ],
+        [
+          1306,
+          1572
+        ],
+        [
+          1278,
+          1605
+        ],
+        [
+          1266,
+          1640
+        ],
+        [
+          1270,
+          1690
+        ],
+        [
+          1280,
+          1730
+        ],
+        [
+          1298,
+          1770
+        ],
+        [
+          1320,
+          1795
+        ],
+        [
+          1360,
+          1813
+        ],
+        [
+          1410,
+          1822
+        ],
+        [
+          1460,
+          1825
+        ],
+        [
+          1484,
+          1829
+        ],
+        [
+          1500,
+          1842
+        ],
+        [
+          1510,
+          1866
+        ],
+        [
+          1508,
+          1890
+        ],
+        [
+          1498,
+          1908
+        ],
+        [
+          1470,
+          1920
+        ],
+        [
+          1440,
+          1928
+        ],
+        [
+          1414,
+          1946
+        ],
+        [
+          1386,
+          1980
+        ],
+        [
+          1390,
+          2020
+        ],
+        [
+          1386,
+          2070
+        ],
+        [
+          1382,
+          2120
+        ],
+        [
+          1386.1792164178173,
+          2133.4754870570177
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 470,
+      "end": 470,
+      "pixels": [
+        [
+          1576,
+          972
+        ]
+      ]
+    },
+    {
+      "side": 0,
+      "start": 626,
+      "end": 626,
+      "pixels": [
+        [
+          1585,
+          1524
+        ]
+      ]
+    },
+    {
+      "side": 0,
+      "start": 630,
+      "end": 630,
+      "pixels": [
+        [
+          1574,
+          1531
+        ]
+      ]
+    },
+    {
+      "side": 0,
+      "start": 751,
+      "end": 751,
+      "pixels": [
+        [
+          1491,
+          1733
+        ]
+      ]
+    },
+    {
+      "side": 0,
+      "start": 764,
+      "end": 764,
+      "pixels": [
+        [
+          1550,
+          1758
+        ]
+      ]
+    },
+    {
+      "side": 0,
+      "start": 815,
+      "end": 815,
+      "pixels": [
+        [
+          1672,
+          1987
+        ]
+      ]
+    },
+    {
+      "side": 0,
+      "start": 829,
+      "end": 829,
+      "pixels": [
+        [
+          1621,
+          2038
+        ]
+      ]
+    },
+    {
+      "side": 0,
+      "start": 1861,
+      "end": 1861,
+      "pixels": [
+        [
+          975,
+          1925
+        ]
+      ]
+    },
+    {
+      "side": 0,
+      "start": 1912,
+      "end": 1912,
+      "pixels": [
+        [
+          975,
+          1716
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 597,
+      "end": 597,
+      "pixels": [
+        [
+          1554,
+          1373
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 599,
+      "end": 599,
+      "pixels": [
+        [
+          1540,
+          1378
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 674,
+      "end": 674,
+      "pixels": [
+        [
+          1313,
+          1569
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 675,
+      "end": 675,
+      "pixels": [
+        [
+          1313,
+          1569
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 677,
+      "end": 677,
+      "pixels": [
+        [
+          1309,
+          1573
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 678,
+      "end": 678,
+      "pixels": [
+        [
+          1309,
+          1575
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 679,
+      "end": 679,
+      "pixels": [
+        [
+          1301,
+          1583
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 680,
+      "end": 680,
+      "pixels": [
+        [
+          1300,
+          1583
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 681,
+      "end": 681,
+      "pixels": [
+        [
+          1299,
+          1585
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 683,
+      "end": 683,
+      "pixels": [
+        [
+          1296,
+          1588
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 684,
+      "end": 684,
+      "pixels": [
+        [
+          1288,
+          1596
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 687,
+      "end": 687,
+      "pixels": [
+        [
+          1284,
+          1601
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 699,
+      "end": 699,
+      "pixels": [
+        [
+          1270,
+          1647
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 700,
+      "end": 700,
+      "pixels": [
+        [
+          1264,
+          1651
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 701,
+      "end": 701,
+      "pixels": [
+        [
+          1264,
+          1651
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 702,
+      "end": 702,
+      "pixels": [
+        [
+          1270,
+          1657
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 705,
+      "end": 705,
+      "pixels": [
+        [
+          1271,
+          1667
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 706,
+      "end": 706,
+      "pixels": [
+        [
+          1263,
+          1676
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 707,
+      "end": 707,
+      "pixels": [
+        [
+          1267,
+          1680
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 789,
+      "end": 789,
+      "pixels": [
+        [
+          1502,
+          1842
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 790,
+      "end": 790,
+      "pixels": [
+        [
+          1498,
+          1850
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 791,
+      "end": 791,
+      "pixels": [
+        [
+          1506,
+          1856
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 794,
+      "end": 794,
+      "pixels": [
+        [
+          1504,
+          1862
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 795,
+      "end": 795,
+      "pixels": [
+        [
+          1515,
+          1866
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 796,
+      "end": 796,
+      "pixels": [
+        [
+          1507,
+          1875
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 805,
+      "end": 805,
+      "pixels": [
+        [
+          1504,
+          1903
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 821,
+      "end": 821,
+      "pixels": [
+        [
+          1440,
+          1929
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 842,
+      "end": 842,
+      "pixels": [
+        [
+          1389,
+          1983
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 869,
+      "end": 869,
+      "pixels": [
+        [
+          1385,
+          2085
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 870,
+      "end": 870,
+      "pixels": [
+        [
+          1391,
+          2095
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 871,
+      "end": 871,
+      "pixels": [
+        [
+          1391,
+          2099
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 872,
+      "end": 872,
+      "pixels": [
+        [
+          1391,
+          2103
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 873,
+      "end": 873,
+      "pixels": [
+        [
+          1390,
+          2108
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 875,
+      "end": 875,
+      "pixels": [
+        [
+          1388,
+          2118
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 787,
+      "end": 787,
+      "pixels": [
+        [
+          1494,
+          1835
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "start": 874,
+      "end": 874,
+      "pixels": [
+        [
+          1390,
+          2110
+        ]
+      ]
+    }
+  ],
+  "ambiguous_source_sections": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    15,
+    16,
+    17,
+    37,
+    38,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    39,
+    40,
+    41
+  ],
+  "preserve_reviewed_boundaries": false,
+  "preserve_reviewed_points": true,
+  "section_surfaces": [
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "paper",
+    "paper",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "paper",
+    "paper",
+    "fabric",
+    "fabric",
+    "fabric",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric"
+  ]
+}

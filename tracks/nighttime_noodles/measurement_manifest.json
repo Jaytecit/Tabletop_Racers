@@ -1,0 +1,657 @@
+{
+  "title": "Nighttime Noodles",
+  "description": "Lantern-lit dining circuit \u00b7 S-bends, bamboo mats and connecting plank",
+  "revision": 1,
+  "start_station": 330.37456264829916,
+  "source_sha256": "686450782c91dd0f731eb6192c1509de2d95204bd64104e7302776fae04fdf1e",
+  "source": "C:\\Users\\jayte\\Downloads\\table_top_racing_-_nighttime_noodles.glb",
+  "source_url": "https://sketchfab.com/3d-models/table-top-racing-nighttime-noodles-1f8a8a8856cd4f2a95ef29cac4c9f9b7",
+  "author": "amogusstrikesback2",
+  "license": "CC BY 4.0",
+  "transform": {
+    "scale": 40,
+    "offset": [
+      43,
+      0,
+      -8
+    ]
+  },
+  "visible_meshes": [
+    "bake_03_tex_bake_03_0",
+    "bake_08_tex_bake_08_0",
+    "bake_02_tex_bake_02_0",
+    "bake_06_tex_bake_06_0",
+    "bake_01_tex_bake_01_0",
+    "bake_04_tex_bake_04_0",
+    "bake_05_tex_bake_05_0",
+    "bake_09_tex_bake_09_0",
+    "bake_07_tex_bake_07_0",
+    "bake_05_nospec_tex_default_0"
+  ],
+  "collision_meshes": [
+    "bake_03_tex_bake_03_0",
+    "bake_08_tex_bake_08_0",
+    "bake_02_tex_bake_02_0",
+    "bake_06_tex_bake_06_0",
+    "bake_01_tex_bake_01_0",
+    "bake_04_tex_bake_04_0",
+    "bake_05_tex_bake_05_0",
+    "bake_09_tex_bake_09_0",
+    "bake_07_tex_bake_07_0",
+    "collide_default_0",
+    "bake_05_nospec_tex_default_0"
+  ],
+  "section_surfaces": [
+    "wood",
+    "fabric",
+    "fabric",
+    "fabric",
+    "wood",
+    "wood",
+    "fabric",
+    "fabric",
+    "wood",
+    "wood",
+    "wood",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "fabric",
+    "fabric",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "fabric",
+    "fabric",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "fabric",
+    "fabric",
+    "wood"
+  ],
+  "section_layers": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "height_surfaces": [
+    "bake_01_tex_bake_01_0",
+    "bake_02_tex_bake_02_0",
+    "bake_03_tex_bake_03_0",
+    "bake_06_tex_bake_06_0",
+    "bake_05_tex_bake_05_0"
+  ],
+  "fit_profile": "tools/tabletop_reference/profiles/nighttime_noodles.json",
+  "source_surface_labels": {
+    "bake_01_tex_bake_01_0": "wood",
+    "bake_02_tex_bake_02_0": "wood",
+    "bake_03_tex_bake_03_0": "paper",
+    "bake_06_tex_bake_06_0": "wood",
+    "bake_05_tex_bake_05_0": "wood"
+  },
+  "mesh_compression": false,
+  "driving_height_range": [
+    -0.06,
+    1.4
+  ],
+  "sampling_spacing": 0.05,
+  "route_direction": "South on right straight, clockwise through bottom connector, left S-bends and upper connecting plank",
+  "uncertain_sections": [],
+  "unresolved_intervals": [],
+  "status": "integrated and verified",
+  "original_start_cue": {
+    "mesh": "bake_07_tex_bake_07_0",
+    "texture_uv_region": [
+      0.267,
+      0,
+      0.66,
+      0.076
+    ],
+    "world_bounds": [
+      [
+        39.65616004788518,
+        3.220560001867412,
+        -8.27167999137163
+      ],
+      [
+        46.529199902805686,
+        4.425400062827762,
+        -8.245199984791874
+      ]
+    ],
+    "plane_z": -8.258439988081753
+  },
+  "surface_label_reason": "Bamboo mats use neutral fabric; lower serving board uses neutral paper; hard wood/stone uses neutral wood. No new handling preset.",
+  "measurement_sha256": "02b2a200b363c97b59178eeae4962b9d742561d99c6657a8aee3a1b6f253e201",
+  "profile_sha256": "2832792244d72105af78c81b0dddc38046735c7ea8b76d7ea4bb3a2bd01face7",
+  "raster": {
+    "origin": [
+      -65,
+      -55
+    ],
+    "shape": [
+      2400,
+      2500
+    ],
+    "spacing": 0.05
+  },
+  "texture_inventory": [
+    {
+      "mesh": "bake_03_tex_bake_03_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "bake_03",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.9577051494623774
+        }
+      },
+      "image_sha256": "3d96f8d491b4d552750457d83c4e7b56896a654edc7628bd55009a5e8dc7a74b",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 0
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "bake_08_tex_bake_08_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "bake_08",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.9577051494623774
+        }
+      },
+      "image_sha256": "129320197c9fa7d0147e9352b8fefbd257014730ef510deff1692585f269a40b",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 1
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "bake_02_tex_bake_02_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "bake_02",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 2
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.9577051494623774
+        }
+      },
+      "image_sha256": "5af5599b297563bdc924506e29c4a0aca78cc77f8bf1e8a9c02aef4a9f2abe64",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 2
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "bake_06_tex_bake_06_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "bake_06",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 3
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.9577051494623774
+        }
+      },
+      "image_sha256": "b1a57f3281cff29175468898c8abcfdb16872f290e7d2fd76df3199f8c130be4",
+      "size": [
+        1024,
+        1024
+      ],
+      "texture_info": {
+        "index": 3
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "bake_01_tex_bake_01_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "bake_01",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 4
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.9577051494623774
+        }
+      },
+      "image_sha256": "b8be7aebdd933def19730889611698e579d91da4b81e7a3cd493d3d0fe043d2d",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 4
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "bake_04_tex_bake_04_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "bake_04",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 5
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.9577051494623774
+        }
+      },
+      "image_sha256": "40df4c43aef344ea34a1a6a32f15458473e22938c2395ac07ae4ac092ecfb18a",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 5
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "bake_05_tex_bake_05_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "bake_05",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 6
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.9577051494623774
+        }
+      },
+      "image_sha256": "885a240f411ebc3c5bb0087dda89e1fd61bc9bc9fb9049a2a874f2e6a6905340",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 6
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "bake_09_tex_bake_09_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "bake_09",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 7
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.9577051494623774
+        }
+      },
+      "image_sha256": "11d86ca10aa99ac842e3600850f2447c1c877eac07edb352a01628fa96d911ec",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 7
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "bake_07_tex_bake_07_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "bake_07",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 8
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.9577051494623774
+        }
+      },
+      "image_sha256": "1c5743bfc576f33c5e694c0f2a4e26365434492c5cce768ae9bf6b410a034877",
+      "size": [
+        1024,
+        1024
+      ],
+      "texture_info": {
+        "index": 8
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "collide_default_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "default",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 6
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.9577051494623774
+        }
+      },
+      "image_sha256": "885a240f411ebc3c5bb0087dda89e1fd61bc9bc9fb9049a2a874f2e6a6905340",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 6
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "bake_05_nospec_tex_default_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "default",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 6
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.9577051494623774
+        }
+      },
+      "image_sha256": "885a240f411ebc3c5bb0087dda89e1fd61bc9bc9fb9049a2a874f2e6a6905340",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 6
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    }
+  ],
+  "boundary_tolerance": 0.125,
+  "source_review": "All 64 source and rendered sections align, including the bamboo mats, serving-board heights, top connecting plank in mixed bake_05 geometry and all S-bends. Four initial paint-band failures at the tight concave corner were corrected with source UV/world paint anchors (samples 650\u2013700); initial failed audit is preserved. Larger transverse correspondence folds were reviewed at the actual white-line turning points and do not erase real S-bends. START cloth in bake_07 is mapped to Z -8.27168 to -8.24520, and gate station 330.37456 aligns to it. Original arch reused; other gates have clear supported or same-plane elevated cues. No stacked route crossings. Initial gameplay run passed its race but failed four outer-lane gate cases due to centreline projection jumps. Finite measured checkpoint planes and physical displacement now validate the crossings; 480 cases pass after the shared fix. Toys R You full regression (toys_finite_plane_regression) passes all 480 gates and three Hard laps for four cars with no crashes, recoveries or penalties.",
+  "uncertainty_resolution": {
+    "weak_samples": [
+      [
+        592,
+        0
+      ],
+      [
+        593,
+        0
+      ],
+      [
+        594,
+        0
+      ],
+      [
+        595,
+        0
+      ],
+      [
+        596,
+        0
+      ],
+      [
+        597,
+        0
+      ],
+      [
+        681,
+        1
+      ],
+      [
+        682,
+        1
+      ],
+      [
+        683,
+        1
+      ],
+      [
+        684,
+        1
+      ]
+    ],
+    "folds_removed": [
+      {
+        "side": 0,
+        "start": 572,
+        "end": 589,
+        "max_shift": 2.5327783272241633
+      },
+      {
+        "side": 0,
+        "start": 572,
+        "end": 600,
+        "max_shift": 1.8000478658191974
+      },
+      {
+        "side": 0,
+        "start": 688,
+        "end": 690,
+        "max_shift": 0.05531586506524347
+      },
+      {
+        "side": 0,
+        "start": 765,
+        "end": 771,
+        "max_shift": 0.08507463380157268
+      },
+      {
+        "side": 0,
+        "start": 772,
+        "end": 782,
+        "max_shift": 0.3676948926059925
+      },
+      {
+        "side": 1,
+        "start": 500,
+        "end": 523,
+        "max_shift": 0.7997899139099911
+      },
+      {
+        "side": 1,
+        "start": 598,
+        "end": 603,
+        "max_shift": 0.04600989992368953
+      }
+    ],
+    "ridge_snaps": [],
+    "support_snaps": []
+  },
+  "verification": {
+    "source": "tests/baselines/content/nighttime_noodles/alignment/source_validation.json",
+    "landmarks": "tests/baselines/content/nighttime_noodles/alignment/landmark_checks.json",
+    "race": "tests/baselines/content/nighttime_noodles/verification_02/results.json",
+    "visual": "tests/baselines/content/nighttime_noodles/visual_01/results.json",
+    "flags": "tests/baselines/content/nighttime_noodles/visual_01/results.json"
+  }
+}

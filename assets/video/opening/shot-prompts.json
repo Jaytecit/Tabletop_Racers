@@ -1,0 +1,14 @@
+{
+  "model": "ltx",
+  "duration": 5,
+  "aspectRatio": "16:9",
+  "reference": "https://res.cloudinary.com/dol86wsz1/image/upload/v1791120333/summer_art/img-a6371a06-1052-47aa-85e1-e069401ff37b-1791120332854-0_1791120332855_lphzota6.png",
+  "shots": [
+    {"id": "buggy", "prompt": "Track the coral buggy driven by the red-haired woman accelerating up the ruler ramp, jumping over toy blocks and landing with suspension bounce. Other miniature cars race alongside. Keep illustrated retro pixel-like game art, tiny scale, coherent vehicles. No new text."},
+    {"id": "monster_truck", "prompt": "Low tracking shot follows the lime green monster truck lifting its front wheels into a wheelie over toy-block obstacles, then dropping back onto four tyres as rivals race beside it. Preserve reference illustration, tiny tabletop scale and coherent vehicles."},
+    {"id": "drift_car", "prompt": "Track the cyan drift coupe sliding sideways around the tabletop bend, countersteering, tyre smoke trailing, narrowly overtaking the coral buggy. Preserve miniature scale and illustrated retro game art. Simple smooth camera pan, coherent vehicles, no text overlays."},
+    {"id": "racing_car", "prompt": "Track the yellow open-wheel racing car threading between two rivals, accelerating down the tabletop straight past oversized dice and toy blocks, driver focused in the cockpit. Preserve reference illustrated game art, miniature scale, coherent cars. Exciting low camera."},
+    {"id": "speedboat", "prompt": "Track the orange miniature hydroplane leaning into a tight canal turn, throwing a curved spray wake and overtaking a second toy boat, toy cars racing beside the water. Preserve reference illustrated retro game art and tiny scale. Smooth camera pan."}
+  ],
+  "generation_failure": {"status": 402, "code": "subscription_required:studio", "clips_created": 0}
+}

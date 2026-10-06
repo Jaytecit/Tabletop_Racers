@@ -1,0 +1,61 @@
+Welcome to Summer Engine (c) built on the awesome work by Godot 2007-present Juan Linietsky, Ariel Manzur & Godot Contributors.
+
+[SE] AuthManager: CLI credential found; desktop session exchange required
+[SE] LocalApiServer: batch-mode instance, not publishing ~/.summer discovery files
+[SE] LocalApiServer: ToolNetThread listening on http://127.0.0.1:6551 (Block E)
+[SUMMER_FS_SNAPSHOT] headless editor: the project filesystem is a BOOT-TIME SNAPSHOT. There is no filesystem watching in this mode (rescan is focus-driven and no focus event can fire without a window), so files written to this project after boot by any other process will NOT be detected for the lifetime of this process. Trigger a rescan explicitly, or use a short-lived boot->act->exit invocation (`--headless --import`) per batch of writes.
+[SE] No update available.
+[WebView2] Failed to get parent window
+[WebView2] Failed to get parent window
+[   0% ] first_scan_filesystem | Started Project initialization (5 steps)
+[   0% ] first_scan_filesystem | Scanning file structure...
+[  16% ] first_scan_filesystem | Loading global class names...
+[  33% ] first_scan_filesystem | Verifying GDExtensions...
+[SE] GDExtension: loading library path="C:/Users/jayte/Desktop/Coding Projects/Summer engine/tabletop-racers/addons/debug_draw_3d/libs/libdd3d.windows.editor.x86_64.dll" (from res://addons/debug_draw_3d/debug_draw_3d.gdextension)
+[SE] GDExtension: loading library path="C:/Users/jayte/Desktop/Coding Projects/Summer engine/tabletop-racers/addons/godot-rapier2d/bin/libgodot_rapier.windows.x86_64-pc-windows-msvc.dll" (from res://addons/godot-rapier2d/godot-rapier2d.gdextension)
+ERROR: GDExtension initialization function 'rapier_2d_init' returned an error.
+   at: GDExtensionLibraryLoader::initialize (core\extension\gdextension_library_loader.cpp:254)
+[SE] GDExtension: loading library path="C:/Users/jayte/Desktop/Coding Projects/Summer engine/tabletop-racers/addons/terrain_3d/bin/libterrain.windows.debug.x86_64.dll" (from res://addons/terrain_3d/terrain.gdextension)
+[  50% ] first_scan_filesystem | Creating autoload scripts...
+[  66% ] first_scan_filesystem | Initializing plugins...
+AssetManager: workspace opened, index found: true, version: 4, assets: 2016
+[  83% ] first_scan_filesystem | Starting file scan...
+[ DONE ] first_scan_filesystem
+
+=====
+An update for Debug Draw 3D is available. Current: 1.6.0 -> New: 1.7.3
+You need to download the archive from this link:
+https://github.com/DmitriySalnikov/godot_debug_draw_3d/releases/download/1.7.3/debug-draw-3d_1.7.3.zip
+Then close the editor and replace the files in your project with new ones from the archive (extract the content of the godot_debug_draw_3d-***** folder).
+To disable this alert, go to the Project Settings in the "debug_draw_3d/settings/updates/" section.
+Addon page: https://godotengine.org/asset-library/asset/1766
+Changes: https://github.com/DmitriySalnikov/godot_debug_draw_3d/releases
+=====
+[   0% ] update_scripts_classes | Started Registering global classes... (10 steps)
+[   0% ] update_scripts_classes | 
+[   9% ] update_scripts_classes | 
+[  18% ] update_scripts_classes | 
+[  27% ] update_scripts_classes | 
+[  36% ] update_scripts_classes | 
+[  45% ] update_scripts_classes | 
+[  54% ] update_scripts_classes | 
+[  63% ] update_scripts_classes | 
+[  72% ] update_scripts_classes | 
+[  81% ] update_scripts_classes | 
+[ DONE ] update_scripts_classes
+
+[SE] GDExtension: loading library path="C:/Users/jayte/Desktop/Coding Projects/Summer engine/tabletop-racers/addons/godot-rapier2d/bin/libgodot_rapier.windows.x86_64-pc-windows-msvc.dll" (from res://addons/godot-rapier2d/godot-rapier2d.gdextension)
+ERROR: GDExtension initialization function 'rapier_2d_init' returned an error.
+   at: GDExtensionLibraryLoader::initialize (core\extension\gdextension_library_loader.cpp:254)
+[   0% ] loading_editor_layout | Started Loading editor (5 steps)
+[   0% ] loading_editor_layout | Loading editor layout...
+[  16% ] loading_editor_layout | Loading docks...
+[  33% ] loading_editor_layout | Reopening scenes...
+[  50% ] loading_editor_layout | Loading central editor layout...
+[  66% ] loading_editor_layout | Loading plugin window layout...
+[  83% ] loading_editor_layout | Editor layout ready.
+[ DONE ] loading_editor_layout
+
+[WebView2] Failed to get parent window
+[SUMMER_STARTUP_WORK] status=complete phase=settled imports_pending=0 imports_done=1486 imports_total=1486 truncated=0 site=shutdown uptime_ms=10228 project="C:/Users/jayte/Desktop/Coding Projects/Summer engine/tabletop-racers"
+[SE] LocalApiServer: Stopped

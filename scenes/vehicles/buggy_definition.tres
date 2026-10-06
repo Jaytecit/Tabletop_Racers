@@ -1,0 +1,16 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/vehicles/vehicle_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "buggy"
+top_speed = 15.11
+acceleration = 16
+braking = 22
+reverse_speed = 2
+grip = 2
+coast_grip = 4.2
+steering_low = 3.8
+steering_high = 2.0
+drag = 0.18

@@ -1,0 +1,7 @@
+# Gamepad driver-name entry — 6 October 2026
+
+Focus the name field and press the configured Select button (A by default), or select PAD KEYS beside the field. D-pad or left stick moves through the on-screen alphabet. Select adds a letter; DELETE removes the last letter, CLEAR empties the draft, and DONE returns a valid name to the profile screen. Confirm the profile separately to save it. CANCEL or B discards the draft and returns focus to the original name field. Physical keyboard entry remains available in that field.
+
+Names retain the existing validation: 1–9 letters, with duplicate-name checks during profile confirmation. The modal owns its focus loop, and profile entry blocks ordinary controller Start/Back/camera/restart polling from triggering menu or race actions. The Select hint honours the existing controller remapping.
+
+Rendered verification: `tests/evidence/gamepad-driver-name-03`. Injected gamepad events entered JAY, deleted Y, added Z and committed JAZ. Checks cover D-pad navigation/wrapping, left-stick navigation, button-based launch, cancellation without editing the original, clear, invalid empty-name rejection, the nine-letter limit, Select remapping to X, shortcut isolation, and saving/reloading the resulting name in a disposable fixture directory. Personal profiles remained read-only; runtime and shutdown errors were zero, and PID 33012 exited normally. The first failing run remains in `gamepad-driver-name-01`; it exposed the shared menu focus manager overwriting modal neighbours, which is corrected.

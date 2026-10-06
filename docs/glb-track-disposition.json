@@ -1,0 +1,3418 @@
+{
+  "schema": 1,
+  "source_count": 42,
+  "unique_hashes": 41,
+  "rows": [
+    {
+      "file": "033_racetrack.glb",
+      "sha256": "9dcdddc2036f8435deaf7059953fe3ea4a4fd55836e1861d5babb00322fe8a9d",
+      "status": "needs-repair",
+      "reason": "New source: select driving primitives, review topology/layers/start cue, and measure width before extraction.",
+      "duplicate_of": null,
+      "course_id": null,
+      "megabytes": 1.76,
+      "triangles": 25057,
+      "meshes": 4,
+      "images": 7,
+      "rgba_level_bytes": 6356992,
+      "route_type": "New circuit candidate",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "Jac_Pretorius (https://sketchfab.com/Jac_Pretorius)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/033-racetrack-1a005c17d28c44bc87d75580c9fdbf37",
+        "title": "033_RACETRACK"
+      },
+      "extraction_branch": "surface/UV classification then selected route",
+      "topology": null,
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/additions_20261005/033_racetrack/033_racetrack_plan.png"
+    },
+    {
+      "file": "3ds_wuhu_loop.glb",
+      "sha256": "94aae048219c6ccf243eece3e0970ed446e89a4790c5ae0a0479346f37214868",
+      "status": "needs-repair",
+      "reason": "Named `Wi_Road` and `Wi_CheckPtRoad`. Initial projection has 41 components; review genuine gaps, jumps, ancillary pieces and traversal before stitching.",
+      "duplicate_of": null,
+      "course_id": null,
+      "megabytes": 1.8,
+      "triangles": 12136,
+      "meshes": 16,
+      "images": 16,
+      "rgba_level_bytes": 3016960,
+      "route_type": "Candidate; 12,136 triangles",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "Riderfan1910 (https://sketchfab.com/riderfan1910)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/3ds-wuhu-loop-8d395ef88fef496f97108b6f69da7ed8",
+        "title": "3ds Wuhu loop"
+      },
+      "extraction_branch": "dedicated/layer-aware road",
+      "topology": {
+        "file": "3ds_wuhu_loop.glb",
+        "selected": [
+          {
+            "name": "Wi_Road",
+            "surface": 0
+          },
+          {
+            "name": "Wi_CheckPtRoad",
+            "surface": 0
+          }
+        ],
+        "triangles": 3138,
+        "components": 41,
+        "holes": [
+          4,
+          11,
+          3,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "area_fractions": [
+          0.6996423187550084,
+          0.08064124082791653,
+          0.06357497427898898,
+          0.0353771671321802,
+          0.024799378253515265,
+          0.02273135154204215,
+          0.018218764532972997,
+          0.011226896436931604,
+          0.011130456163294725,
+          0.006099137540834192
+        ],
+        "valid": true,
+        "height_range": [
+          -8953.290610309157,
+          -6695.424543138298
+        ],
+        "caveat": "Provisional semantic selection. X/Z union is not a layer-aware boundary validation."
+      },
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/3ds_wuhu_loop_plan.png"
+    },
+    {
+      "file": "asphalt_injection_-_chamonixalps.glb",
+      "sha256": "fcfb3b77c08c79bee8350c0eb92508f07a5525d5c1a004c90adc35818838ac18",
+      "status": "needs-repair",
+      "reason": "Explicit road groups; main footprint plus four minor components. Shortcuts/wood transitions, many projected holes and large source coordinates need surface and layer review.",
+      "duplicate_of": null,
+      "course_id": null,
+      "megabytes": 45.03,
+      "triangles": 180096,
+      "meshes": 267,
+      "images": 17,
+      "rgba_level_bytes": 72679424,
+      "route_type": "Candidate",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "amogusstrikesback2 (https://sketchfab.com/amogusstrikesback2)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/asphalt-injection-chamonixalps-04740a97e4f44079b3811b291201f4e3",
+        "title": "asphalt injection - chamonix/alps"
+      },
+      "extraction_branch": "dedicated/layer-aware road",
+      "topology": {
+        "file": "asphalt_injection_-_chamonixalps.glb",
+        "selected": [
+          {
+            "name": "area1_road_asphalt_0",
+            "surface": 0
+          },
+          {
+            "name": "area1_road_group1_area1_road_group1_0",
+            "surface": 0
+          },
+          {
+            "name": "area2_road_asphalt_0",
+            "surface": 0
+          },
+          {
+            "name": "area2_road_group1_asphalt_0",
+            "surface": 0
+          },
+          {
+            "name": "area3_road_asphalt_0",
+            "surface": 0
+          },
+          {
+            "name": "area3_road_group1_asphalt_0",
+            "surface": 0
+          },
+          {
+            "name": "area3_road_group2_shortcut_0",
+            "surface": 0
+          },
+          {
+            "name": "area3_road_group3_wood_0",
+            "surface": 0
+          },
+          {
+            "name": "insb_road_insb_road_0",
+            "surface": 0
+          },
+          {
+            "name": "insb_road_group1_insb_road_group1_0",
+            "surface": 0
+          },
+          {
+            "name": "insb_road_group2_sidewalk_0",
+            "surface": 0
+          },
+          {
+            "name": "insb_road_group3_wood_0",
+            "surface": 0
+          }
+        ],
+        "triangles": 6747,
+        "components": 5,
+        "holes": [
+          15,
+          0,
+          0,
+          0,
+          0
+        ],
+        "area_fractions": [
+          0.9989079675111632,
+          0.0009230522363639403,
+          0.00016898024759501556,
+          3.1305404167103565e-12,
+          1.7472785664727768e-12
+        ],
+        "valid": true,
+        "height_range": [
+          -3522.0472126354007,
+          21528.22976791168
+        ],
+        "caveat": "Provisional semantic selection. X/Z union is not a layer-aware boundary validation."
+      },
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/asphalt_injection_-_chamonixalps_plan.png"
+    },
+    {
+      "file": "asphalt_injection_-_shanghai.glb",
+      "sha256": "7cf81af3950b70705ac6ca55757b5a98e86cb24dad5887e058a8707ed786aedc",
+      "status": "needs-repair",
+      "reason": "Named road segments, crossings and branches. Main footprint plus four minor components; select one circuit and separate stacked surfaces.",
+      "duplicate_of": null,
+      "course_id": null,
+      "megabytes": 41.28,
+      "triangles": 233152,
+      "meshes": 813,
+      "images": 15,
+      "rgba_level_bytes": 46989312,
+      "route_type": "Candidate",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "amogusstrikesback2 (https://sketchfab.com/amogusstrikesback2)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/asphalt-injection-shanghai-2b716028a68b4eca95136db971197390",
+        "title": "asphalt injection - shanghai"
+      },
+      "extraction_branch": "dedicated/layer-aware road",
+      "topology": {
+        "file": "asphalt_injection_-_shanghai.glb",
+        "selected": [
+          {
+            "name": "part01_road_road2_0",
+            "surface": 0
+          },
+          {
+            "name": "part01b_road_road2_0",
+            "surface": 0
+          },
+          {
+            "name": "part02_road_road_0",
+            "surface": 0
+          },
+          {
+            "name": "part02_road_group1_atlas1_0",
+            "surface": 0
+          },
+          {
+            "name": "part02_road_group2_tiles_0",
+            "surface": 0
+          },
+          {
+            "name": "part02_road_group3_part02_road_group3_0",
+            "surface": 0
+          },
+          {
+            "name": "part02_road_group4_cross_0",
+            "surface": 0
+          },
+          {
+            "name": "part03_road_part03_road_0",
+            "surface": 0
+          },
+          {
+            "name": "part04_road_tiles.001_0",
+            "surface": 0
+          },
+          {
+            "name": "part04_road_group1_cross_0",
+            "surface": 0
+          },
+          {
+            "name": "part04_road_group2_road_0",
+            "surface": 0
+          },
+          {
+            "name": "part04_road_group3_road_0",
+            "surface": 0
+          },
+          {
+            "name": "part04_road_group4_grass_0",
+            "surface": 0
+          },
+          {
+            "name": "part1_road_part1_road_0",
+            "surface": 0
+          },
+          {
+            "name": "part1b_road_part1b_road_0",
+            "surface": 0
+          }
+        ],
+        "triangles": 6143,
+        "components": 5,
+        "holes": [
+          98,
+          0,
+          0,
+          0,
+          0
+        ],
+        "area_fractions": [
+          0.999786914400205,
+          0.00019858088961070518,
+          1.4502206123945643e-05,
+          1.5460233396569579e-09,
+          9.58037114963157e-10
+        ],
+        "valid": true,
+        "height_range": [
+          10752.773962800096,
+          61299.27192244288
+        ],
+        "caveat": "Provisional semantic selection. X/Z union is not a layer-aware boundary validation."
+      },
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/asphalt_injection_-_shanghai_plan.png"
+    },
+    {
+      "file": "bazaar_track.glb",
+      "sha256": "994bdf86f683867086dd2f92f1696c926c73ad6a2205284903538e9f9b81757d",
+      "status": "active",
+      "reason": "Dedicated 106-triangle driving collision mesh gives one valid polygon with one hole. Compare collision edge with UV-mapped visible road; exclude wall collision.",
+      "duplicate_of": null,
+      "course_id": "bazaar",
+      "megabytes": 13.09,
+      "triangles": 16246,
+      "meshes": 5,
+      "images": 3,
+      "rgba_level_bytes": 50331648,
+      "route_type": "Strong candidate; 16,246 triangles total",
+      "physical_support": "accepted course evidence",
+      "layers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "usable_width": {
+        "min": 6.746171398532606,
+        "max": 12.458042096436422,
+        "unit": "game units; accepted samples"
+      },
+      "credits": {
+        "author": "amogusstrikesback2 (https://sketchfab.com/amogusstrikesback2)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/bazaar-track-ce96ebef18d54982836ff7a86b1a6d85",
+        "title": "bazaar track"
+      },
+      "extraction_branch": "surface/UV classification then selected route",
+      "topology": null,
+      "capabilities": {
+        "modes": [
+          "quick",
+          "trial",
+          "freestyle",
+          "challenge",
+          "time_attack",
+          "elimination",
+          "drift"
+        ],
+        "vehicles": [
+          "buggy",
+          "monster_truck",
+          "racing_car",
+          "drift_car",
+          "speedboat"
+        ],
+        "loft": false,
+        "crossings_jumps": {
+          "layers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "jump_exit": false
+        },
+        "readiness": "accepted route; existing enabled modes, target balance pending"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/bazaar_track_plan.png"
+    },
+    {
+      "file": "blitzway_gp_main_course.glb",
+      "sha256": "b2e96810763f1f7151ae35ea5728011dde61fc977b114a1fc4d879af83d928aa",
+      "status": "needs-repair",
+      "reason": "New source: select driving primitives, review topology/layers/start cue, and measure width before extraction.",
+      "duplicate_of": null,
+      "course_id": null,
+      "megabytes": 12.89,
+      "triangles": 122736,
+      "meshes": 15,
+      "images": 14,
+      "rgba_level_bytes": 36175872,
+      "route_type": "New circuit candidate",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "SpeedX06 (https://sketchfab.com/SpeedX06)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/blitzway-gp-main-course-f26c4e6fc4194f7a832f6d366d206316",
+        "title": "Blitzway GP (Main Course)"
+      },
+      "extraction_branch": "surface/UV classification then selected route",
+      "topology": null,
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/additions_20261005/blitzway_gp_main_course/blitzway_gp_main_course_plan.png"
+    },
+    {
+      "file": "cartoon_race_track_-_oval.glb",
+      "sha256": "7a52b2dbddd4a802c484e5df7f24e5cb17843f4b8f03726ef2185afb627cebc7",
+      "status": "needs-repair",
+      "reason": "New source: select driving primitives, review topology/layers/start cue, and measure width before extraction.",
+      "duplicate_of": null,
+      "course_id": null,
+      "megabytes": 179.02,
+      "triangles": 1778838,
+      "meshes": 538,
+      "images": 15,
+      "rgba_level_bytes": 566231040,
+      "route_type": "New circuit candidate",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "RCC Design (https://sketchfab.com/retrovalorem)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/cartoon-race-track-oval-f88b33a3a65c4965b03578dc7f4f6eb4",
+        "title": "Cartoon Race Track - Oval"
+      },
+      "extraction_branch": "surface/UV classification then selected route",
+      "topology": null,
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/additions_20261005/cartoon_race_track_-_oval/cartoon_race_track_-_oval_plan.png"
+    },
+    {
+      "file": "chicken-gun-fruzer-city.glb",
+      "sha256": "1dd0bff54622a60f0155e9bf491bb75b184472ba635354ba401735f9de46436f",
+      "status": "authored-route-required",
+      "reason": "Modular road network; choose a closed route and define junction boundaries. Road meshes and signs must be separated. No unique automatic racing loop.",
+      "duplicate_of": null,
+      "course_id": null,
+      "megabytes": 25.47,
+      "triangles": 309042,
+      "meshes": 455,
+      "images": 8,
+      "rgba_level_bytes": 6438912,
+      "route_type": "Custom-course environment",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "Tr\u1ea7n H\u00e0 Linh Full Top 1 (https://sketchfab.com/tranhalinh2024)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/chicken-gun-fruzer-city-b933bb49ad28420d8e36820fbe133e01",
+        "title": "Chicken-gun-fruzer-city"
+      },
+      "extraction_branch": "surface/UV classification then selected route",
+      "topology": null,
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/chicken-gun-fruzer-city_plan.png"
+    },
+    {
+      "file": "chicken_gun_fruzer_-_encampment.glb",
+      "sha256": "c3a1dafc451129e624e29e489879bc04a1b4637500849c497cf63f67c8c896d8",
+      "status": "authored-route-required",
+      "reason": "Generic/merged environment geometry; no clearly named race corridor. 101 embedded images; surface selection and performance work required.",
+      "duplicate_of": null,
+      "course_id": null,
+      "megabytes": 32.18,
+      "triangles": 156918,
+      "meshes": 1586,
+      "images": 101,
+      "rgba_level_bytes": 115343360,
+      "route_type": "Environment; suitability needs authored route",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "amogusstrikesback2 (https://sketchfab.com/amogusstrikesback2)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/chicken-gun-fruzer-encampment-a335f8c7d52c477ebe04100744ec639b",
+        "title": "chicken gun fruzer - encampment"
+      },
+      "extraction_branch": "surface/UV classification then selected route",
+      "topology": null,
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/chicken_gun_fruzer_-_encampment_plan.png"
+    },
+    {
+      "file": "chicken_gun_fruzer_cyberpunk.glb",
+      "sha256": "f2efffc1cd27a1aea7188761fe1d941f48e60f744ba426331c714186fc062d54",
+      "status": "authored-route-required",
+      "reason": "Named road pieces and markings form a network. Route choice, intersection clipping and collision/prop review required.",
+      "duplicate_of": null,
+      "course_id": null,
+      "megabytes": 44.25,
+      "triangles": 404758,
+      "meshes": 945,
+      "images": 10,
+      "rgba_level_bytes": 11337728,
+      "route_type": "Custom-course environment",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "amogusstrikesback2 (https://sketchfab.com/amogusstrikesback2)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/chicken-gun-fruzer-cyberpunk-e142540c5bbd47d89590607b69ed9999",
+        "title": "chicken gun fruzer cyberpunk"
+      },
+      "extraction_branch": "surface/UV classification then selected route",
+      "topology": null,
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/chicken_gun_fruzer_cyberpunk_plan.png"
+    },
+    {
+      "file": "chiostro_ex_convento_di_civitaretenga_laquila.glb",
+      "sha256": "d20616b273c5cb1e484eaa5a5b804bc1488b204bc56a5b4a707e4d749819cc51",
+      "status": "authored-route-required",
+      "reason": "Three generic textured meshes, 250,000 triangles. No dedicated road identity found. Needs a designed supported course. Embedded licence differs; see metadata note below.",
+      "duplicate_of": null,
+      "course_id": null,
+      "megabytes": 20.77,
+      "triangles": 250000,
+      "meshes": 3,
+      "images": 1,
+      "rgba_level_bytes": 67108864,
+      "route_type": "Scanned environment; poor fit for automatic circuit extraction",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "Graziano Di Crescenzo (https://sketchfab.com/grazianodicrescenzo)",
+        "license": "CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)",
+        "source": "https://sketchfab.com/3d-models/chiostro-ex-convento-di-civitaretenga-laquila-11cdeefad00d43d889cd7652705d16fc",
+        "title": "Chiostro ex Convento di Civitaretenga (L'Aquila)"
+      },
+      "extraction_branch": "surface/UV classification then selected route",
+      "topology": null,
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/chiostro_ex_convento_di_civitaretenga_laquila_plan.png"
+    },
+    {
+      "file": "circuit_de_spa-francorchamps_1939_layout.glb",
+      "sha256": "97205dfe1198807c9afe04f3f7a8101af85a21159c34b0879db097cf6bb5d83a",
+      "status": "needs-repair",
+      "reason": "Road-like pieces exist, but broad name matching includes scenery/signs. Requires explicit surface selection and exclusion of alternate/ancillary roads.",
+      "duplicate_of": null,
+      "course_id": null,
+      "megabytes": 70.95,
+      "triangles": 720698,
+      "meshes": 96,
+      "images": 87,
+      "rgba_level_bytes": 93536256,
+      "route_type": "Circuit candidate; 720,698 triangles",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "Dave Love SketchFab (https://sketchfab.com/Tyler_Dave)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/circuit-de-spa-francorchamps-1939-layout-05292956ec6c40c48fe9cbc1d7b02314",
+        "title": "Circuit de Spa-Francorchamps 1939 layout"
+      },
+      "extraction_branch": "surface/UV classification then selected route",
+      "topology": null,
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/circuit_de_spa-francorchamps_1939_layout_plan.png"
+    },
+    {
+      "file": "cnr_ds_-_death_rally.glb",
+      "sha256": "7a03dfe81a7894accf2f5c33929e9bebff1450c904efdcb7ca915a38ccd146c4",
+      "status": "needs-repair",
+      "reason": "Named bend/start/split pieces. Five substantial disconnected projected parts; do not claim a complete circuit until gaps/route branches are resolved.",
+      "duplicate_of": null,
+      "course_id": null,
+      "megabytes": 0.55,
+      "triangles": 4161,
+      "meshes": 138,
+      "images": 19,
+      "rgba_level_bytes": 595968,
+      "route_type": "Lightweight candidate; 4,161 triangles",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "amogusstrikesback2 (https://sketchfab.com/amogusstrikesback2)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/cnr-ds-death-rally-db5f7572b68d440f80b42d47063d10b6",
+        "title": "cnr ds - death rally"
+      },
+      "extraction_branch": "dedicated/layer-aware road",
+      "topology": {
+        "file": "cnr_ds_-_death_rally.glb",
+        "selected": [
+          {
+            "name": "DC_bender3.001_Track1_2.003_0",
+            "surface": 0
+          },
+          {
+            "name": "DC_bend1.002_Track1_2_0",
+            "surface": 0
+          },
+          {
+            "name": "DC_bender1.001_Track1_2.001_0",
+            "surface": 0
+          },
+          {
+            "name": "DC_bender2.001_Track1_2.002_0",
+            "surface": 0
+          },
+          {
+            "name": "DC_bender4.001_Track1_2.004_0",
+            "surface": 0
+          },
+          {
+            "name": "DC_canyon1.001_Track1_2.005_0",
+            "surface": 0
+          },
+          {
+            "name": "DC_canyon2.003_Track1_2.006_0",
+            "surface": 0
+          },
+          {
+            "name": "DC_chicane.001_Track1_2.007_0",
+            "surface": 0
+          },
+          {
+            "name": "DC_corner.003_Track1_2.008_0",
+            "surface": 0
+          },
+          {
+            "name": "DC_hairpin.002_Track1_2.009_0",
+            "surface": 0
+          },
+          {
+            "name": "DC_kink1.001_Track1_2.010_0",
+            "surface": 0
+          },
+          {
+            "name": "DC_kink2.001_Track1_2.011_0",
+            "surface": 0
+          },
+          {
+            "name": "DC_split1.004_Track1_2.012_0",
+            "surface": 0
+          },
+          {
+            "name": "DC_split2.005_Track1_2.013_0",
+            "surface": 0
+          },
+          {
+            "name": "DC_split2A.003_Track1_2.014_0",
+            "surface": 0
+          },
+          {
+            "name": "DC_Start.005_Track1_2.015_0",
+            "surface": 0
+          }
+        ],
+        "triangles": 262,
+        "components": 5,
+        "holes": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "area_fractions": [
+          0.46483305546729725,
+          0.17686564628660792,
+          0.1568485645684889,
+          0.14472415389475676,
+          0.05672857978284923
+        ],
+        "valid": true,
+        "height_range": [
+          -16.851477709746835,
+          0.2281854357496239
+        ],
+        "caveat": "Provisional semantic selection. X/Z union is not a layer-aware boundary validation."
+      },
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/cnr_ds_-_death_rally_plan.png"
+    },
+    {
+      "file": "free_fire_burmuda_map_the_circuit_3d_model.glb",
+      "sha256": "016a8f9703ac5efe7a7c942013934da9e8f84f2e0baa6f4037daac8033a29084",
+      "status": "needs-repair",
+      "reason": "Triangle read succeeds after skipping a line helper. Generic materials/nodes need surface segmentation and course selection. Embedded licence is Sketchfab Standard, not CC BY.",
+      "duplicate_of": null,
+      "course_id": null,
+      "megabytes": 16.41,
+      "triangles": 140212,
+      "meshes": 38,
+      "images": 13,
+      "rgba_level_bytes": 45088768,
+      "route_type": "Conditional map candidate",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "ROCK FF 99 (https://sketchfab.com/amansoyal781)",
+        "license": "SKETCHFAB Standard (https://sketchfab.com/licenses)",
+        "source": "https://sketchfab.com/3d-models/free-fire-burmuda-map-the-circuit-3d-model-6897d14634a548f098170032abf3aaef",
+        "title": "Free Fire Burmuda Map The Circuit 3D Model"
+      },
+      "extraction_branch": "surface/UV classification then selected route",
+      "topology": null,
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/free_fire_triangle_rerun/free_fire_burmuda_map_the_circuit_3d_model_plan.png"
+    },
+    {
+      "file": "gt_racing_2_-_barcelona.glb",
+      "sha256": "8696f230621de229b7ea2ce889657121b397829454dfe411d28e9c8b40e14bd6",
+      "status": "authored-route-required",
+      "reason": "Dedicated road groups, but initial union has 16 components and road junctions. Select the intended loop. Embedded licence differs; see below.",
+      "duplicate_of": null,
+      "course_id": null,
+      "megabytes": 61.27,
+      "triangles": 141484,
+      "meshes": 408,
+      "images": 35,
+      "rgba_level_bytes": 267124736,
+      "route_type": "Conditional road-network candidate",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "amogusstrikesback2 (https://sketchfab.com/amogusstrikesback2)",
+        "license": "CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)",
+        "source": "https://sketchfab.com/3d-models/gt-racing-2-barcelona-8e2a60cedc704dbc8e9ff4313eb607e1",
+        "title": "gt racing 2 - barcelona"
+      },
+      "extraction_branch": "dedicated/layer-aware road",
+      "topology": {
+        "file": "gt_racing_2_-_barcelona.glb",
+        "selected": [
+          {
+            "name": "road_road_PIVOT.001_road_main_0",
+            "surface": 0
+          },
+          {
+            "name": "road_road_PIVOT.002_road_main.001_0",
+            "surface": 0
+          },
+          {
+            "name": "road_road_PIVOT.003_road_NO_MID_LINE_0",
+            "surface": 0
+          },
+          {
+            "name": "road_road_PIVOT.005_road_clear_0",
+            "surface": 0
+          }
+        ],
+        "triangles": 2708,
+        "components": 16,
+        "holes": [
+          1,
+          16,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "area_fractions": [
+          0.5403614651359264,
+          0.28072994261042006,
+          0.03375131012773844,
+          0.032174306546111704,
+          0.03169665641678077,
+          0.01580732953774581,
+          0.014325630557514273,
+          0.009705132340242307,
+          0.008019669953613145,
+          0.00618492751961627
+        ],
+        "valid": true,
+        "height_range": [
+          -260.952498038053,
+          -220.940618589807
+        ],
+        "caveat": "Provisional semantic selection. X/Z union is not a layer-aware boundary validation."
+      },
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/gt_racing_2_-_barcelona_plan.png"
+    },
+    {
+      "file": "gt_racing_2_-_glen_canyon_dam.glb",
+      "sha256": "4f2e14067c892f701d8c2317e83b8bbe5128f63f8f94e4eaa5bda5c9a60a8bfb",
+      "status": "needs-repair",
+      "reason": "Named road groups; two substantial projected areas plus tiny fragments. The provisional selection does not prove a closed drivable route.",
+      "duplicate_of": null,
+      "course_id": null,
+      "megabytes": 40.54,
+      "triangles": 113607,
+      "meshes": 139,
+      "images": 21,
+      "rgba_level_bytes": 195035136,
+      "route_type": "Candidate requiring route/surface review",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "amogusstrikesback2 (https://sketchfab.com/amogusstrikesback2)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/gt-racing-2-glen-canyon-dam-194f8a8c465f4e578ef45e3a4cc3932a",
+        "title": "gt racing 2 - glen canyon dam"
+      },
+      "extraction_branch": "dedicated/layer-aware road",
+      "topology": {
+        "file": "gt_racing_2_-_glen_canyon_dam.glb",
+        "selected": [
+          {
+            "name": "Road2_road_Material__139_0",
+            "surface": 0
+          },
+          {
+            "name": "Road2_road_GR_0",
+            "surface": 0
+          },
+          {
+            "name": "Road_road_ROAD_0",
+            "surface": 0
+          },
+          {
+            "name": "Road_road_ROAD_2_0",
+            "surface": 0
+          },
+          {
+            "name": "Road_road_Material__307_0",
+            "surface": 0
+          },
+          {
+            "name": "Road_road_Material__237_0",
+            "surface": 0
+          },
+          {
+            "name": "Road_road_ROAD_1_0",
+            "surface": 0
+          },
+          {
+            "name": "Road_road_Road_4_0",
+            "surface": 0
+          },
+          {
+            "name": "Track_1_PIVOT_ROAD_0",
+            "surface": 0
+          }
+        ],
+        "triangles": 4739,
+        "components": 23,
+        "holes": [
+          80,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "area_fractions": [
+          0.8929481479876505,
+          0.10705182676679496,
+          2.522836759245553e-08,
+          4.3157671806441905e-12,
+          4.312895245248852e-12,
+          4.312030646357834e-12,
+          4.891469213770924e-13,
+          4.859039725456187e-13,
+          4.5169352759139033e-13,
+          4.510567242410222e-13
+        ],
+        "valid": true,
+        "height_range": [
+          1.9510429184872802,
+          65.19696960172764
+        ],
+        "caveat": "Provisional semantic selection. X/Z union is not a layer-aware boundary validation."
+      },
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/gt_racing_2_-_glen_canyon_dam_plan.png"
+    },
+    {
+      "file": "gt_racing_2_-_lake_como.glb",
+      "sha256": "bb7fdcf59f9a6cdc68e0646c5f19e5b01308cace7d4e2523f6bf0bd5bd4cc340",
+      "status": "needs-repair",
+      "reason": "Road/causeway groups include broad filled areas in projection. Select actual driving triangles within these groups; whole-node selection is insufficient.",
+      "duplicate_of": null,
+      "course_id": null,
+      "megabytes": 81.71,
+      "triangles": 115966,
+      "meshes": 535,
+      "images": 37,
+      "rgba_level_bytes": 281018368,
+      "route_type": "Candidate requiring finer road classification",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "amogusstrikesback2 (https://sketchfab.com/amogusstrikesback2)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/gt-racing-2-lake-como-864a180df3004d81b5bf15d664cc21b4",
+        "title": "gt racing 2 - lake como"
+      },
+      "extraction_branch": "dedicated/layer-aware road",
+      "topology": {
+        "file": "gt_racing_2_-_lake_como.glb",
+        "selected": [
+          {
+            "name": "Road_road_roud2E_0",
+            "surface": 0
+          },
+          {
+            "name": "Road_road.001_rood2b_0",
+            "surface": 0
+          },
+          {
+            "name": "Road_road.002_Material__3224_0",
+            "surface": 0
+          },
+          {
+            "name": "Road_road.003_rood2_0",
+            "surface": 0
+          },
+          {
+            "name": "Road_road.004_rood_0",
+            "surface": 0
+          },
+          {
+            "name": "Road_road.005_Rood2a_0",
+            "surface": 0
+          },
+          {
+            "name": "Road_road.006_rood1a_0",
+            "surface": 0
+          },
+          {
+            "name": "Road_road.007_rood2c_0",
+            "surface": 0
+          },
+          {
+            "name": "causeway_road_PIVOT_floor5.002_0",
+            "surface": 0
+          },
+          {
+            "name": "causeway_road_PIVOT.001_floor5_0",
+            "surface": 0
+          },
+          {
+            "name": "causeway_road_PIVOT.002_floor_1_0",
+            "surface": 0
+          },
+          {
+            "name": "causeway_road_PIVOT.003_floor4_0",
+            "surface": 0
+          },
+          {
+            "name": "causeway_road_PIVOT.004_floor5.001_0",
+            "surface": 0
+          },
+          {
+            "name": "causeway_road_PIVOT.005_floor3_0",
+            "surface": 0
+          }
+        ],
+        "triangles": 5169,
+        "components": 5,
+        "holes": [
+          152,
+          0,
+          0,
+          0,
+          0
+        ],
+        "area_fractions": [
+          0.9702282308439019,
+          0.01727089702342802,
+          0.00896715915869466,
+          0.002499178341393042,
+          0.0010345346325823456
+        ],
+        "valid": true,
+        "height_range": [
+          -4.02530750002137,
+          171.36994071888716
+        ],
+        "caveat": "Provisional semantic selection. X/Z union is not a layer-aware boundary validation."
+      },
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/gt_racing_2_-_lake_como_plan.png"
+    },
+    {
+      "file": "gt_racing_2_-_montreal.glb",
+      "sha256": "ffa4e16665a2f024c11d5d705d9d3d06664536854295fe59fd6503b56bcbe318",
+      "status": "needs-repair",
+      "reason": "Named road groups include broad areas and branches; nine projected parts. Inspect UV/material regions and select the circuit.",
+      "duplicate_of": null,
+      "course_id": null,
+      "megabytes": 42.24,
+      "triangles": 96178,
+      "meshes": 39,
+      "images": 23,
+      "rgba_level_bytes": 186908672,
+      "route_type": "Candidate requiring finer road classification",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "amogusstrikesback2 (https://sketchfab.com/amogusstrikesback2)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/gt-racing-2-montreal-628533463f1f487f85a38a134a5f26f3",
+        "title": "gt racing 2 - montreal"
+      },
+      "extraction_branch": "dedicated/layer-aware road",
+      "topology": {
+        "file": "gt_racing_2_-_montreal.glb",
+        "selected": [
+          {
+            "name": "road_road_PIVOT_road_road_clean.002_0",
+            "surface": 0
+          },
+          {
+            "name": "road_road_PIVOT_road_road_zebra_signs.002_0",
+            "surface": 0
+          },
+          {
+            "name": "road_road_PIVOT_road_road_main.004_0",
+            "surface": 0
+          },
+          {
+            "name": "road_road_PIVOT_road_road_main.005_0",
+            "surface": 0
+          }
+        ],
+        "triangles": 2843,
+        "components": 9,
+        "holes": [
+          17,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        "area_fractions": [
+          0.7999859797518619,
+          0.049620995746978945,
+          0.031013290349121318,
+          0.029357152954948486,
+          0.027683093908931047,
+          0.02361122155932315,
+          0.02080915087525907,
+          0.01507371462685816,
+          0.0028454002267178633
+        ],
+        "valid": true,
+        "height_range": [
+          -14.312704310158303,
+          45.42254973820514
+        ],
+        "caveat": "Provisional semantic selection. X/Z union is not a layer-aware boundary validation."
+      },
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/gt_racing_2_-_montreal_plan.png"
+    },
+    {
+      "file": "gt_racing_2_-_mount_rainier.glb",
+      "sha256": "929dc70055d97433b97e10f2a99705bbd6d46db7faa2f64371377958fed4c9d1",
+      "status": "active",
+      "reason": "Existing independent asphalt rings, monotonic pairing and barycentric heights. Reference selection again gives one polygon with one hole. Preserve canonical measurements.",
+      "duplicate_of": null,
+      "course_id": "mount_rainier",
+      "megabytes": 47.63,
+      "triangles": 105407,
+      "meshes": 51,
+      "images": 34,
+      "rgba_level_bytes": 200802304,
+      "route_type": "Exact match to active Mount Rainier",
+      "physical_support": "accepted course evidence",
+      "layers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "usable_width": {
+        "min": 3.920460854066156,
+        "max": 11.90224189715068,
+        "unit": "game units; accepted samples"
+      },
+      "credits": {
+        "author": "amogusstrikesback2 (https://sketchfab.com/amogusstrikesback2)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/gt-racing-2-mount-rainier-c4efa86f4b7b4cd5b897fd6c67645a32",
+        "title": "gt racing 2 - mount rainier"
+      },
+      "extraction_branch": "dedicated/layer-aware road",
+      "topology": {
+        "file": "gt_racing_2_-_mount_rainier.glb",
+        "selected": [
+          {
+            "name": "road_road_PIVOT_road_tracks_0",
+            "surface": 0
+          },
+          {
+            "name": "road_road_PIVOT.001_road_0",
+            "surface": 0
+          },
+          {
+            "name": "road_road_PIVOT.002_road_marking_0",
+            "surface": 0
+          },
+          {
+            "name": "road_road_PIVOT.003_road_clean_0",
+            "surface": 0
+          }
+        ],
+        "triangles": 5012,
+        "components": 1,
+        "holes": [
+          1
+        ],
+        "area_fractions": [
+          1.0
+        ],
+        "valid": true,
+        "height_range": [
+          -0.17288161096147908,
+          37.1944357898326
+        ],
+        "caveat": "Provisional semantic selection. X/Z union is not a layer-aware boundary validation."
+      },
+      "capabilities": {
+        "modes": [
+          "quick",
+          "trial",
+          "freestyle",
+          "challenge",
+          "time_attack",
+          "elimination",
+          "tournament"
+        ],
+        "vehicles": [
+          "buggy",
+          "monster_truck",
+          "racing_car",
+          "drift_car",
+          "speedboat"
+        ],
+        "loft": false,
+        "crossings_jumps": {
+          "layers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "jump_exit": false
+        },
+        "readiness": "accepted route; existing enabled modes, target balance pending"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/gt_racing_2_-_mount_rainier_plan.png"
+    },
+    {
+      "file": "gt_racing_2_-_sunrise_ruins.glb",
+      "sha256": "0f43079e75811b90ca8271de417ecb5992f169c26e9555c4e6b08889ebdadc00",
+      "status": "needs-repair",
+      "reason": "Road-named groups include broad ground geometry; two substantial projected areas with many holes. Use triangle/texture selection and explicit surface transitions.",
+      "duplicate_of": null,
+      "course_id": null,
+      "megabytes": 42.65,
+      "triangles": 91417,
+      "meshes": 464,
+      "images": 27,
+      "rgba_level_bytes": 152567808,
+      "route_type": "Candidate requiring mixed-surface classification",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "amogusstrikesback2 (https://sketchfab.com/amogusstrikesback2)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/gt-racing-2-sunrise-ruins-150b6edf62c24bf688ec90ba0a18285b",
+        "title": "gt racing 2 - sunrise ruins"
+      },
+      "extraction_branch": "dedicated/layer-aware road",
+      "topology": {
+        "file": "gt_racing_2_-_sunrise_ruins.glb",
+        "selected": [
+          {
+            "name": "zona3_road__Material__6183_0",
+            "surface": 0
+          },
+          {
+            "name": "zona3_road_.001_Material__5702_0",
+            "surface": 0
+          },
+          {
+            "name": "zona3_road_.002_sand_0",
+            "surface": 0
+          },
+          {
+            "name": "zona3_road_.003_gtr2_lightmap.007_0",
+            "surface": 0
+          },
+          {
+            "name": "zona3_road_.004_gtr2_lightmap.008_0",
+            "surface": 0
+          },
+          {
+            "name": "zona3_road_.005_Material__6207_0",
+            "surface": 0
+          },
+          {
+            "name": "zona3_road_.006_gtr2_lightmap.004_0",
+            "surface": 0
+          },
+          {
+            "name": "zona3_road_.007_gtr2_lightmap.006_0",
+            "surface": 0
+          },
+          {
+            "name": "zone1_road_Material__6185_0",
+            "surface": 0
+          },
+          {
+            "name": "zone1_road.001_gtr2_lightmap_0",
+            "surface": 0
+          },
+          {
+            "name": "zone1_road.002_gtr2_roadmaterial_0",
+            "surface": 0
+          },
+          {
+            "name": "zone1_road.003_gtr2_lightmap.012_0",
+            "surface": 0
+          },
+          {
+            "name": "zone1_road.004_gtr2_lightmap.033_0",
+            "surface": 0
+          },
+          {
+            "name": "zone1_road.005_Material__5872_0",
+            "surface": 0
+          },
+          {
+            "name": "zone1_road.006_Material__6186_0",
+            "surface": 0
+          },
+          {
+            "name": "zone2_road_gtr2_lightmap.019_0",
+            "surface": 0
+          },
+          {
+            "name": "zone2_road.001_Material__5698_0",
+            "surface": 0
+          },
+          {
+            "name": "zone2_road.002_Material__6209_0",
+            "surface": 0
+          },
+          {
+            "name": "zone2_road.003_gtr2_lightmap.021_0",
+            "surface": 0
+          },
+          {
+            "name": "zone2_road.004_gtr2_lightmap.020_0",
+            "surface": 0
+          },
+          {
+            "name": "zone2_road.005_gtr2_lightmap.017_0",
+            "surface": 0
+          }
+        ],
+        "triangles": 17517,
+        "components": 2,
+        "holes": [
+          174,
+          17
+        ],
+        "area_fractions": [
+          0.6986760620455991,
+          0.30132393795440093
+        ],
+        "valid": true,
+        "height_range": [
+          4.243780400665859,
+          42.92840028007304
+        ],
+        "caveat": "Provisional semantic selection. X/Z union is not a layer-aware boundary validation."
+      },
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/gt_racing_2_-_sunrise_ruins_plan.png"
+    },
+    {
+      "file": "gt_racing_2_-_topspeed_oval.glb",
+      "sha256": "6478db57e4c7687eb536bb97efb7ca368ee4e0f76afcb5aef4b9448b5a179749",
+      "status": "active",
+      "reason": "Two `ringoval_road` primitives give one valid polygon with one hole. Exclude separately named drag strips; inspect banking and sample each boundary/centre height independently.",
+      "duplicate_of": null,
+      "course_id": "topspeed_oval",
+      "megabytes": 32.56,
+      "triangles": 94580,
+      "meshes": 268,
+      "images": 19,
+      "rgba_level_bytes": 130023424,
+      "route_type": "Strong candidate",
+      "physical_support": "accepted course evidence",
+      "layers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "usable_width": {
+        "min": 5.860555585879907,
+        "max": 8.304210385807522,
+        "unit": "game units; accepted samples"
+      },
+      "credits": {
+        "author": "amogusstrikesback2 (https://sketchfab.com/amogusstrikesback2)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/gt-racing-2-topspeed-oval-b16b90a16110462599bf61e34568e954",
+        "title": "gt racing 2 - topspeed oval"
+      },
+      "extraction_branch": "dedicated/layer-aware road",
+      "topology": {
+        "file": "gt_racing_2_-_topspeed_oval.glb",
+        "selected": [
+          {
+            "name": "ringoval_road_road1red_0",
+            "surface": 0
+          },
+          {
+            "name": "ringoval_road_road2blue_0",
+            "surface": 0
+          }
+        ],
+        "triangles": 832,
+        "components": 1,
+        "holes": [
+          1
+        ],
+        "area_fractions": [
+          1.0
+        ],
+        "valid": true,
+        "height_range": [
+          -0.03075284069770201,
+          2.7887873627591677
+        ],
+        "caveat": "Provisional semantic selection. X/Z union is not a layer-aware boundary validation."
+      },
+      "capabilities": {
+        "modes": [
+          "quick",
+          "trial",
+          "freestyle",
+          "challenge",
+          "time_attack",
+          "elimination",
+          "tournament"
+        ],
+        "vehicles": [
+          "buggy",
+          "monster_truck",
+          "racing_car",
+          "drift_car",
+          "speedboat"
+        ],
+        "loft": false,
+        "crossings_jumps": {
+          "layers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "jump_exit": false
+        },
+        "readiness": "accepted route; existing enabled modes, target balance pending"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/gt_racing_2_-_topspeed_oval_plan.png"
+    },
+    {
+      "file": "low_poly_race_track.glb",
+      "sha256": "9d7336909ba384b45724bcf9ded77f46d71f46e1da9137edbd0db0192496c068",
+      "status": "needs-repair",
+      "reason": "New source: select driving primitives, review topology/layers/start cue, and measure width before extraction.",
+      "duplicate_of": null,
+      "course_id": null,
+      "megabytes": 0.43,
+      "triangles": 6352,
+      "meshes": 3,
+      "images": 1,
+      "rgba_level_bytes": 262144,
+      "route_type": "New circuit candidate",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "elhayel77 (https://sketchfab.com/elhayel77)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/low-poly-race-track-d672faf6f9674ca1833921dba1984a9c",
+        "title": "Low poly race track"
+      },
+      "extraction_branch": "surface/UV classification then selected route",
+      "topology": null,
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/additions_20261005/low_poly_race_track/low_poly_race_track_plan.png"
+    },
+    {
+      "file": "low_poly_room.glb",
+      "sha256": "88b9573a69b9758ddcaaac843e51bcb5bae89961626073ac9585cf781ff1e4b1",
+      "status": "authored-route-required",
+      "reason": "Furniture/floor environment without a named racing corridor. Author a route using supported surfaces and props; boundaries are a design decision.",
+      "duplicate_of": null,
+      "course_id": null,
+      "megabytes": 5.16,
+      "triangles": 15626,
+      "meshes": 154,
+      "images": 15,
+      "rgba_level_bytes": 25493504,
+      "route_type": "Custom miniature-course environment; 15,626 triangles",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "Ralph_SwH (https://sketchfab.com/Ralph_SwH)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/low-poly-room-6efd70b753f24ed2b12541e43154ffdd",
+        "title": "Low Poly Room"
+      },
+      "extraction_branch": "surface/UV classification then selected route",
+      "topology": null,
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/low_poly_room_plan.png"
+    },
+    {
+      "file": "marina_bay_street_circuit.glb",
+      "sha256": "7759c53237d585c6f8e74f9a303712ff0d00ee92bf30ae83713c11a85556ffde",
+      "status": "needs-repair",
+      "reason": "Generic `Object_*` nodes and 99 images; manual road classification first. Material/node count warrants batching and rendered performance review.",
+      "duplicate_of": null,
+      "course_id": null,
+      "megabytes": 59.5,
+      "triangles": 813533,
+      "meshes": 131,
+      "images": 99,
+      "rgba_level_bytes": 24313984,
+      "route_type": "Circuit candidate; 813,533 triangles",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "Dave Bored SketchFab (https://sketchfab.com/Tyler_Dave)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/marina-bay-street-circuit-e665d831c57546609d4c15287a6107b7",
+        "title": "Marina Bay Street Circuit"
+      },
+      "extraction_branch": "surface/UV classification then selected route",
+      "topology": null,
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/marina_bay_street_circuit_plan.png"
+    },
+    {
+      "file": "monza_circuit_1998_layout.glb",
+      "sha256": "719d74aab2aeb47362ec4ddf9f2b826968e47f0910e9692e4b0e515b301762e2",
+      "status": "needs-repair",
+      "reason": "Generic nodes and 99 images. Select road versus terrain/barriers and distinguish intended layout/pit road before perimeter extraction.",
+      "duplicate_of": null,
+      "course_id": null,
+      "megabytes": 48.77,
+      "triangles": 151548,
+      "meshes": 109,
+      "images": 99,
+      "rgba_level_bytes": 112771072,
+      "route_type": "Circuit candidate; 151,548 triangles",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "Dave Bored SketchFab (https://sketchfab.com/Tyler_Dave)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/monza-circuit-1998-layout-01ee75b53e6d4e2895b6f69ea9cb4f5c",
+        "title": "Monza Circuit 1998 layout"
+      },
+      "extraction_branch": "surface/UV classification then selected route",
+      "topology": null,
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/monza_circuit_1998_layout_plan.png"
+    },
+    {
+      "file": "nurburgring_gp_2016_layout.glb",
+      "sha256": "5a87c64019ea7872eb0512d6700640fc0a1796bd56accf2283e1bdf5621268e5",
+      "status": "needs-repair",
+      "reason": "Generic node/material identities; inspect road surfaces and layout choices. Image dimensions imply about 295 MB for one RGBA level across image entries, before compression/deduplication.",
+      "duplicate_of": null,
+      "course_id": null,
+      "megabytes": 91.68,
+      "triangles": 310377,
+      "meshes": 54,
+      "images": 44,
+      "rgba_level_bytes": 295026688,
+      "route_type": "Circuit candidate; 310,377 triangles",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "Dave Love SketchFab (https://sketchfab.com/Tyler_Dave)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/nurburgring-gp-2016-layout-5993aa0140764b4ea23bb285d23aa57e",
+        "title": "N\u00fcrburgring GP 2016 layout"
+      },
+      "extraction_branch": "surface/UV classification then selected route",
+      "topology": null,
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/nurburgring_gp_2016_layout_plan.png"
+    },
+    {
+      "file": "pool.glb",
+      "sha256": "802984f8781735708c73b3295f7db604bc668fa8cad6c9d9ed0a018068e4f02b",
+      "status": "authored-route-required",
+      "reason": "305,624 triangles in 3,213 mesh entries. No named road corridor; author a supported poolside route and review batching/collision. Mesh entries are not a measured draw-call count.",
+      "duplicate_of": null,
+      "course_id": null,
+      "megabytes": 21.21,
+      "triangles": 305624,
+      "meshes": 3213,
+      "images": 12,
+      "rgba_level_bytes": 30932992,
+      "route_type": "Custom-course environment",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "Arbin4444 (https://sketchfab.com/digilife4444)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/pool-1711ea3b6e884ff8acb0ff0d0bded17f",
+        "title": "pool"
+      },
+      "extraction_branch": "surface/UV classification then selected route",
+      "topology": null,
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/pool_plan.png"
+    },
+    {
+      "file": "race_game_environment.glb",
+      "sha256": "e61e2ea9abae8f38181e40f3dd41f92f0320eaceefa0ad95cb44d3e58bcd7971",
+      "status": "authored-route-required",
+      "reason": "470,867 triangles split across generic meshes, shared material and sky image. Filename alone does not establish a usable road; needs triangle/UV or vertex-attribute segmentation.",
+      "duplicate_of": null,
+      "course_id": null,
+      "megabytes": 36.48,
+      "triangles": 470867,
+      "meshes": 16,
+      "images": 2,
+      "rgba_level_bytes": 1048832,
+      "route_type": "Unresolved environment/circuit candidate",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "Pranav 3d (https://sketchfab.com/pranavsketchup2010)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/race-game-environment-31da91ea095d401ba78c603bdafae58c",
+        "title": "Race Game Environment"
+      },
+      "extraction_branch": "surface/UV classification then selected route",
+      "topology": null,
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/race_game_environment_plan.png"
+    },
+    {
+      "file": "race_track.glb",
+      "sha256": "be77a66c7cf488f164d292ffca58949b8e95dd5e8724d6e2d038db1d28c355e5",
+      "status": "needs-repair",
+      "reason": "New source: select driving primitives, review topology/layers/start cue, and measure width before extraction.",
+      "duplicate_of": null,
+      "course_id": null,
+      "megabytes": 26.32,
+      "triangles": 473037,
+      "meshes": 511,
+      "images": 2,
+      "rgba_level_bytes": 8388608,
+      "route_type": "New circuit candidate",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "Ryze3D (https://sketchfab.com/Ryze3D)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/race-track-76b71b201e4f4af89b491a6d232223db",
+        "title": "RACE TRACK"
+      },
+      "extraction_branch": "surface/UV classification then selected route",
+      "topology": null,
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/additions_20261005/race_track/race_track_plan.png"
+    },
+    {
+      "file": "race_track_map.glb",
+      "sha256": "81dd8a585c4c75380da2466f5b90c56910e97473fb233ae241ad1319cd25b806",
+      "status": "needs-repair",
+      "reason": "Explicit `ROAD` material yields three disjoint annular polygons. Select intended component(s), confirm visible start/finish connection and exclude kerbs/lines/fences.",
+      "duplicate_of": null,
+      "course_id": null,
+      "megabytes": 72.41,
+      "triangles": 607261,
+      "meshes": 281,
+      "images": 26,
+      "rgba_level_bytes": 91750400,
+      "route_type": "Promising road candidate; 607,261 triangles total",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "Mabaso_J (https://sketchfab.com/pgs_jayb3e)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/race-track-map-c9f923f05b7443b6b55f0f2a19e0cb48",
+        "title": "Race Track Map"
+      },
+      "extraction_branch": "dedicated/layer-aware road",
+      "topology": {
+        "file": "race_track_map.glb",
+        "selected": [
+          {
+            "name": "Object_4",
+            "surface": 0
+          }
+        ],
+        "triangles": 64680,
+        "components": 3,
+        "holes": [
+          1,
+          1,
+          1
+        ],
+        "area_fractions": [
+          0.7811184124063607,
+          0.11621165818379758,
+          0.10266992940984176
+        ],
+        "valid": true,
+        "height_range": [
+          -5.9604643352497246e-08,
+          5.9604643352497246e-08
+        ],
+        "caveat": "Provisional semantic selection. X/Z union is not a layer-aware boundary validation."
+      },
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/race_track_map_plan.png"
+    },
+    {
+      "file": "raceway_map.glb",
+      "sha256": "ffab0ae83d44aacb4d543c9d73497403f353731057467aba84462aa32e6595e0",
+      "status": "needs-repair",
+      "reason": "Dedicated 363-triangle driving collision mesh and explicit bridge node. Projection has three holes; avoid flattening the bridge crossing. Review extra hidden collision mesh separately.",
+      "duplicate_of": null,
+      "course_id": null,
+      "megabytes": 9.0,
+      "triangles": 18580,
+      "meshes": 8,
+      "images": 3,
+      "rgba_level_bytes": 34603008,
+      "route_type": "Strong layered candidate; 18,580 triangles total",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "amogusstrikesback2 (https://sketchfab.com/amogusstrikesback2)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/raceway-map-cb3a6279371f491eb7daf21f28c7fa16",
+        "title": "raceway map"
+      },
+      "extraction_branch": "surface/UV classification then selected route",
+      "topology": null,
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/raceway_map_plan.png"
+    },
+    {
+      "file": "silverstone_circuit_2024_layout.glb",
+      "sha256": "228c897e5c15674fd62d936160f0599602ca28c61e13aaf32555fd0084d58783",
+      "status": "needs-repair",
+      "reason": "Numerous generic nodes; classify road and alternative layouts, exclude surroundings, review geometry/material batching and performance.",
+      "duplicate_of": null,
+      "course_id": null,
+      "megabytes": 165.82,
+      "triangles": 1197030,
+      "meshes": 87,
+      "images": 69,
+      "rgba_level_bytes": 196403200,
+      "route_type": "Circuit candidate; 1,197,030 triangles, 165.82 MB",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "Dave Love SketchFab (https://sketchfab.com/Tyler_Dave)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/silverstone-circuit-2024-layout-bbaf4b12d5244c76998fd44f771fc0b3",
+        "title": "Silverstone Circuit 2024 layout"
+      },
+      "extraction_branch": "surface/UV classification then selected route",
+      "topology": null,
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/silverstone_circuit_2024_layout_plan.png"
+    },
+    {
+      "file": "suzuka_circuit_2001_layout.glb",
+      "sha256": "9992eb661a919a59911f048f77fd73e5948e6f72bdbc7abcd704a68f749036b9",
+      "status": "needs-repair",
+      "reason": "Generic node/material names. Establish actual road surfaces and crossing layers before union; require separate source heights at crossings.",
+      "duplicate_of": null,
+      "course_id": null,
+      "megabytes": 61.99,
+      "triangles": 351143,
+      "meshes": 120,
+      "images": 112,
+      "rgba_level_bytes": 189358080,
+      "route_type": "Layered circuit candidate; 351,143 triangles",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "Dave Bored SketchFab (https://sketchfab.com/Tyler_Dave)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/suzuka-circuit-2001-layout-0b1085d93dfa4e81aab2c83c26bf185b",
+        "title": "Suzuka Circuit 2001 layout"
+      },
+      "extraction_branch": "surface/UV classification then selected route",
+      "topology": null,
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/suzuka_circuit_2001_layout_plan.png"
+    },
+    {
+      "file": "table_top_racing_-_firefly_bbq.glb",
+      "sha256": "59c8aa23122438ef3662b00878ac22d81351b066560e25022359ff66937548b3",
+      "status": "active",
+      "reason": "Existing per-course UV/paint extraction and saved measurements.",
+      "duplicate_of": null,
+      "course_id": "firefly_bbq",
+      "megabytes": 14.1,
+      "triangles": 13907,
+      "meshes": 13,
+      "images": 9,
+      "rgba_level_bytes": 125829120,
+      "route_type": "Exact match to active Firefly BBQ",
+      "physical_support": "accepted course evidence",
+      "layers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "usable_width": {
+        "min": 6.5000000000000036,
+        "max": 8.150102450833606,
+        "unit": "game units; accepted samples"
+      },
+      "credits": {
+        "author": "amogusstrikesback2 (https://sketchfab.com/amogusstrikesback2)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/table-top-racing-firefly-bbq-2fc12d167b8848ce8f1c8a02ee13b6d7",
+        "title": "table top racing - firefly bbq"
+      },
+      "extraction_branch": "UV/paint",
+      "topology": null,
+      "capabilities": {
+        "modes": [
+          "quick",
+          "trial",
+          "freestyle",
+          "challenge",
+          "time_attack",
+          "elimination",
+          "tournament"
+        ],
+        "vehicles": [
+          "buggy",
+          "monster_truck",
+          "racing_car",
+          "drift_car",
+          "speedboat"
+        ],
+        "loft": false,
+        "crossings_jumps": {
+          "layers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "jump_exit": false
+        },
+        "readiness": "accepted route; existing enabled modes, target balance pending"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/table_top_racing_-_firefly_bbq_plan.png"
+    },
+    {
+      "file": "table_top_racing_-_moonlight_junk_heap.glb",
+      "sha256": "e18d779405452b4bf5abedb8ac3b8168e9d5a6c73fb99f285b533e39173a9388",
+      "status": "active",
+      "reason": "Existing per-course UV/paint extraction and saved measurements.",
+      "duplicate_of": null,
+      "course_id": "moonlight_junk_heap",
+      "megabytes": 13.59,
+      "triangles": 17576,
+      "meshes": 9,
+      "images": 8,
+      "rgba_level_bytes": 134217728,
+      "route_type": "Exact match to active Moonlight Junk Heap",
+      "physical_support": "accepted course evidence",
+      "layers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "usable_width": {
+        "min": 6.400000006870527,
+        "max": 9.036229014598378,
+        "unit": "game units; accepted samples"
+      },
+      "credits": {
+        "author": "amogusstrikesback2 (https://sketchfab.com/amogusstrikesback2)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/table-top-racing-moonlight-junk-heap-70903adf67624d2e90c2dae0d5cee467",
+        "title": "table top racing - moonlight junk heap"
+      },
+      "extraction_branch": "UV/paint",
+      "topology": null,
+      "capabilities": {
+        "modes": [
+          "quick",
+          "trial",
+          "freestyle",
+          "challenge",
+          "time_attack",
+          "elimination",
+          "tournament"
+        ],
+        "vehicles": [
+          "buggy",
+          "monster_truck",
+          "racing_car",
+          "drift_car",
+          "speedboat"
+        ],
+        "loft": false,
+        "crossings_jumps": {
+          "layers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "jump_exit": false
+        },
+        "readiness": "accepted route; existing enabled modes, target balance pending"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/table_top_racing_-_moonlight_junk_heap_plan.png"
+    },
+    {
+      "file": "table_top_racing_-_nighttime_noodles.glb",
+      "sha256": "686450782c91dd0f731eb6192c1509de2d95204bd64104e7302776fae04fdf1e",
+      "status": "active",
+      "reason": "Existing per-course UV/paint extraction and saved measurements.",
+      "duplicate_of": null,
+      "course_id": "nighttime_noodles",
+      "megabytes": 14.23,
+      "triangles": 21611,
+      "meshes": 11,
+      "images": 9,
+      "rgba_level_bytes": 125829120,
+      "route_type": "Exact match to active Nighttime Noodles",
+      "physical_support": "accepted course evidence",
+      "layers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "usable_width": {
+        "min": 5.860625029609598,
+        "max": 9.79928153504249,
+        "unit": "game units; accepted samples"
+      },
+      "credits": {
+        "author": "amogusstrikesback2 (https://sketchfab.com/amogusstrikesback2)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/table-top-racing-nighttime-noodles-1f8a8a8856cd4f2a95ef29cac4c9f9b7",
+        "title": "table top racing - nighttime noodles"
+      },
+      "extraction_branch": "UV/paint",
+      "topology": null,
+      "capabilities": {
+        "modes": [
+          "quick",
+          "trial",
+          "freestyle",
+          "challenge",
+          "time_attack",
+          "elimination",
+          "tournament"
+        ],
+        "vehicles": [
+          "buggy",
+          "monster_truck",
+          "racing_car",
+          "drift_car",
+          "speedboat"
+        ],
+        "loft": false,
+        "crossings_jumps": {
+          "layers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "jump_exit": false
+        },
+        "readiness": "accepted route; existing enabled modes, target balance pending"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/table_top_racing_-_nighttime_noodles_plan.png"
+    },
+    {
+      "file": "table_top_racing_-_rusty_nuts_workshop.glb",
+      "sha256": "52fe3012c9089159634a4db101b3b5993c315f343ba841e9fb492c927657c6e4",
+      "status": "active",
+      "reason": "Existing per-course UV/paint extraction and saved measurements.",
+      "duplicate_of": null,
+      "course_id": "rusty_nuts_workshop",
+      "megabytes": 17.81,
+      "triangles": 22339,
+      "meshes": 10,
+      "images": 9,
+      "rgba_level_bytes": 150994944,
+      "route_type": "Exact match to active Rusty Nuts Workshop",
+      "physical_support": "accepted course evidence",
+      "layers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "usable_width": {
+        "min": 5.169999999999999,
+        "max": 8.420555971736931,
+        "unit": "game units; accepted samples"
+      },
+      "credits": {
+        "author": "amogusstrikesback2 (https://sketchfab.com/amogusstrikesback2)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/table-top-racing-rusty-nuts-workshop-8ac8eef11e404195985dee59dabd5eb7",
+        "title": "table top racing - rusty nuts workshop"
+      },
+      "extraction_branch": "UV/paint",
+      "topology": null,
+      "capabilities": {
+        "modes": [
+          "quick",
+          "trial",
+          "freestyle",
+          "challenge",
+          "time_attack",
+          "elimination",
+          "tournament"
+        ],
+        "vehicles": [
+          "buggy",
+          "monster_truck",
+          "racing_car",
+          "drift_car",
+          "speedboat"
+        ],
+        "loft": false,
+        "crossings_jumps": {
+          "layers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "jump_exit": false
+        },
+        "readiness": "accepted route; existing enabled modes, target balance pending"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/table_top_racing_-_rusty_nuts_workshop_plan.png"
+    },
+    {
+      "file": "table_top_racing_-_toys_r_asleep.glb",
+      "sha256": "99f7c07dac78a2cd78a401460b9b114cbb93454ac830656c0cfe3b3d562c16ef",
+      "status": "active",
+      "reason": "Existing per-course UV/paint extraction and saved measurements.",
+      "duplicate_of": null,
+      "course_id": "toys_r_asleep",
+      "megabytes": 14.92,
+      "triangles": 16710,
+      "meshes": 10,
+      "images": 8,
+      "rgba_level_bytes": 134217728,
+      "route_type": "Exact match to active Toys R Asleep",
+      "physical_support": "accepted course evidence",
+      "layers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "usable_width": {
+        "min": 7.520000000000007,
+        "max": 12.146987785186743,
+        "unit": "game units; accepted samples"
+      },
+      "credits": {
+        "author": "amogusstrikesback2 (https://sketchfab.com/amogusstrikesback2)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/table-top-racing-toys-r-asleep-5e6fca61cc5e4d85a20675fd141b97b1",
+        "title": "table top racing - toys r asleep"
+      },
+      "extraction_branch": "UV/paint",
+      "topology": null,
+      "capabilities": {
+        "modes": [
+          "quick",
+          "trial",
+          "freestyle",
+          "challenge",
+          "time_attack",
+          "elimination",
+          "tournament"
+        ],
+        "vehicles": [
+          "buggy",
+          "monster_truck",
+          "racing_car",
+          "drift_car",
+          "speedboat"
+        ],
+        "loft": false,
+        "crossings_jumps": {
+          "layers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "jump_exit": false
+        },
+        "readiness": "accepted route; existing enabled modes, target balance pending"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/table_top_racing_-_toys_r_asleep_plan.png"
+    },
+    {
+      "file": "table_top_racing_-_toys_r_you.glb",
+      "sha256": "e4239695d0b1dc343bb03732b80c81557a5e07793604bae637560a8aeb152570",
+      "status": "active",
+      "reason": "Accepted canonical UV/paint-derived route; preserve it.",
+      "duplicate_of": null,
+      "course_id": "toys_r_you",
+      "megabytes": 11.74,
+      "triangles": 17161,
+      "meshes": 12,
+      "images": 10,
+      "rgba_level_bytes": 136314880,
+      "route_type": "Exact match to active Toys R You",
+      "physical_support": "accepted course evidence",
+      "layers": [
+        0,
+        1
+      ],
+      "usable_width": {
+        "min": 6.400044163584094,
+        "max": 10.425000000000008,
+        "unit": "game units; accepted samples"
+      },
+      "credits": {
+        "author": "amogusstrikesback2 (https://sketchfab.com/amogusstrikesback2)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/table-top-racing-toys-r-you-deff0be0d0284820ab6d94493b33e4e0",
+        "title": "table top racing - toys r you"
+      },
+      "extraction_branch": "UV/paint",
+      "topology": null,
+      "capabilities": {
+        "modes": [
+          "quick",
+          "trial",
+          "freestyle",
+          "challenge",
+          "time_attack",
+          "elimination",
+          "tournament"
+        ],
+        "vehicles": [
+          "buggy",
+          "monster_truck",
+          "racing_car",
+          "drift_car",
+          "speedboat"
+        ],
+        "loft": false,
+        "crossings_jumps": {
+          "layers": [
+            0,
+            1
+          ],
+          "jump_exit": false
+        },
+        "readiness": "accepted route; existing enabled modes, target balance pending"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/table_top_racing_-_toys_r_you_plan.png"
+    },
+    {
+      "file": "table_top_racing_beach_buggies.glb",
+      "sha256": "b7f0a73ee307ca4209a63e7aad24dee7b59895d27b7b6303cc9ef506b233a075",
+      "status": "archived-unusable",
+      "reason": "Owner-retired, not geometrically unusable. Retained inactive; reinstatement requires a new request.",
+      "duplicate_of": null,
+      "course_id": null,
+      "megabytes": 20.3,
+      "triangles": 14651,
+      "meshes": 13,
+      "images": 11,
+      "rgba_level_bytes": 134217728,
+      "route_type": "Exact match to retained Beach Buggies asset",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "amogusstrikesback2 (https://sketchfab.com/amogusstrikesback2)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/table-top-racing-beach-buggies-b159fb5373bc46edb6fb291f6d238f3f",
+        "title": "table top racing beach buggies"
+      },
+      "extraction_branch": "surface/UV classification then selected route",
+      "topology": null,
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/table_top_racing_beach_buggies_plan.png"
+    },
+    {
+      "file": "town_square_track.glb",
+      "sha256": "fc8a380a213968eb9d41309d8454c20a2fbac04f8af8dc5c192e06a46586a131",
+      "status": "active",
+      "reason": "Independent source boundaries/heights, support, checkpoint planes, clean Hard races, five-class Freestyle and production selector/loading verified. Other modes pending course trials.",
+      "duplicate_of": null,
+      "course_id": "town_square",
+      "megabytes": 18.09,
+      "triangles": 15879,
+      "meshes": 5,
+      "images": 3,
+      "rgba_level_bytes": 50331648,
+      "route_type": "Strong candidate; 15,879 triangles total",
+      "physical_support": "3888 candidate and authored support rays; see course evidence",
+      "layers": [
+        0
+      ],
+      "usable_width": {
+        "min": 7.482761015135271,
+        "max": 11.129374236994902,
+        "unit": "game units; accepted samples"
+      },
+      "credits": {
+        "author": "amogusstrikesback2 (https://sketchfab.com/amogusstrikesback2)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/town-square-track-410edb9f4ce0433981e91c05e7a225dd",
+        "title": "town square track"
+      },
+      "extraction_branch": "dedicated road annulus with source UV correspondence",
+      "topology": {
+        "components": 1,
+        "holes": 1,
+        "valid": true,
+        "conflicting_layers": false
+      },
+      "capabilities": {
+        "modes": [
+          "quick",
+          "trial",
+          "freestyle"
+        ],
+        "vehicles": [
+          "buggy",
+          "monster_truck",
+          "racing_car",
+          "drift_car",
+          "speedboat"
+        ],
+        "loft": false,
+        "crossings_jumps": {
+          "layers": [
+            0
+          ],
+          "jump_exit": false
+        },
+        "readiness": "accepted route; other modes and owner balance pending"
+      },
+      "evidence": "docs/verification/town_square.md"
+    },
+    {
+      "file": "silverstone_circuit_2024_layout (1).glb",
+      "sha256": "228c897e5c15674fd62d936160f0599602ca28c61e13aaf32555fd0084d58783",
+      "status": "duplicate",
+      "reason": "Identical hash to the other Silverstone file; one integration only. Do not delete either source automatically.",
+      "duplicate_of": "silverstone_circuit_2024_layout.glb",
+      "course_id": null,
+      "megabytes": 165.82,
+      "triangles": 1197030,
+      "meshes": 87,
+      "images": 69,
+      "rgba_level_bytes": 196403200,
+      "route_type": "Duplicate",
+      "physical_support": "unverified",
+      "layers": null,
+      "usable_width": null,
+      "credits": {
+        "author": "Dave Love SketchFab (https://sketchfab.com/Tyler_Dave)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/silverstone-circuit-2024-layout-bbaf4b12d5244c76998fd44f771fc0b3",
+        "title": "Silverstone Circuit 2024 layout"
+      },
+      "extraction_branch": "surface/UV classification then selected route",
+      "topology": null,
+      "capabilities": {
+        "modes": [],
+        "vehicles": [],
+        "loft": false,
+        "crossings_jumps": null,
+        "readiness": "not registered"
+      },
+      "evidence": "tests/baselines/content/glb_folder_audit/silverstone_circuit_2024_layout (1)_plan.png"
+    }
+  ]
+}

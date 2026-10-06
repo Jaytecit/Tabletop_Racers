@@ -1,0 +1,6 @@
+Single square shoulders-up character profile image for a colourful tabletop arcade racing game. Crisp 1990s hand-pixelled sprite illustration, chunky black/dark navy outlines, saturated red yellow cyan violet green highlights, simple blue and violet checkerboard background. Match the attached reference cast's pixel art and framing; only one character fills this entire image, no panels, labels, text or borders. LOCKED ANCHOR: friendly confident racer, three-quarter face turned slightly right, head and upper shoulders centred, cropped at chest; sharp intentional pixels, limited palette, flat cel-shading, bright face lighting, blue/violet checkerboard background.
+
+driver_4.png: Young East Asian woman racer with short teal bob hair, white and purple racing jacket, cheerful determined smile
+driver_5.png: South Asian man racer with wavy dark hair, neatly trimmed beard, orange racing jacket, confident grin
+driver_6.png: Black woman racer with silver-blue braided hair tied back, round red goggles resting on head, yellow racing jacket, relaxed smile
+driver_7.png: Light-skinned older man racer with silver hair and moustache, green mechanic jacket, lively friendly grin

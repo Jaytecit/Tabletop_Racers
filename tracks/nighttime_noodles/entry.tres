@@ -1,0 +1,18 @@
+[gd_resource type="Resource" format=3 uid="uid://dyaj5cjvyo26x"]
+
+[ext_resource type="PackedScene" uid="uid://hq0dp3qwsq0g" path="res://environments/tabletop/nighttime_noodles.tscn" id="1_nnmxn"]
+[ext_resource type="Texture2D" uid="uid://bh8cr714o0ogq" path="res://tracks/nighttime_noodles/preview.res" id="2_dexec"]
+[ext_resource type="Resource" uid="uid://bhgvnnda7ptin" path="res://tracks/nighttime_noodles/definition.tres" id="3_ersys"]
+[ext_resource type="Script" uid="uid://dfomhj1p8s58n" path="res://scripts/tracks/track_entry.gd" id="4_k3qe8"]
+
+[resource]
+script = ExtResource("4_k3qe8")
+id = "nighttime_noodles"
+title = "Nighttime Noodles"
+cup = "Tabletop"
+route = ExtResource("3_ersys")
+environment = ExtResource("1_nnmxn")
+preview = ExtResource("2_dexec")
+eligible_classes = PackedStringArray("buggy")
+target_lap_seconds = Vector2(30, 70)
+description = "Lantern-lit dining circuit · S-bends, bamboo mats and connecting plank"

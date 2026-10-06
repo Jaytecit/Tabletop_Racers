@@ -1,0 +1,45 @@
+extends "res://tests/probes/toys_flags_verification.gd"
+func _ready() -> void:
+	DirAccess.make_dir_recursive_absolute(summer_out_dir)
+	_start_ms = Time.get_ticks_msec()
+	await settle(4)
+	var race: Node3D = get_tree().current_scene.get_node("Race")
+	race.profile.read_only = true
+	race.controller.set_process_input(false)
+	race.controller.set_physics_process(false)
+	race.controller.using_pad = false
+	race.controller.device = -1
+	var helper: Node = load("res://tests/probes/rusty_nuts_workshop_live.gd").new()
+	race.add_child(helper)
+	var start: int = Time.get_ticks_msec()
+	report("select",helper.select_course())
+	report("selection_load_ms",Time.get_ticks_msec()-start)
+	await settle_physics(5)
+	inspect_flags(race,"final")
+	race.track.get_node("Generated/RouteDebugOverlay").hide()
+	helper.overview()
+	await settle(3)
+	save_frame("flags_no_overlay")
+	for gate: Dictionary in race.track.gates:
+		race.camera.size = 19
+		race.camera.position = gate.position+Vector3(0,24,16)
+		race.camera.look_at(gate.position)
+		await settle(2)
+		save_frame("gate_%d" % gate.index)
+	race.track.rebuild_art()
+	await settle_physics(5)
+	inspect_flags(race,"rebuilt")
+	helper.select_course("practice_patch")
+	helper.select_course()
+	await settle_physics(5)
+	inspect_flags(race,"switched")
+	race.track.get_node("Generated/RouteDebugOverlay").hide()
+	helper.start_test(1,1)
+	for i: int in range(400): await get_tree().physics_frame
+	report("performance",helper.performance_report())
+	report("fps",Performance.get_monitor(Performance.TIME_FPS))
+	report("render_cpu_ms",Performance.get_monitor(Performance.TIME_PROCESS)*1000.0)
+	save_frame("driving_flags")
+	report("failures",failures)
+	report("passed",failures.is_empty() and _reports.select.selected)
+	finish()

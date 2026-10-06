@@ -1,0 +1,31 @@
+{
+  "duration_ms": 9257,
+  "errors_seen": [],
+  "finished": true,
+  "frame_warnings": [],
+  "frames": [
+    "01_live_drone.jpg",
+    "flight_0900.jpg",
+    "flight_2300.jpg",
+    "flight_3300.jpg",
+    "flight_4500.jpg",
+    "06_countdown.jpg"
+  ],
+  "reports": {
+    "countdown_restores_camera": true,
+    "full_flight": {
+      "inside_room": true,
+      "max_height": 26.9469661712646,
+      "max_step": 0.143581449985504,
+      "max_turn_degrees": 1.00249162391851,
+      "min_height": 15.0000162124634
+    },
+    "live_preview": {
+      "phase": 6,
+      "size": 18.0,
+      "travel": 11.1519002914429
+    },
+    "passed": true,
+    "roof_retained": true
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "bazaar",
+  "title": "Bazaar",
+  "description": "Colourful market circuit with tight walled hairpins",
+  "source": "tracks/GLB Tracks/bazaar_track.glb",
+  "source_sha256": "994bdf86f683867086dd2f92f1696c926c73ad6a2205284903538e9f9b81757d",
+  "road_primitives": [
+    {
+      "name": "Mesh_Bazaar_Collision_Track4_Bazaar_Collision_new_0",
+      "surface": 0
+    }
+  ],
+  "preview_primitives": [
+    {
+      "name": "Track4_Bazaar_Track4_Bazaar_03_Day_Map_0",
+      "surface": 0
+    },
+    {
+      "name": "Track4_Bazaar_Track4_Bazaar_02_Day_Map_0",
+      "surface": 0
+    },
+    {
+      "name": "Track4_Bazaar_Track4_Bazaar_01_Day_Map_0",
+      "surface": 0
+    }
+  ],
+  "visible_meshes": [
+    "Track4_Bazaar_Track4_Bazaar_03_Day_Map_0",
+    "Track4_Bazaar_Track4_Bazaar_02_Day_Map_0",
+    "Track4_Bazaar_Track4_Bazaar_01_Day_Map_0"
+  ],
+  "collision_meshes": [
+    "Mesh_Bazaar_Collision_Track4_Bazaar_Collision_new_0",
+    "Mesh_Bazaar_Collision_W_Track4_Bazaar_Collision_new_0",
+    "Track4_Bazaar_Track4_Bazaar_03_Day_Map_0",
+    "Track4_Bazaar_Track4_Bazaar_02_Day_Map_0",
+    "Track4_Bazaar_Track4_Bazaar_01_Day_Map_0"
+  ],
+  "boundary_definition": "Road-facing raised barriers, represented by the dedicated driving mesh perimeter; decorative inset paint is not the wall boundary",
+  "source_height_tolerance": 1e-05,
+  "native_clearance_spacing": 0.005,
+  "transform": {
+    "scale": 80.0,
+    "offset": [
+      20.46,
+      0.0,
+      19.66
+    ]
+  },
+  "scale_note": "Native minimum width 0.0821 gives 6.57 units and median 7.33, providing room for the four toy vehicles and clearance from measured walls",
+  "start_anchor_source": [
+    -0.5108,
+    -0.1358
+  ],
+  "clockwise_xz": true,
+  "start_cue": "Original checker stripe on southwest diagonal; exact timing plane requires source stripe measurement after extraction",
+  "handling_preset": "wood",
+  "handling_note": "Neutral dry handling preset on paved market floor; final class balance remains pending",
+  "height_tolerance": 0.02,
+  "minimum_width": 5.5,
+  "ring_spacing": 0.4,
+  "sample_spacing": 0.5,
+  "pairing_band": 160,
+  "max_pairing_cells": 4000000,
+  "boundary_tolerance": 0.05,
+  "refinement_attempts": 3,
+  "preview_spacing": 0.04,
+  "preview_height_range": [
+    -0.32,
+    0.32
+  ],
+  "max_preview_pixels": 6000000,
+  "bake_collision_transform": true,
+  "preserve_boundary_corners": true
+}

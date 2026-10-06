@@ -1,0 +1,18 @@
+[gd_resource type="Resource" format=3 uid="uid://bi7ecbgcdbrsb"]
+
+[ext_resource type="PackedScene" uid="uid://di2eao4jxqbul" path="res://environments/tabletop/rusty_nuts_workshop.tscn" id="1_pkwnf"]
+[ext_resource type="Texture2D" uid="uid://c4udb275y1jn8" path="res://tracks/rusty_nuts_workshop/preview.res" id="2_hvajn"]
+[ext_resource type="Resource" uid="uid://bd55u7y8sepya" path="res://tracks/rusty_nuts_workshop/definition.tres" id="3_eutkx"]
+[ext_resource type="Script" uid="uid://dfomhj1p8s58n" path="res://scripts/tracks/track_entry.gd" id="4_hxft8"]
+
+[resource]
+script = ExtResource("4_hxft8")
+id = "rusty_nuts_workshop"
+title = "Rusty Nuts Workshop"
+cup = "Tabletop"
+route = ExtResource("3_eutkx")
+environment = ExtResource("1_pkwnf")
+preview = ExtResource("2_hvajn")
+eligible_classes = PackedStringArray("buggy")
+target_lap_seconds = Vector2(30, 70)
+description = "Workshop circuit · twin winding workbenches, carton ramps and connecting plate"

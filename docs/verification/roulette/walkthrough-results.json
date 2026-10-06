@@ -1,0 +1,55 @@
+{
+  "duration_ms": 11158,
+  "errors_seen": [],
+  "finished": true,
+  "frame_warnings": [],
+  "frames": [
+    "01_roulette_menu.jpg",
+    "02_course_orbit.jpg",
+    "03_player_driving.jpg",
+    "04_exposed_bridge.jpg",
+    "05_bridge_fall.jpg",
+    "06_bridge_recovery.jpg",
+    "07_casino_room.jpg"
+  ],
+  "reports": {
+    "fall": {
+      "after": {
+        "frame": 261,
+        "position": "(-131.2577, 8.046667, 11.83553)",
+        "state": 2
+      },
+      "before": {
+        "frame": 258,
+        "position": "(-127.7577, 8.0, 11.83719)",
+        "state": 0
+      },
+      "passed": true
+    },
+    "passed": true,
+    "player_input": {
+      "after_frame": 255,
+      "before_frame": 223,
+      "distance": 3.12528729438782,
+      "phase": 2
+    },
+    "recovery": {
+      "laps": 0,
+      "passed": true,
+      "position": "(-127.7838, 8.0, 12.83697)",
+      "state": 0,
+      "station": 376.739501953125
+    },
+    "render": {
+      "draw_calls": 208.0,
+      "static_memory_mb": 102.569242477417,
+      "triangles": 120448.0
+    },
+    "shortcut_blocked": true,
+    "support": {
+      "checks": 855,
+      "height_mismatch": [],
+      "missing": []
+    }
+  }
+}

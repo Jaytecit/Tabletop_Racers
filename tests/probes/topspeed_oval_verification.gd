@@ -1,0 +1,119 @@
+extends "res://tests/probes/toys_flags_verification.gd"
+func _ready() -> void:
+	DirAccess.make_dir_recursive_absolute(summer_out_dir)
+	_start_ms = Time.get_ticks_msec()
+	await settle(5)
+	var race: Node3D = get_tree().current_scene.get_node("Race")
+	race.profile.read_only = true
+	race.profile_selected = true
+	race.profile_menu.hide()
+	# Keep live controller use in the user's game out of this disposable probe.
+	race.controller.set_process_input(false)
+	race.controller.set_physics_process(false)
+	race.controller.using_pad = false
+	race.controller.device = -1
+	var helper: Node = load("res://tests/probes/topspeed_oval_live.gd").new()
+	race.add_child(helper)
+	report("select",helper.select_course())
+	await settle_physics(3)
+	report("support",helper.support_report())
+	report("gates",helper.gate_checks())
+	report("alignment",load("res://tests/probes/topspeed_oval_alignment_checks.gd").check(race.track.definition))
+	inspect_flags(race,"initial_flags")
+	report("flag_failures",failures.duplicate())
+	if not _reports.support.failures.is_empty() or not _reports.gates.failures.is_empty() or not _reports.alignment.failures.is_empty() or not failures.is_empty():
+		report("passed",false)
+		helper.overview()
+		await settle(3)
+		save_frame("failed_checks_overview")
+		finish()
+		return
+	helper.overview()
+	await settle(3)
+	save_frame("flags_no_overlay")
+	for gate: Dictionary in race.track.gates:
+		race.camera.size = 19
+		race.camera.position = gate.position+Vector3(0,24,16)
+		race.camera.look_at(gate.position)
+		await settle(2)
+		save_frame("gate_%d" % gate.index)
+	race.track.rebuild_art()
+	await settle_physics(5)
+	inspect_flags(race,"rebuilt_flags")
+	helper.race_view()
+	report("generated_children",race.track.get_node("Generated").get_child_count())
+	save_frame("menu")
+	helper.start_test(2,3)
+	var captured: bool = false
+	var fps_samples: Array[float] = []
+	for frame: int in range(30000):
+		await get_tree().physics_frame
+		if race.phase==2 and frame%60==0:
+			fps_samples.append(Performance.get_monitor(Performance.TIME_FPS))
+		if not captured and race.race_time>20:
+			captured = true
+			save_frame("driving")
+			report("performance",helper.performance_report())
+		if race.phase==3: break
+	var finished: Dictionary = helper.snapshot()
+	var clean_race: bool = finished.phase==3 and finished.results==4
+	for car: Dictionary in finished.cars:
+		clean_race = clean_race and car.finish>0 and car.crashes==0 and car.recoveries==0 and car.penalty==0
+	report("clean_race",clean_race)
+	report("race",finished)
+	save_frame("results")
+	report("race_complete",race.phase==3 and race.session.results.size()==4)
+	# Player throttle and boost through the real input path.
+	helper.start_test(1,1)
+	helper.player_control()
+	for i: int in range(250): await get_tree().physics_frame
+	var before: Vector3 = race.player_car.position
+	var before_frame: int = Engine.get_physics_frames()
+	Input.action_press("p1_go")
+	Input.action_press("boost")
+	for i: int in range(45): await get_tree().physics_frame
+	Input.action_release("boost")
+	Input.action_release("p1_go")
+	report("input",{"before":str(before),"after":str(race.player_car.position),"before_frame":before_frame,"after_frame":Engine.get_physics_frames(),"moved":race.player_car.position.distance_to(before)>1.0,"boost_used":race.player_car.boost<95.0})
+	Input.action_press("reset_car")
+	await get_tree().physics_frame
+	await get_tree().physics_frame
+	Input.action_release("reset_car")
+	for i: int in range(210): await get_tree().physics_frame
+	report("recovery",{"crashes":race.player_car.crashes,"state":race.player_car.state,"supported":not race.player_car.physical_support(race.player_car.position).is_empty()})
+	race.toggle_pause()
+	var paused_position: Vector3 = race.player_car.position
+	for i: int in range(10): await get_tree().physics_frame
+	report("pause",race.paused_race and race.player_car.position.is_equal_approx(paused_position))
+	race.toggle_pause()
+	report("resume",not race.paused_race)
+	report("switch_away",helper.select_course("practice_patch"))
+	report("switch_back",helper.select_course())
+	await settle(3)
+	inspect_flags(race,"switched_flags")
+	save_frame("menu_final")
+	race.race_mode = "trial"
+	race.start_race()
+	race.player_car.ai = true
+	race.begin_countdown()
+	var trial_start: Vector3 = race.player_car.position
+	for i: int in range(400): await get_tree().physics_frame
+	report("time_trial",race.race_mode=="trial" and race.phase==2 and race.player_car.position.distance_to(trial_start)>10.0)
+	save_frame("time_trial_driving")
+	race.show_menu()
+	var credits_present: bool = false
+	for dialog: Node in race.get_children():
+		if dialog is AcceptDialog and dialog.title=="Third-party asset credits":
+			for label: Node in dialog.find_children("*","RichTextLabel",true,false):
+				credits_present = "Topspeed Oval" in label.text and "b16b90a16110462599bf61e34568e954" in label.text
+			dialog.popup_centered(Vector2i(1040,420))
+			await settle(3)
+			save_frame("credits")
+			dialog.hide()
+	report("credits_present",credits_present)
+	helper.overview()
+	await settle(3)
+	save_frame("overview")
+	report("fps_samples",fps_samples)
+	report("passed",clean_race and _reports.time_trial and _reports.credits_present and _reports.support.failures.is_empty() and _reports.gates.failures.is_empty() and _reports.alignment.failures.is_empty() and failures.is_empty() and _reports.input.moved and _reports.input.boost_used and _reports.recovery.state==0 and _reports.recovery.supported and _reports.pause and _reports.resume and _reports.switch_back.selected)
+	finish()

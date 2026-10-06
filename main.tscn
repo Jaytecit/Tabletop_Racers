@@ -1,0 +1,1179 @@
+[gd_scene format=3 uid="uid://bskv1j4xxcdd3"]
+
+[ext_resource type="Script" uid="uid://buimgdw6yfbm6" path="res://race.gd" id="1_0xm2m"]
+[ext_resource type="Script" uid="uid://ceialotcaornt" path="res://car.gd" id="1_ig7tw"]
+[ext_resource type="Script" uid="uid://dkhht1ijtyytr" path="res://room_track.gd" id="2_7mycd"]
+[ext_resource type="Script" uid="uid://c7kh47grpn3cw" path="res://skids.gd" id="3_272bh"]
+[ext_resource type="Script" uid="uid://bvs2ksve7tcj0" path="res://flame.gd" id="5_5vw27"]
+[ext_resource type="Script" uid="uid://b1v8b0qs3qdn7" path="res://minimap.gd" id="6_kek77"]
+[ext_resource type="Script" uid="uid://ckq5lcv8qv4v1" path="res://controller.gd" id="7_kek77"]
+[ext_resource type="Script" uid="uid://dnd1t46v8jlj1" path="res://race_particles.gd" id="8_4c57u"]
+[ext_resource type="Script" uid="uid://b5c2p3blt8xye" path="res://track_catalog.gd" id="9_efxa6"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4c57u"]
+size = Vector2(24, 14)
+
+[sub_resource type="Gradient" id="Gradient_efxa6"]
+colors = PackedColorArray(0, 0, 0, 0.3, 0, 0, 0, 0.3)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_dg77c"]
+gradient = SubResource("Gradient_efxa6")
+width = 28
+height = 17
+
+[sub_resource type="Gradient" id="Gradient_ycdy4"]
+colors = PackedColorArray(0.8745098, 0.3882353, 0.2784314, 1, 0.8745098, 0.3882353, 0.2784314, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_w48qg"]
+gradient = SubResource("Gradient_ycdy4")
+width = 26
+height = 14
+
+[sub_resource type="Gradient" id="Gradient_vivmo"]
+colors = PackedColorArray(0.95686275, 0.92156863, 0.79607844, 1, 0.95686275, 0.92156863, 0.79607844, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_2cqfq"]
+gradient = SubResource("Gradient_vivmo")
+width = 24
+height = 3
+
+[sub_resource type="Gradient" id="Gradient_yaehf"]
+colors = PackedColorArray(0.7137255, 0.84705883, 0.85490197, 1, 0.7137255, 0.84705883, 0.85490197, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_074og"]
+gradient = SubResource("Gradient_yaehf")
+width = 5
+height = 10
+
+[sub_resource type="Gradient" id="Gradient_cegan"]
+colors = PackedColorArray(0.16470589, 0.21960784, 0.20784314, 1, 0.16470589, 0.21960784, 0.20784314, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_82xsv"]
+gradient = SubResource("Gradient_cegan")
+width = 3
+height = 9
+
+[sub_resource type="Gradient" id="Gradient_getpj"]
+colors = PackedColorArray(0.14117648, 0.16470589, 0.14901961, 1, 0.14117648, 0.16470589, 0.14901961, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_ryguw"]
+gradient = SubResource("Gradient_getpj")
+width = 7
+height = 3
+
+[sub_resource type="Gradient" id="Gradient_d13ii"]
+colors = PackedColorArray(0.14117648, 0.16470589, 0.14901961, 1, 0.14117648, 0.16470589, 0.14901961, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_1u8w0"]
+gradient = SubResource("Gradient_d13ii")
+width = 7
+height = 3
+
+[sub_resource type="Gradient" id="Gradient_0odxb"]
+colors = PackedColorArray(0.14117648, 0.16470589, 0.14901961, 1, 0.14117648, 0.16470589, 0.14901961, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_lswn8"]
+gradient = SubResource("Gradient_0odxb")
+width = 7
+height = 3
+
+[sub_resource type="Gradient" id="Gradient_a6jrf"]
+colors = PackedColorArray(0.14117648, 0.16470589, 0.14901961, 1, 0.14117648, 0.16470589, 0.14901961, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_xuqvo"]
+gradient = SubResource("Gradient_a6jrf")
+width = 7
+height = 3
+
+[sub_resource type="Gradient" id="Gradient_qsp4k"]
+colors = PackedColorArray(1, 0.9607843, 0.72156864, 1, 1, 0.9607843, 0.72156864, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_kq58d"]
+gradient = SubResource("Gradient_qsp4k")
+width = 2
+height = 3
+
+[sub_resource type="Gradient" id="Gradient_seu75"]
+colors = PackedColorArray(1, 0.9607843, 0.72156864, 1, 1, 0.9607843, 0.72156864, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_htxhm"]
+gradient = SubResource("Gradient_seu75")
+width = 2
+height = 3
+
+[sub_resource type="Gradient" id="Gradient_dg77c"]
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_ycdy4"]
+gradient = SubResource("Gradient_dg77c")
+width = 3
+height = 3
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jq2sk"]
+size = Vector2(24, 14)
+
+[sub_resource type="Gradient" id="Gradient_4k2k6"]
+colors = PackedColorArray(0, 0, 0, 0.3, 0, 0, 0, 0.3)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_0rl1p"]
+gradient = SubResource("Gradient_4k2k6")
+width = 28
+height = 17
+
+[sub_resource type="Gradient" id="Gradient_ok6jj"]
+colors = PackedColorArray(0.2509804, 0.6039216, 0.72156864, 1, 0.2509804, 0.6039216, 0.72156864, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_facbu"]
+gradient = SubResource("Gradient_ok6jj")
+width = 26
+height = 14
+
+[sub_resource type="Gradient" id="Gradient_b1qrp"]
+colors = PackedColorArray(0.95686275, 0.92156863, 0.79607844, 1, 0.95686275, 0.92156863, 0.79607844, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_come4"]
+gradient = SubResource("Gradient_b1qrp")
+width = 24
+height = 3
+
+[sub_resource type="Gradient" id="Gradient_h8e4i"]
+colors = PackedColorArray(0.7137255, 0.84705883, 0.85490197, 1, 0.7137255, 0.84705883, 0.85490197, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_4lmeg"]
+gradient = SubResource("Gradient_h8e4i")
+width = 5
+height = 10
+
+[sub_resource type="Gradient" id="Gradient_0cp0l"]
+colors = PackedColorArray(0.16470589, 0.21960784, 0.20784314, 1, 0.16470589, 0.21960784, 0.20784314, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_d2t1y"]
+gradient = SubResource("Gradient_0cp0l")
+width = 3
+height = 9
+
+[sub_resource type="Gradient" id="Gradient_gngh3"]
+colors = PackedColorArray(0.14117648, 0.16470589, 0.14901961, 1, 0.14117648, 0.16470589, 0.14901961, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_0n3wm"]
+gradient = SubResource("Gradient_gngh3")
+width = 7
+height = 3
+
+[sub_resource type="Gradient" id="Gradient_qnost"]
+colors = PackedColorArray(0.14117648, 0.16470589, 0.14901961, 1, 0.14117648, 0.16470589, 0.14901961, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_wnkbs"]
+gradient = SubResource("Gradient_qnost")
+width = 7
+height = 3
+
+[sub_resource type="Gradient" id="Gradient_f6a44"]
+colors = PackedColorArray(0.14117648, 0.16470589, 0.14901961, 1, 0.14117648, 0.16470589, 0.14901961, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_0cbny"]
+gradient = SubResource("Gradient_f6a44")
+width = 7
+height = 3
+
+[sub_resource type="Gradient" id="Gradient_hrvbo"]
+colors = PackedColorArray(0.14117648, 0.16470589, 0.14901961, 1, 0.14117648, 0.16470589, 0.14901961, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_uypp3"]
+gradient = SubResource("Gradient_hrvbo")
+width = 7
+height = 3
+
+[sub_resource type="Gradient" id="Gradient_blkrb"]
+colors = PackedColorArray(1, 0.9607843, 0.72156864, 1, 1, 0.9607843, 0.72156864, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_abqjc"]
+gradient = SubResource("Gradient_blkrb")
+width = 2
+height = 3
+
+[sub_resource type="Gradient" id="Gradient_6iyjs"]
+colors = PackedColorArray(1, 0.9607843, 0.72156864, 1, 1, 0.9607843, 0.72156864, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_4w656"]
+gradient = SubResource("Gradient_6iyjs")
+width = 2
+height = 3
+
+[sub_resource type="Gradient" id="Gradient_w48qg"]
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_vivmo"]
+gradient = SubResource("Gradient_w48qg")
+width = 3
+height = 3
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_e71vb"]
+size = Vector2(24, 14)
+
+[sub_resource type="Gradient" id="Gradient_rnkwl"]
+colors = PackedColorArray(0, 0, 0, 0.3, 0, 0, 0, 0.3)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_vke2r"]
+gradient = SubResource("Gradient_rnkwl")
+width = 28
+height = 17
+
+[sub_resource type="Gradient" id="Gradient_uit24"]
+colors = PackedColorArray(0.8509804, 0.7058824, 0.30588236, 1, 0.8509804, 0.7058824, 0.30588236, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_ruth0"]
+gradient = SubResource("Gradient_uit24")
+width = 26
+height = 14
+
+[sub_resource type="Gradient" id="Gradient_rm4vd"]
+colors = PackedColorArray(0.95686275, 0.92156863, 0.79607844, 1, 0.95686275, 0.92156863, 0.79607844, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_pjyto"]
+gradient = SubResource("Gradient_rm4vd")
+width = 24
+height = 3
+
+[sub_resource type="Gradient" id="Gradient_sm6fg"]
+colors = PackedColorArray(0.7137255, 0.84705883, 0.85490197, 1, 0.7137255, 0.84705883, 0.85490197, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_b17eg"]
+gradient = SubResource("Gradient_sm6fg")
+width = 5
+height = 10
+
+[sub_resource type="Gradient" id="Gradient_ntx8l"]
+colors = PackedColorArray(0.16470589, 0.21960784, 0.20784314, 1, 0.16470589, 0.21960784, 0.20784314, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_uatky"]
+gradient = SubResource("Gradient_ntx8l")
+width = 3
+height = 9
+
+[sub_resource type="Gradient" id="Gradient_rqtf5"]
+colors = PackedColorArray(0.14117648, 0.16470589, 0.14901961, 1, 0.14117648, 0.16470589, 0.14901961, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_1vm84"]
+gradient = SubResource("Gradient_rqtf5")
+width = 7
+height = 3
+
+[sub_resource type="Gradient" id="Gradient_wu3dr"]
+colors = PackedColorArray(0.14117648, 0.16470589, 0.14901961, 1, 0.14117648, 0.16470589, 0.14901961, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_cyx1q"]
+gradient = SubResource("Gradient_wu3dr")
+width = 7
+height = 3
+
+[sub_resource type="Gradient" id="Gradient_0dhbp"]
+colors = PackedColorArray(0.14117648, 0.16470589, 0.14901961, 1, 0.14117648, 0.16470589, 0.14901961, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_jx0wj"]
+gradient = SubResource("Gradient_0dhbp")
+width = 7
+height = 3
+
+[sub_resource type="Gradient" id="Gradient_kkkcx"]
+colors = PackedColorArray(0.14117648, 0.16470589, 0.14901961, 1, 0.14117648, 0.16470589, 0.14901961, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_34ol3"]
+gradient = SubResource("Gradient_kkkcx")
+width = 7
+height = 3
+
+[sub_resource type="Gradient" id="Gradient_c2n8d"]
+colors = PackedColorArray(1, 0.9607843, 0.72156864, 1, 1, 0.9607843, 0.72156864, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_wy5fy"]
+gradient = SubResource("Gradient_c2n8d")
+width = 2
+height = 3
+
+[sub_resource type="Gradient" id="Gradient_gx4rg"]
+colors = PackedColorArray(1, 0.9607843, 0.72156864, 1, 1, 0.9607843, 0.72156864, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_5dllo"]
+gradient = SubResource("Gradient_gx4rg")
+width = 2
+height = 3
+
+[sub_resource type="Gradient" id="Gradient_2cqfq"]
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_yaehf"]
+gradient = SubResource("Gradient_2cqfq")
+width = 3
+height = 3
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_phcyf"]
+size = Vector2(24, 14)
+
+[sub_resource type="Gradient" id="Gradient_birbe"]
+colors = PackedColorArray(0, 0, 0, 0.3, 0, 0, 0, 0.3)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_f1p13"]
+gradient = SubResource("Gradient_birbe")
+width = 28
+height = 17
+
+[sub_resource type="Gradient" id="Gradient_4obbf"]
+colors = PackedColorArray(0.4745098, 0.6627451, 0.3764706, 1, 0.4745098, 0.6627451, 0.3764706, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_ovcoh"]
+gradient = SubResource("Gradient_4obbf")
+width = 26
+height = 14
+
+[sub_resource type="Gradient" id="Gradient_ppx11"]
+colors = PackedColorArray(0.95686275, 0.92156863, 0.79607844, 1, 0.95686275, 0.92156863, 0.79607844, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_1yv1y"]
+gradient = SubResource("Gradient_ppx11")
+width = 24
+height = 3
+
+[sub_resource type="Gradient" id="Gradient_5yh34"]
+colors = PackedColorArray(0.7137255, 0.84705883, 0.85490197, 1, 0.7137255, 0.84705883, 0.85490197, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_pjuso"]
+gradient = SubResource("Gradient_5yh34")
+width = 5
+height = 10
+
+[sub_resource type="Gradient" id="Gradient_23xmf"]
+colors = PackedColorArray(0.16470589, 0.21960784, 0.20784314, 1, 0.16470589, 0.21960784, 0.20784314, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_swlj1"]
+gradient = SubResource("Gradient_23xmf")
+width = 3
+height = 9
+
+[sub_resource type="Gradient" id="Gradient_yysqy"]
+colors = PackedColorArray(0.14117648, 0.16470589, 0.14901961, 1, 0.14117648, 0.16470589, 0.14901961, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_n5t1e"]
+gradient = SubResource("Gradient_yysqy")
+width = 7
+height = 3
+
+[sub_resource type="Gradient" id="Gradient_h6isl"]
+colors = PackedColorArray(0.14117648, 0.16470589, 0.14901961, 1, 0.14117648, 0.16470589, 0.14901961, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_53bls"]
+gradient = SubResource("Gradient_h6isl")
+width = 7
+height = 3
+
+[sub_resource type="Gradient" id="Gradient_lwnsi"]
+colors = PackedColorArray(0.14117648, 0.16470589, 0.14901961, 1, 0.14117648, 0.16470589, 0.14901961, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_41lik"]
+gradient = SubResource("Gradient_lwnsi")
+width = 7
+height = 3
+
+[sub_resource type="Gradient" id="Gradient_jbvwl"]
+colors = PackedColorArray(0.14117648, 0.16470589, 0.14901961, 1, 0.14117648, 0.16470589, 0.14901961, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_sn1fb"]
+gradient = SubResource("Gradient_jbvwl")
+width = 7
+height = 3
+
+[sub_resource type="Gradient" id="Gradient_yvsr8"]
+colors = PackedColorArray(1, 0.9607843, 0.72156864, 1, 1, 0.9607843, 0.72156864, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_vieuh"]
+gradient = SubResource("Gradient_yvsr8")
+width = 2
+height = 3
+
+[sub_resource type="Gradient" id="Gradient_yjja3"]
+colors = PackedColorArray(1, 0.9607843, 0.72156864, 1, 1, 0.9607843, 0.72156864, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_l0gw7"]
+gradient = SubResource("Gradient_yjja3")
+width = 2
+height = 3
+
+[sub_resource type="Gradient" id="Gradient_074og"]
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_cegan"]
+gradient = SubResource("Gradient_074og")
+width = 3
+height = 3
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_inymm"]
+bg_color = Color(0.14117648, 0.20392157, 0.19215687, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.7137255, 0.7647059, 0.6392157, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_82xsv"]
+bg_color = Color(0.14509805, 0.23137255, 0.20784314, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_getpj"]
+bg_color = Color(0.4392157, 0.8509804, 0.7372549, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jcxqu"]
+bg_color = Color(0.14117648, 0.20392157, 0.19215687, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.7137255, 0.7647059, 0.6392157, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0arob"]
+bg_color = Color(0.14117648, 0.20392157, 0.19215687, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.7137255, 0.7647059, 0.6392157, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dij0e"]
+bg_color = Color(0.14117648, 0.20392157, 0.19215687, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.7137255, 0.7647059, 0.6392157, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k1udn"]
+bg_color = Color(0.14117648, 0.20392157, 0.19215687, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.7137255, 0.7647059, 0.6392157, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7mycd"]
+bg_color = Color(0.14, 0.2, 0.19, 0.9)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ryguw"]
+bg_color = Color(0.12941177, 0.1882353, 0.18039216, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.5176471, 0.7490196, 0.6627451, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[node name="Main" type="Node2D" unique_id=874787641]
+script = ExtResource("1_0xm2m")
+
+[node name="Track" type="Node2D" parent="." unique_id=1842602497]
+script = ExtResource("2_7mycd")
+
+[node name="Skids" type="Node2D" parent="." unique_id=1056827848]
+z_index = 1
+script = ExtResource("3_272bh")
+
+[node name="Camera" type="Camera2D" parent="." unique_id=1352799227]
+position = Vector2(1075, 500)
+zoom = Vector2(1.5, 1.5)
+
+[node name="Car1" type="CharacterBody2D" parent="." unique_id=616575355]
+z_index = 3
+position = Vector2(1075, 478)
+collision_layer = 2
+collision_mask = 2
+script = ExtResource("1_ig7tw")
+lane = -18.0
+
+[node name="Collision" type="CollisionShape2D" parent="Car1" unique_id=233598498]
+shape = SubResource("RectangleShape2D_4c57u")
+
+[node name="Shadow" type="Sprite2D" parent="Car1" unique_id=1304946967]
+position = Vector2(3, 4)
+texture = SubResource("GradientTexture2D_dg77c")
+
+[node name="Visual" type="Node2D" parent="Car1" unique_id=1198460466]
+
+[node name="Body" type="Sprite2D" parent="Car1/Visual" unique_id=750747693]
+texture = SubResource("GradientTexture2D_w48qg")
+
+[node name="Stripe" type="Sprite2D" parent="Car1/Visual" unique_id=310774169]
+texture = SubResource("GradientTexture2D_2cqfq")
+
+[node name="Windshield" type="Sprite2D" parent="Car1/Visual" unique_id=1361286360]
+position = Vector2(4, 0)
+texture = SubResource("GradientTexture2D_074og")
+
+[node name="RearGlass" type="Sprite2D" parent="Car1/Visual" unique_id=39082359]
+position = Vector2(-7, 0)
+texture = SubResource("GradientTexture2D_82xsv")
+
+[node name="Wheel0" type="Sprite2D" parent="Car1/Visual" unique_id=848076383]
+position = Vector2(-7, -8)
+texture = SubResource("GradientTexture2D_ryguw")
+
+[node name="Wheel1" type="Sprite2D" parent="Car1/Visual" unique_id=1043110038]
+position = Vector2(7, -8)
+texture = SubResource("GradientTexture2D_1u8w0")
+
+[node name="Wheel2" type="Sprite2D" parent="Car1/Visual" unique_id=1613659638]
+position = Vector2(-7, 8)
+texture = SubResource("GradientTexture2D_lswn8")
+
+[node name="Wheel3" type="Sprite2D" parent="Car1/Visual" unique_id=1916738290]
+position = Vector2(7, 8)
+texture = SubResource("GradientTexture2D_xuqvo")
+
+[node name="HeadA" type="Sprite2D" parent="Car1/Visual" unique_id=1602805105]
+position = Vector2(12, -5)
+texture = SubResource("GradientTexture2D_kq58d")
+
+[node name="HeadB" type="Sprite2D" parent="Car1/Visual" unique_id=1913186907]
+position = Vector2(12, 5)
+texture = SubResource("GradientTexture2D_htxhm")
+
+[node name="Flame" type="Node2D" parent="Car1/Visual" unique_id=507982794]
+visible = false
+script = ExtResource("5_5vw27")
+
+[node name="TailA" type="Sprite2D" parent="Car1/Visual" unique_id=1384543452]
+modulate = Color(0.4862745, 0.2, 0.17254902, 1)
+position = Vector2(-12, -5)
+texture = SubResource("GradientTexture2D_ycdy4")
+
+[node name="TailB" type="Sprite2D" parent="Car1/Visual" unique_id=1065312275]
+modulate = Color(0.4862745, 0.2, 0.17254902, 1)
+position = Vector2(-12, 5)
+texture = SubResource("GradientTexture2D_ycdy4")
+
+[node name="Car2" type="CharacterBody2D" parent="." unique_id=1973272808]
+z_index = 3
+position = Vector2(1075, 522)
+collision_layer = 2
+collision_mask = 2
+script = ExtResource("1_ig7tw")
+player = 2
+ai = true
+top_speed = 293.0
+lane = 18.0
+
+[node name="Collision" type="CollisionShape2D" parent="Car2" unique_id=1997017363]
+shape = SubResource("RectangleShape2D_jq2sk")
+
+[node name="Shadow" type="Sprite2D" parent="Car2" unique_id=875181028]
+position = Vector2(3, 4)
+texture = SubResource("GradientTexture2D_0rl1p")
+
+[node name="Visual" type="Node2D" parent="Car2" unique_id=448563631]
+
+[node name="Body" type="Sprite2D" parent="Car2/Visual" unique_id=1714169625]
+texture = SubResource("GradientTexture2D_facbu")
+
+[node name="Stripe" type="Sprite2D" parent="Car2/Visual" unique_id=1792636856]
+texture = SubResource("GradientTexture2D_come4")
+
+[node name="Windshield" type="Sprite2D" parent="Car2/Visual" unique_id=922006639]
+position = Vector2(4, 0)
+texture = SubResource("GradientTexture2D_4lmeg")
+
+[node name="RearGlass" type="Sprite2D" parent="Car2/Visual" unique_id=1758945338]
+position = Vector2(-7, 0)
+texture = SubResource("GradientTexture2D_d2t1y")
+
+[node name="Wheel0" type="Sprite2D" parent="Car2/Visual" unique_id=623841734]
+position = Vector2(-7, -8)
+texture = SubResource("GradientTexture2D_0n3wm")
+
+[node name="Wheel1" type="Sprite2D" parent="Car2/Visual" unique_id=1131209085]
+position = Vector2(7, -8)
+texture = SubResource("GradientTexture2D_wnkbs")
+
+[node name="Wheel2" type="Sprite2D" parent="Car2/Visual" unique_id=1600680630]
+position = Vector2(-7, 8)
+texture = SubResource("GradientTexture2D_0cbny")
+
+[node name="Wheel3" type="Sprite2D" parent="Car2/Visual" unique_id=164811562]
+position = Vector2(7, 8)
+texture = SubResource("GradientTexture2D_uypp3")
+
+[node name="HeadA" type="Sprite2D" parent="Car2/Visual" unique_id=1479934503]
+position = Vector2(12, -5)
+texture = SubResource("GradientTexture2D_abqjc")
+
+[node name="HeadB" type="Sprite2D" parent="Car2/Visual" unique_id=1607101528]
+position = Vector2(12, 5)
+texture = SubResource("GradientTexture2D_4w656")
+
+[node name="Flame" type="Node2D" parent="Car2/Visual" unique_id=121137721]
+visible = false
+script = ExtResource("5_5vw27")
+
+[node name="TailA" type="Sprite2D" parent="Car2/Visual" unique_id=2005426102]
+modulate = Color(0.4862745, 0.2, 0.17254902, 1)
+position = Vector2(-12, -5)
+texture = SubResource("GradientTexture2D_vivmo")
+
+[node name="TailB" type="Sprite2D" parent="Car2/Visual" unique_id=42845899]
+modulate = Color(0.4862745, 0.2, 0.17254902, 1)
+position = Vector2(-12, 5)
+texture = SubResource("GradientTexture2D_vivmo")
+
+[node name="Car3" type="CharacterBody2D" parent="." unique_id=160482617]
+z_index = 3
+position = Vector2(1025, 478)
+collision_layer = 2
+collision_mask = 2
+script = ExtResource("1_ig7tw")
+player = 3
+ai = true
+top_speed = 306.0
+lane = -18.0
+
+[node name="Collision" type="CollisionShape2D" parent="Car3" unique_id=1333990280]
+shape = SubResource("RectangleShape2D_e71vb")
+
+[node name="Shadow" type="Sprite2D" parent="Car3" unique_id=2071765821]
+position = Vector2(3, 4)
+texture = SubResource("GradientTexture2D_vke2r")
+
+[node name="Visual" type="Node2D" parent="Car3" unique_id=529748401]
+
+[node name="Body" type="Sprite2D" parent="Car3/Visual" unique_id=1064297100]
+texture = SubResource("GradientTexture2D_ruth0")
+
+[node name="Stripe" type="Sprite2D" parent="Car3/Visual" unique_id=1668264712]
+texture = SubResource("GradientTexture2D_pjyto")
+
+[node name="Windshield" type="Sprite2D" parent="Car3/Visual" unique_id=1469185954]
+position = Vector2(4, 0)
+texture = SubResource("GradientTexture2D_b17eg")
+
+[node name="RearGlass" type="Sprite2D" parent="Car3/Visual" unique_id=1215845939]
+position = Vector2(-7, 0)
+texture = SubResource("GradientTexture2D_uatky")
+
+[node name="Wheel0" type="Sprite2D" parent="Car3/Visual" unique_id=167333877]
+position = Vector2(-7, -8)
+texture = SubResource("GradientTexture2D_1vm84")
+
+[node name="Wheel1" type="Sprite2D" parent="Car3/Visual" unique_id=1458449716]
+position = Vector2(7, -8)
+texture = SubResource("GradientTexture2D_cyx1q")
+
+[node name="Wheel2" type="Sprite2D" parent="Car3/Visual" unique_id=517655388]
+position = Vector2(-7, 8)
+texture = SubResource("GradientTexture2D_jx0wj")
+
+[node name="Wheel3" type="Sprite2D" parent="Car3/Visual" unique_id=1503748910]
+position = Vector2(7, 8)
+texture = SubResource("GradientTexture2D_34ol3")
+
+[node name="HeadA" type="Sprite2D" parent="Car3/Visual" unique_id=653000640]
+position = Vector2(12, -5)
+texture = SubResource("GradientTexture2D_wy5fy")
+
+[node name="HeadB" type="Sprite2D" parent="Car3/Visual" unique_id=1097466220]
+position = Vector2(12, 5)
+texture = SubResource("GradientTexture2D_5dllo")
+
+[node name="Flame" type="Node2D" parent="Car3/Visual" unique_id=1638439076]
+visible = false
+script = ExtResource("5_5vw27")
+
+[node name="TailA" type="Sprite2D" parent="Car3/Visual" unique_id=1621166265]
+modulate = Color(0.4862745, 0.2, 0.17254902, 1)
+position = Vector2(-12, -5)
+texture = SubResource("GradientTexture2D_yaehf")
+
+[node name="TailB" type="Sprite2D" parent="Car3/Visual" unique_id=1580625889]
+modulate = Color(0.4862745, 0.2, 0.17254902, 1)
+position = Vector2(-12, 5)
+texture = SubResource("GradientTexture2D_yaehf")
+
+[node name="Car4" type="CharacterBody2D" parent="." unique_id=428182406]
+z_index = 3
+position = Vector2(1025, 522)
+collision_layer = 2
+collision_mask = 2
+script = ExtResource("1_ig7tw")
+player = 4
+ai = true
+top_speed = 319.0
+lane = 18.0
+
+[node name="Collision" type="CollisionShape2D" parent="Car4" unique_id=2121400139]
+shape = SubResource("RectangleShape2D_phcyf")
+
+[node name="Shadow" type="Sprite2D" parent="Car4" unique_id=1208915569]
+position = Vector2(3, 4)
+texture = SubResource("GradientTexture2D_f1p13")
+
+[node name="Visual" type="Node2D" parent="Car4" unique_id=1958432965]
+
+[node name="Body" type="Sprite2D" parent="Car4/Visual" unique_id=40620904]
+texture = SubResource("GradientTexture2D_ovcoh")
+
+[node name="Stripe" type="Sprite2D" parent="Car4/Visual" unique_id=1009598340]
+texture = SubResource("GradientTexture2D_1yv1y")
+
+[node name="Windshield" type="Sprite2D" parent="Car4/Visual" unique_id=722080826]
+position = Vector2(4, 0)
+texture = SubResource("GradientTexture2D_pjuso")
+
+[node name="RearGlass" type="Sprite2D" parent="Car4/Visual" unique_id=666139976]
+position = Vector2(-7, 0)
+texture = SubResource("GradientTexture2D_swlj1")
+
+[node name="Wheel0" type="Sprite2D" parent="Car4/Visual" unique_id=1180115896]
+position = Vector2(-7, -8)
+texture = SubResource("GradientTexture2D_n5t1e")
+
+[node name="Wheel1" type="Sprite2D" parent="Car4/Visual" unique_id=898486174]
+position = Vector2(7, -8)
+texture = SubResource("GradientTexture2D_53bls")
+
+[node name="Wheel2" type="Sprite2D" parent="Car4/Visual" unique_id=1695887194]
+position = Vector2(-7, 8)
+texture = SubResource("GradientTexture2D_41lik")
+
+[node name="Wheel3" type="Sprite2D" parent="Car4/Visual" unique_id=544018635]
+position = Vector2(7, 8)
+texture = SubResource("GradientTexture2D_sn1fb")
+
+[node name="HeadA" type="Sprite2D" parent="Car4/Visual" unique_id=1025028854]
+position = Vector2(12, -5)
+texture = SubResource("GradientTexture2D_vieuh")
+
+[node name="HeadB" type="Sprite2D" parent="Car4/Visual" unique_id=935016757]
+position = Vector2(12, 5)
+texture = SubResource("GradientTexture2D_l0gw7")
+
+[node name="Flame" type="Node2D" parent="Car4/Visual" unique_id=712219345]
+visible = false
+script = ExtResource("5_5vw27")
+
+[node name="TailA" type="Sprite2D" parent="Car4/Visual" unique_id=212250464]
+modulate = Color(0.4862745, 0.2, 0.17254902, 1)
+position = Vector2(-12, -5)
+texture = SubResource("GradientTexture2D_cegan")
+
+[node name="TailB" type="Sprite2D" parent="Car4/Visual" unique_id=1404815758]
+modulate = Color(0.4862745, 0.2, 0.17254902, 1)
+position = Vector2(-12, 5)
+texture = SubResource("GradientTexture2D_cegan")
+
+[node name="Engine" type="AudioStreamPlayer" parent="." unique_id=2038843718]
+
+[node name="Skid" type="AudioStreamPlayer" parent="." unique_id=886461361]
+
+[node name="HUD" type="CanvasLayer" parent="." unique_id=1952879751]
+
+[node name="Top" type="Panel" parent="HUD" unique_id=1126850675]
+offset_left = 18.0
+offset_top = 18.0
+offset_right = 633.0
+offset_bottom = 129.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_inymm")
+
+[node name="Title" type="Label" parent="HUD" unique_id=1841321643]
+offset_left = 36.0
+offset_top = 26.0
+offset_right = 816.0
+offset_bottom = 53.0
+theme_override_colors/font_color = Color(0.7176471, 0.76862746, 0.6431373, 1)
+theme_override_font_sizes/font_size = 20
+text = "ROOM RUN · GRAND PRIX"
+
+[node name="Status" type="Label" parent="HUD" unique_id=256508815]
+offset_left = 36.0
+offset_top = 54.0
+offset_right = 546.0
+offset_bottom = 99.0
+theme_override_colors/font_color = Color(0.9607843, 0.92941177, 0.8117647, 1)
+theme_override_font_sizes/font_size = 30
+text = "LAP 1 / 3     POS 1 / 4"
+
+[node name="Details" type="Label" parent="HUD" unique_id=125726031]
+offset_left = 36.0
+offset_top = 144.0
+offset_right = 656.0
+offset_bottom = 210.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 21
+
+[node name="Boost" type="ProgressBar" parent="HUD" unique_id=2114981517]
+offset_left = 37.0
+offset_top = 104.0
+offset_right = 613.0
+offset_bottom = 131.0
+theme_override_styles/background = SubResource("StyleBoxFlat_82xsv")
+theme_override_styles/fill = SubResource("StyleBoxFlat_getpj")
+show_percentage = false
+
+[node name="StandingBack" type="Panel" parent="HUD" unique_id=273937453]
+offset_left = 946.0
+offset_top = 221.0
+offset_right = 1182.0
+offset_bottom = 362.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_jcxqu")
+
+[node name="Standings" type="Label" parent="HUD" unique_id=359597398]
+offset_left = 958.0
+offset_top = 237.0
+offset_right = 1181.0
+offset_bottom = 361.0
+theme_override_colors/font_color = Color(0.9411765, 0.9137255, 0.8, 1)
+theme_override_font_sizes/font_size = 17
+
+[node name="Minimap" type="Node2D" parent="HUD" unique_id=1409251970]
+position = Vector2(968, 58)
+script = ExtResource("6_kek77")
+
+[node name="MapTitle" type="Label" parent="HUD" unique_id=1464445447]
+offset_left = 968.0
+offset_top = 36.0
+offset_right = 1198.0
+offset_bottom = 60.0
+theme_override_colors/font_color = Color(0.8862745, 0.8980392, 0.8, 1)
+theme_override_font_sizes/font_size = 15
+text = "ROOM CIRCUIT"
+
+[node name="Banner" type="Label" parent="HUD" unique_id=653147827]
+offset_left = 200.0
+offset_top = 288.0
+offset_right = 1000.0
+offset_bottom = 418.0
+theme_override_colors/font_color = Color(1, 0.9529412, 0.80784315, 1)
+theme_override_colors/font_shadow_color = Color(0.14117648, 0.20392157, 0.19215687, 1)
+theme_override_constants/shadow_offset_x = 3
+theme_override_constants/shadow_offset_y = 3
+theme_override_font_sizes/font_size = 48
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="FooterBack" type="Panel" parent="HUD" unique_id=2105325075]
+offset_left = 18.0
+offset_top = 750.0
+offset_right = 1182.0
+offset_bottom = 784.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_0arob")
+
+[node name="Footer" type="Label" parent="HUD" unique_id=215833976]
+offset_left = 30.0
+offset_top = 756.0
+offset_right = 1005.0
+offset_bottom = 784.0
+theme_override_colors/font_color = Color(0.92156863, 0.93333334, 0.84705883, 1)
+theme_override_font_sizes/font_size = 14
+
+[node name="Menu" type="Panel" parent="HUD" unique_id=36795709]
+offset_left = 265.0
+offset_top = 230.0
+offset_right = 935.0
+offset_bottom = 672.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_dij0e")
+
+[node name="Title" type="Label" parent="HUD/Menu" unique_id=382726849]
+layout_mode = 0
+offset_left = 36.0
+offset_top = 26.0
+offset_right = 616.0
+offset_bottom = 86.0
+theme_override_colors/font_color = Color(0.9490196, 0.8666667, 0.6039216, 1)
+theme_override_font_sizes/font_size = 47
+text = "ROOM RUN"
+
+[node name="Subtitle" type="Label" parent="HUD/Menu" unique_id=1978477]
+layout_mode = 0
+offset_left = 36.0
+offset_top = 87.0
+offset_right = 636.0
+offset_bottom = 115.0
+theme_override_colors/font_color = Color(0.83137256, 0.8666667, 0.78431374, 1)
+theme_override_font_sizes/font_size = 20
+text = "A tiny-car grand prix across a very big room."
+
+[node name="Opponents" type="Label" parent="HUD/Menu" unique_id=743407436]
+layout_mode = 0
+offset_left = 36.0
+offset_top = 139.0
+offset_right = 566.0
+offset_bottom = 174.0
+theme_override_colors/font_color = Color(0.96862745, 0.9372549, 0.8352941, 1)
+theme_override_font_sizes/font_size = 25
+text = "3 AI OPPONENTS"
+
+[node name="AI1" type="Button" parent="HUD/Menu" unique_id=1076958537]
+layout_mode = 0
+offset_left = 36.0
+offset_top = 183.0
+offset_right = 214.0
+offset_bottom = 229.0
+theme_override_font_sizes/font_size = 22
+toggle_mode = true
+text = "1 AI"
+
+[node name="AI2" type="Button" parent="HUD/Menu" unique_id=602559022]
+layout_mode = 0
+offset_left = 231.0
+offset_top = 183.0
+offset_right = 409.0
+offset_bottom = 229.0
+theme_override_font_sizes/font_size = 22
+toggle_mode = true
+text = "2 AI"
+
+[node name="AI3" type="Button" parent="HUD/Menu" unique_id=146506776]
+layout_mode = 0
+offset_left = 426.0
+offset_top = 183.0
+offset_right = 604.0
+offset_bottom = 229.0
+theme_override_font_sizes/font_size = 22
+toggle_mode = true
+text = "3 AI"
+
+[node name="Help" type="Label" parent="HUD/Menu" unique_id=21478617]
+layout_mode = 0
+offset_left = 36.0
+offset_top = 246.0
+offset_right = 636.0
+offset_bottom = 309.0
+theme_override_colors/font_color = Color(0.827451, 0.8627451, 0.78039217, 1)
+theme_override_font_sizes/font_size = 18
+text = "3 laps · recharge boost · stay on the ribbon
+Raised edges mean a fall. Recovery is automatic."
+
+[node name="Start" type="Button" parent="HUD/Menu" unique_id=1345289794]
+layout_mode = 0
+offset_left = 36.0
+offset_top = 329.0
+offset_right = 624.0
+offset_bottom = 394.0
+focus_neighbor_left = NodePath("../../TrackLibrary/List")
+theme_override_font_sizes/font_size = 22
+text = "START RACE   ↵"
+
+[node name="ControllerStatus" type="Label" parent="HUD/Menu" unique_id=1995672073]
+layout_mode = 0
+offset_left = 36.0
+offset_top = 307.0
+offset_right = 624.0
+offset_bottom = 330.0
+theme_override_colors/font_color = Color(0.5294118, 0.84705883, 0.77254903, 1)
+theme_override_font_sizes/font_size = 13
+text_overrun_behavior = 3
+
+[node name="Showcase" type="Button" parent="HUD/Menu" unique_id=2046418147]
+layout_mode = 0
+offset_left = 418.0
+offset_top = 134.0
+offset_right = 626.0
+offset_bottom = 169.0
+focus_behavior_recursive = 2
+theme_override_font_sizes/font_size = 16
+text = "TRY 3D SHOWCASE"
+
+[node name="Results" type="Panel" parent="HUD" unique_id=1177560547]
+visible = false
+offset_left = 265.0
+offset_top = 240.0
+offset_right = 935.0
+offset_bottom = 608.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_k1udn")
+
+[node name="Title" type="Label" parent="HUD/Results" unique_id=1740473336]
+layout_mode = 0
+offset_left = 36.0
+offset_top = 25.0
+offset_right = 636.0
+offset_bottom = 87.0
+theme_override_colors/font_color = Color(0.94509804, 0.8627451, 0.6039216, 1)
+theme_override_font_sizes/font_size = 44
+text = "VICTORY!"
+
+[node name="Summary" type="Label" parent="HUD/Results" unique_id=643091757]
+layout_mode = 0
+offset_left = 36.0
+offset_top = 100.0
+offset_right = 636.0
+offset_bottom = 190.0
+theme_override_colors/font_color = Color(0.9411765, 0.9254902, 0.84313726, 1)
+theme_override_font_sizes/font_size = 23
+
+[node name="Again" type="Button" parent="HUD/Results" unique_id=301330414]
+layout_mode = 0
+offset_left = 36.0
+offset_top = 230.0
+offset_right = 316.0
+offset_bottom = 296.0
+theme_override_font_sizes/font_size = 22
+text = "RACE AGAIN"
+
+[node name="MenuButton" type="Button" parent="HUD/Results" unique_id=106267017]
+layout_mode = 0
+offset_left = 334.0
+offset_top = 230.0
+offset_right = 628.0
+offset_bottom = 296.0
+theme_override_font_sizes/font_size = 22
+text = "CHANGE CIRCUIT"
+
+[node name="DetailsBack" type="Panel" parent="HUD" unique_id=1100274083]
+z_index = -1
+offset_left = 18.0
+offset_top = 139.0
+offset_right = 633.0
+offset_bottom = 213.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_7mycd")
+
+[node name="TrackLibrary" type="Panel" parent="HUD" unique_id=1439671534]
+offset_left = 18.0
+offset_top = 230.0
+offset_right = 253.0
+offset_bottom = 672.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_ryguw")
+
+[node name="Title" type="Label" parent="HUD/TrackLibrary" unique_id=1554612554]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 16.0
+offset_right = 219.0
+offset_bottom = 46.0
+theme_override_colors/font_color = Color(0.5529412, 0.88235295, 0.7607843, 1)
+theme_override_font_sizes/font_size = 18
+text = "CIRCUIT LIBRARY"
+
+[node name="Search" type="LineEdit" parent="HUD/TrackLibrary" unique_id=2007183583]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 58.0
+offset_right = 219.0
+offset_bottom = 94.0
+focus_neighbor_right = NodePath("../../Menu/Start")
+theme_override_font_sizes/font_size = 16
+placeholder_text = "Search circuits…"
+
+[node name="List" type="ItemList" parent="HUD/TrackLibrary" unique_id=1652760424]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 108.0
+offset_right = 219.0
+offset_bottom = 243.0
+focus_neighbor_right = NodePath("../../Menu/Start")
+focus_neighbor_bottom = NodePath("../Search")
+theme_override_font_sizes/font_size = 16
+
+[node name="@VScrollBar@21501" type="VScrollBar" parent="HUD/TrackLibrary/List" unique_id=466407933]
+visible = false
+use_parent_material = true
+layout_mode = 0
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -4.0
+offset_top = 4.0
+offset_right = -4.0
+offset_bottom = -4.0
+max_value = 127.0
+page = 127.0
+
+[node name="@HScrollBar@21502" type="HScrollBar" parent="HUD/TrackLibrary/List" unique_id=565775555]
+visible = false
+use_parent_material = true
+layout_mode = 0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 4.0
+offset_top = -4.0
+offset_right = -4.0
+offset_bottom = -4.0
+max_value = 0.0
+
+[node name="Count" type="Label" parent="HUD/TrackLibrary" unique_id=804094032]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 255.0
+offset_right = 219.0
+offset_bottom = 279.0
+theme_override_colors/font_color = Color(0.5647059, 0.7019608, 0.654902, 1)
+theme_override_font_sizes/font_size = 13
+
+[node name="Description" type="Label" parent="HUD/TrackLibrary" unique_id=1660622853]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 289.0
+offset_right = 219.0
+offset_bottom = 426.0
+theme_override_colors/font_color = Color(0.8980392, 0.8980392, 0.8039216, 1)
+theme_override_font_sizes/font_size = 16
+autowrap_mode = 3
+
+[node name="SoundStatus" type="Label" parent="HUD" unique_id=1755898413]
+offset_left = 1030.0
+offset_top = 752.0
+offset_right = 1175.0
+offset_bottom = 776.0
+theme_override_font_sizes/font_size = 13
+horizontal_alignment = 2
+
+[node name="Confetti" type="Node2D" parent="HUD" unique_id=1389981422]
+script = ExtResource("8_4c57u")
+screen_space = true
+
+[node name="Controller" type="Node" parent="." unique_id=184179088]
+script = ExtResource("7_kek77")
+
+[node name="Particles" type="Node2D" parent="." unique_id=2114405812]
+z_index = 4
+script = ExtResource("8_4c57u")
+
+[node name="TrackCatalog" type="Node" parent="." unique_id=1533630606]
+script = ExtResource("9_efxa6")
+
+[connection signal="pressed" from="HUD/Menu/AI1" to="." method="_one"]
+[connection signal="pressed" from="HUD/Menu/AI2" to="." method="_two"]
+[connection signal="pressed" from="HUD/Menu/AI3" to="." method="_three"]
+[connection signal="pressed" from="HUD/Menu/Start" to="." method="start_race"]
+[connection signal="pressed" from="HUD/Menu/Showcase" to="." method="open_showcase"]
+[connection signal="pressed" from="HUD/Results/Again" to="." method="restart_race"]
+[connection signal="pressed" from="HUD/Results/MenuButton" to="." method="show_menu"]
+[connection signal="text_changed" from="HUD/TrackLibrary/Search" to="." method="filter_tracks"]
+[connection signal="item_selected" from="HUD/TrackLibrary/List" to="." method="select_track_item"]

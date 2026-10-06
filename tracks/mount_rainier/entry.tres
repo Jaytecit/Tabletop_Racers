@@ -1,0 +1,19 @@
+[gd_resource type="Resource" format=3 uid="uid://dn0dd8y0woud3"]
+
+[ext_resource type="PackedScene" uid="uid://dmhyrbavjuufc" path="res://environments/tabletop/mount_rainier.tscn" id="1_omncs"]
+[ext_resource type="Texture2D" uid="uid://cq4phgqsd148u" path="res://tracks/mount_rainier/preview.res" id="2_pgspa"]
+[ext_resource type="Resource" uid="uid://dq2mt8u77pmak" path="res://tracks/mount_rainier/definition.tres" id="3_e1f4c"]
+[ext_resource type="Script" uid="uid://dfomhj1p8s58n" path="res://scripts/tracks/track_entry.gd" id="4_kipso"]
+
+[resource]
+script = ExtResource("4_kipso")
+presentation = "bedroom"
+id = "mount_rainier"
+title = "Mount Rainier"
+cup = "Tabletop"
+route = ExtResource("3_e1f4c")
+environment = ExtResource("1_omncs")
+preview = ExtResource("2_pgspa")
+eligible_classes = PackedStringArray("buggy")
+target_lap_seconds = Vector2(30, 70)
+description = "Mountain road circuit · sweeping bends, hillside climbs and tight hairpins"

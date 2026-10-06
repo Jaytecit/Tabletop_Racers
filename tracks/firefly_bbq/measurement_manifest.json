@@ -1,0 +1,656 @@
+{
+  "title": "Firefly BBQ",
+  "description": "Night barbecue circuit \u00b7 cloth ramps and grill pan",
+  "revision": 1,
+  "start_station": 8.108254992287693,
+  "source_sha256": "59c8aa23122438ef3662b00878ac22d81351b066560e25022359ff66937548b3",
+  "source": "C:\\Users\\jayte\\Downloads\\table_top_racing_-_firefly_bbq.glb",
+  "source_url": "https://sketchfab.com/3d-models/table-top-racing-firefly-bbq-2fc12d167b8848ce8f1c8a02ee13b6d7",
+  "author": "amogusstrikesback2",
+  "license": "CC BY 4.0",
+  "transform": {
+    "scale": 40,
+    "offset": [
+      -2,
+      0,
+      9
+    ]
+  },
+  "visible_meshes": [
+    "bake_01_tex_bake_01.002_0",
+    "bake_02_tex_bake_02.002_0",
+    "bake_02a_tex_default.007_0",
+    "bake_03_tex_bake_03.002_0",
+    "bake_03a_tex_default.008_0",
+    "bake_04_tex_bake_04.002_0",
+    "bake_04a_tex_default.009_0",
+    "bake_05_tex_bake_05.002_0",
+    "bake_06_tex_bake_06.002_0",
+    "bake_07_tex_bake_07.002_0",
+    "bake_08_tex_bake_08.002_0",
+    "bake_09_tex_bake_09.002_0"
+  ],
+  "collision_meshes": [
+    "bake_01_tex_bake_01.002_0",
+    "bake_02_tex_bake_02.002_0",
+    "bake_02a_tex_default.007_0",
+    "bake_03_tex_bake_03.002_0",
+    "bake_03a_tex_default.008_0",
+    "bake_04_tex_bake_04.002_0",
+    "bake_04a_tex_default.009_0",
+    "bake_05_tex_bake_05.002_0",
+    "bake_06_tex_bake_06.002_0",
+    "bake_07_tex_bake_07.002_0",
+    "bake_08_tex_bake_08.002_0",
+    "bake_09_tex_bake_09.002_0",
+    "collide_default.006_0"
+  ],
+  "section_surfaces": [
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "paper",
+    "paper",
+    "paper",
+    "wood",
+    "wood",
+    "paper",
+    "paper",
+    "paper",
+    "wood",
+    "wood",
+    "wood",
+    "fabric",
+    "fabric",
+    "fabric",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric"
+  ],
+  "section_layers": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "height_surfaces": [
+    "bake_01_tex_bake_01.002_0",
+    "bake_02_tex_bake_02.002_0",
+    "bake_02a_tex_default.007_0",
+    "bake_03_tex_bake_03.002_0",
+    "bake_03a_tex_default.008_0",
+    "bake_04_tex_bake_04.002_0",
+    "bake_04a_tex_default.009_0"
+  ],
+  "fit_profile": "tools/tabletop_reference/profiles/firefly_bbq.json",
+  "source_surface_labels": {
+    "bake_01_tex_bake_01.002_0": "wood",
+    "bake_02_tex_bake_02.002_0": "wood",
+    "bake_02a_tex_default.007_0": "wood",
+    "bake_03_tex_bake_03.002_0": "fabric",
+    "bake_03a_tex_default.008_0": "fabric",
+    "bake_04_tex_bake_04.002_0": "wood",
+    "bake_04a_tex_default.009_0": "wood"
+  },
+  "mesh_compression": false,
+  "driving_height_range": [
+    -0.06,
+    1.2
+  ],
+  "sampling_spacing": 0.05,
+  "route_direction": "North along inner cloth straight; left hairpin then northeast upper bench, southeast grill and southwest connector, around bottom loop",
+  "uncertain_sections": [
+    21,
+    22,
+    23,
+    26,
+    27,
+    28
+  ],
+  "unresolved_intervals": [],
+  "status": "integrated and verified",
+  "original_start_cue": {
+    "mesh": "bake_07_tex_bake_07.002_0",
+    "texture_uv_region": [
+      [
+        0.155,
+        0.055,
+        0.279,
+        0.105
+      ],
+      [
+        0.665,
+        0.06,
+        0.785,
+        0.083
+      ]
+    ],
+    "world_bounds": [
+      [
+        -5.054,
+        3.273,
+        8.952
+      ],
+      [
+        1.991,
+        4.386,
+        9.005
+      ]
+    ],
+    "plane_z": 8.978
+  },
+  "surface_label_reason": "Source crops identify cloth and napkins by section; wood is also the neutral hard-surface preset for the grill pan because no metal preset exists. All are neutral handling presets.",
+  "imported_mesh_names": {
+    "bake_01_tex_bake_01.002_0": "bake_01_tex_bake_01_002_0",
+    "bake_02_tex_bake_02.002_0": "bake_02_tex_bake_02_002_0",
+    "bake_02a_tex_default.007_0": "bake_02a_tex_default_007_0",
+    "bake_03_tex_bake_03.002_0": "bake_03_tex_bake_03_002_0",
+    "bake_03a_tex_default.008_0": "bake_03a_tex_default_008_0",
+    "bake_04_tex_bake_04.002_0": "bake_04_tex_bake_04_002_0",
+    "bake_04a_tex_default.009_0": "bake_04a_tex_default_009_0",
+    "bake_05_tex_bake_05.002_0": "bake_05_tex_bake_05_002_0",
+    "bake_06_tex_bake_06.002_0": "bake_06_tex_bake_06_002_0",
+    "bake_07_tex_bake_07.002_0": "bake_07_tex_bake_07_002_0",
+    "bake_08_tex_bake_08.002_0": "bake_08_tex_bake_08_002_0",
+    "bake_09_tex_bake_09.002_0": "bake_09_tex_bake_09_002_0",
+    "collide_default.006_0": "collide_default_006_0"
+  },
+  "import_name_mapping_reason": "Actual imported node names printed and matched to all 13 raw source meshes; dots become underscores.",
+  "measurement_sha256": "9e819c69be8e3bce30fc8669c8ece97fb13fea43fdbc920794e833d7c105fd3c",
+  "profile_sha256": "38208bf1bb7d8e6dcbb30203306d3ca9b4e4d3a059f3d45a21707637729c19f5",
+  "raster": {
+    "origin": [
+      -65,
+      -75
+    ],
+    "shape": [
+      3100,
+      2600
+    ],
+    "spacing": 0.05
+  },
+  "texture_inventory": [
+    {
+      "mesh": "bake_01_tex_bake_01.002_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "bake_01.002",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.8308205978495098
+        }
+      },
+      "image_sha256": "40853f4b3fed5516c847cbdb5bf08f98eb9b72077b60852c98cc123467a8fb38",
+      "size": [
+        1024,
+        1024
+      ],
+      "texture_info": {
+        "index": 0
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "bake_02_tex_bake_02.002_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "bake_02.002",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.8308205978495098
+        }
+      },
+      "image_sha256": "ecdfc9c0c5cb5cdf67c2f1ff5ae3ba777f6738df09806ecdc408e1897ec3c519",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 1
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "bake_02a_tex_default.007_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "default.007",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.8308205978495098
+        }
+      },
+      "image_sha256": "ecdfc9c0c5cb5cdf67c2f1ff5ae3ba777f6738df09806ecdc408e1897ec3c519",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 1
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "bake_03_tex_bake_03.002_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "bake_03.002",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 2
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.8308205978495098
+        }
+      },
+      "image_sha256": "f05719b8b2ba76da64e10fc3c8cfc6ff84d26b201524b46a6bda0a1994f09d53",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 2
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "bake_03a_tex_default.008_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "default.008",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 2
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.8308205978495098
+        }
+      },
+      "image_sha256": "f05719b8b2ba76da64e10fc3c8cfc6ff84d26b201524b46a6bda0a1994f09d53",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 2
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "bake_04_tex_bake_04.002_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "bake_04.002",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 3
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.8308205978495098
+        }
+      },
+      "image_sha256": "6ce62e271238877b9daa1ea7bca76d7849c16a1dc59eaa4666f57612c752a7e1",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 3
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "bake_04a_tex_default.009_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "default.009",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 3
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.8308205978495098
+        }
+      },
+      "image_sha256": "6ce62e271238877b9daa1ea7bca76d7849c16a1dc59eaa4666f57612c752a7e1",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 3
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "bake_05_tex_bake_05.002_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "bake_05.002",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 4
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.8308205978495098
+        }
+      },
+      "image_sha256": "283fbdbfa9d539170987be9b98e173d19bd47841ac0742030f8347a2933e695b",
+      "size": [
+        1024,
+        1024
+      ],
+      "texture_info": {
+        "index": 4
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "bake_06_tex_bake_06.002_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "bake_06.002",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 5
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.8308205978495098
+        }
+      },
+      "image_sha256": "141df98cf465c6fa86749a04fa6fa249cadb4feb2a1e38a3d16ea1ca1d0f5ae6",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 5
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "bake_07_tex_bake_07.002_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "bake_07.002",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 6
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.8308205978495098
+        }
+      },
+      "image_sha256": "7d9d1490ab9ebecb9c5b77f6d7d3e64f64582a85055d61f08436deb5c52f785f",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 6
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "bake_08_tex_bake_08.002_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "bake_08.002",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 7
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.8308205978495098
+        }
+      },
+      "image_sha256": "ec875608de42559c293df78bc68b52e1b734e1875bea230fec8ce59bbc2883f2",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 7
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "bake_09_tex_bake_09.002_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "bake_09.002",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 8
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.8308205978495098
+        }
+      },
+      "image_sha256": "cb1260ce2af52ae58523a3ddfa62c8c1dba031be766bf41c55e02817deeff71a",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 8
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    }
+  ],
+  "boundary_tolerance": 0.12000000000000001,
+  "source_review": "All 68 source and rendered sections align. White-on-white napkin sections 21\u201323 and 26\u201328 were individually reviewed against faint paint ridges, both adjoining wooden paint bands and selected triangle topology. They are explicitly excluded from automatic colour-mask claims. Cloth ramps and grill pan have measured heights; there is no road self-crossing. Original START cloth in bake_07 lies at Z 8.978, matched by gate station 8.10825 and reused. Checkpoint cues remain clear without overlay. Initial verification_01 failed all support checks because imported names had dots sanitized to underscores; its empty-scene images and results are preserved. Explicit verified aliases now retain all 13 meshes, with three separated landmarks passing. The author rejects missing selected meshes instead of saving an empty environment.",
+  "uncertainty_resolution": {
+    "weak_samples": [],
+    "folds_removed": [
+      {
+        "side": 1,
+        "start": 1087,
+        "end": 1099,
+        "max_shift": 0.02719529383176745
+      }
+    ],
+    "ridge_snaps": [],
+    "support_snaps": []
+  },
+  "verification": {
+    "source": "tests/baselines/content/firefly_bbq/alignment/source_validation.json",
+    "landmarks": "tests/baselines/content/firefly_bbq/alignment/landmark_checks.json",
+    "race": "tests/baselines/content/firefly_bbq/verification_02/results.json",
+    "visual": "tests/baselines/content/firefly_bbq/visual_02/results.json",
+    "flags": "tests/baselines/content/firefly_bbq/visual_02/results.json"
+  }
+}

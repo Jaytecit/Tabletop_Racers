@@ -1,0 +1,22 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/vehicles/vehicle_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "racing_car"
+top_speed = 20
+acceleration = 19.1
+braking = 25.0
+grip = 5.2
+coast_grip = 6
+steering_low = 3.6
+steering_high = 1.8
+boost_drain = 42
+collision_size = Vector3(1.52, 0.52, 1.06)
+collision_height = 0.33
+traffic_half_width = 0.55
+surface_speed = {"sand": 0.65, "fabric": 0.78, "felt": 0.92}
+surface_grip = {"sand": 0.62, "fabric": 0.72, "puddle": 0.7}
+boost_acceleration = 2.4
+boost_recharge = 13
+boost_speed = 2.95
+recovery_immunity = 1.5

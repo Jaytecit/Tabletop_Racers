@@ -1,0 +1,422 @@
+{
+  "title": "Toys R Asleep",
+  "description": "Toy-room night circuit \u00b7 raised puzzle ramps and tight hairpins",
+  "revision": 1,
+  "start_station": 0.0,
+  "source_sha256": "99f7c07dac78a2cd78a401460b9b114cbb93454ac830656c0cfe3b3d562c16ef",
+  "source": "C:\\Users\\jayte\\Downloads\\table_top_racing_-_toys_r_asleep.glb",
+  "transform": {
+    "scale": 40,
+    "offset": [
+      -37.2,
+      2.16,
+      1.5
+    ],
+    "source_ancestor_transforms": "GLB node TRS accumulated by Source and author.collect"
+  },
+  "visible_meshes": [
+    "0000_bake_08_tex_bake_08_0",
+    "0001_bake_02_tex_bake_02_0",
+    "0002_bake_03_tex_bake_03_0",
+    "0003_bake_04_tex_bake_04_0",
+    "0004_bake_05_tex_bake_05_0",
+    "0005_bake_06_tex_bake_06_0",
+    "0006_bake_01_tex_bake_01_0",
+    "0007_bake_07_tex_bake_07_0"
+  ],
+  "collision_meshes": [
+    "0000_bake_08_tex_bake_08_0",
+    "0001_bake_02_tex_bake_02_0",
+    "0002_bake_03_tex_bake_03_0",
+    "0003_bake_04_tex_bake_04_0",
+    "0004_bake_05_tex_bake_05_0",
+    "0005_bake_06_tex_bake_06_0",
+    "0006_bake_01_tex_bake_01_0",
+    "0007_bake_07_tex_bake_07_0",
+    "0008_collide_default_0",
+    "0009_collide_default_0"
+  ],
+  "section_surfaces": [
+    "wood",
+    "wood",
+    "wood",
+    "paper",
+    "paper",
+    "paper",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "paper",
+    "paper",
+    "paper",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "paper",
+    "paper",
+    "paper",
+    "wood",
+    "paper",
+    "wood",
+    "paper",
+    "wood",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "wood",
+    "wood"
+  ],
+  "section_layers": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "fit_profile": "tools/tabletop_reference/profiles/toys_r_asleep.json",
+  "sampling_spacing": 0.05,
+  "route_direction": "From left castle arch north, clockwise around upper and right lobes, south down centre ramp, around lower U and back",
+  "row_rotation": 1344,
+  "height_surfaces": [
+    "0001_bake_02_tex_bake_02_0",
+    "0002_bake_03_tex_bake_03_0",
+    "0003_bake_04_tex_bake_04_0",
+    "0006_bake_01_tex_bake_01_0"
+  ],
+  "status": "integrated and verified 2026-10-03",
+  "uncertain_sections_before_rotation": [
+    8,
+    9,
+    10,
+    21,
+    22,
+    23,
+    24,
+    25,
+    29,
+    30,
+    31,
+    32,
+    37,
+    56,
+    57
+  ],
+  "boundary_reviews": [
+    {
+      "side": 1,
+      "start": 525,
+      "end": 625,
+      "pixels": [
+        [
+          1614.7,
+          1141.8
+        ],
+        [
+          1614,
+          1157
+        ],
+        [
+          1616,
+          1170
+        ],
+        [
+          1612,
+          1185
+        ],
+        [
+          1605,
+          1196
+        ],
+        [
+          1594,
+          1205
+        ],
+        [
+          1581,
+          1210
+        ],
+        [
+          1570,
+          1211
+        ],
+        [
+          1560.5,
+          1215.9
+        ]
+      ],
+      "reason": "Concave packaging/ramp corner: measured visible tape/dash centres from corner_source.png; monotonic boundary pairing replaces folded normal correspondence. Dashes and white-on-white gaps use reviewed continuity."
+    }
+  ],
+  "source_url": "https://sketchfab.com/3d-models/table-top-racing-toys-r-asleep-5e6fca61cc5e4d85a20675fd141b97b1",
+  "author": "amogusstrikesback2",
+  "license": "CC BY 4.0",
+  "driving_height_range": [
+    0,
+    2.2
+  ],
+  "mesh_compression": false,
+  "height_range_reason": "Explicit driving-deck range; carton rim at 2.7104 excluded after source and physics inspection.",
+  "source_surface_labels": {
+    "0001_bake_02_tex_bake_02_0": "wood",
+    "0002_bake_03_tex_bake_03_0": "paper",
+    "0003_bake_04_tex_bake_04_0": "paper",
+    "0006_bake_01_tex_bake_01_0": "wood"
+  },
+  "model_length_xz": 336.788916878402,
+  "texture_associations": {
+    "0000_bake_08_tex_bake_08_0": {
+      "doubleSided": true,
+      "name": "bake_08",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9577051494623774
+      }
+    },
+    "0001_bake_02_tex_bake_02_0": {
+      "doubleSided": true,
+      "name": "bake_02",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9577051494623774
+      }
+    },
+    "0002_bake_03_tex_bake_03_0": {
+      "doubleSided": true,
+      "name": "bake_03",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9577051494623774
+      }
+    },
+    "0003_bake_04_tex_bake_04_0": {
+      "doubleSided": true,
+      "name": "bake_04",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9577051494623774
+      }
+    },
+    "0004_bake_05_tex_bake_05_0": {
+      "doubleSided": true,
+      "name": "bake_05",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 4
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9577051494623774
+      }
+    },
+    "0005_bake_06_tex_bake_06_0": {
+      "doubleSided": true,
+      "name": "bake_06",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 5
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9577051494623774
+      }
+    },
+    "0006_bake_01_tex_bake_01_0": {
+      "doubleSided": true,
+      "name": "bake_01",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 6
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9577051494623774
+      }
+    },
+    "0007_bake_07_tex_bake_07_0": {
+      "doubleSided": true,
+      "name": "bake_07",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 7
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9577051494623774
+      }
+    },
+    "0008_collide_default_0": {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "default",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.8,
+          0.8,
+          0.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9577051494623774
+      }
+    },
+    "0009_collide_default_0": {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "default",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.8,
+          0.8,
+          0.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9577051494623774
+      }
+    }
+  },
+  "paint_tolerance": {
+    "sampling_spacing": 0.05,
+    "paint_band_half_width": 0.08,
+    "maximum_distance_from_source_ridge_pixel": 0.13,
+    "basis": "Thin white marking band is approximately 2\u20134 raster pixels across at the selected 0.05-unit spacing; colour/ridge mask used only in confident intervals."
+  },
+  "uncertainty_resolutions": [
+    {
+      "original_sections": [
+        8,
+        9,
+        10,
+        29,
+        30,
+        31,
+        32
+      ],
+      "method": "Reviewed backgammon white-tips intersections and shadow close-ups; continuity bridges white tips only, follows adjacent visible tape ridges."
+    },
+    {
+      "original_sections": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "method": "Reviewed carton deck white-on-white spans and dashed concave rim. Source-pixel anchors specify the monotonic rim traversal; refined onto visible ridge/dash bands. Highest carton-wall triangles excluded from driving support."
+    },
+    {
+      "original_sections": [
+        37,
+        56,
+        57
+      ],
+      "method": "Reviewed printed packaging white areas, adjacent markings and floor/card topology; preserve independent side continuity."
+    }
+  ],
+  "unresolved_intervals": [],
+  "profile_sha256": "c7d6d97fbc4b31a2245d7c99924227798159b6de2062a061711e2dffd412d70f",
+  "measurement_sha256": "574e32b911ca39de42286049fc5601b8462cb0ae6c55f553ccfc21163e401e63",
+  "verification": {
+    "gameplay": "tests/baselines/content/toys_r_asleep/verification_06/results.json",
+    "visual": "tests/baselines/content/toys_r_asleep/visual_06/results.json",
+    "flags": "tests/baselines/content/toys_r_asleep/flags_final/results.json",
+    "shared_regression": "tests/baselines/content/toys_r_asleep/toys_progress_regression/results.json",
+    "source": "tests/baselines/content/toys_r_asleep/alignment/source_validation.json",
+    "test_processes_exited": true
+  }
+}

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" format=3 uid="uid://b285hspyaxt6t"]
+
+[ext_resource type="PackedScene" uid="uid://dw0v3h1r3v60w" path="res://environments/tabletop/toys_r_asleep.tscn" id="1_yjk05"]
+[ext_resource type="Texture2D" uid="uid://sn3rrqah7tsg" path="res://tracks/toys_r_asleep/preview.res" id="2_gu2t4"]
+[ext_resource type="Resource" uid="uid://coxsh0o07qpdl" path="res://tracks/toys_r_asleep/definition.tres" id="3_vnnai"]
+[ext_resource type="Script" uid="uid://dfomhj1p8s58n" path="res://scripts/tracks/track_entry.gd" id="4_4rrqv"]
+
+[resource]
+script = ExtResource("4_4rrqv")
+id = "toys_r_asleep"
+title = "Toys R Asleep"
+cup = "Tabletop"
+route = ExtResource("3_vnnai")
+environment = ExtResource("1_yjk05")
+preview = ExtResource("2_gu2t4")
+eligible_classes = PackedStringArray("buggy")
+target_lap_seconds = Vector2(30, 70)
+description = "Toy-room night circuit · raised puzzle ramps and tight hairpins"

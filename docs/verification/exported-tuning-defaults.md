@@ -1,0 +1,11 @@
+# Accepted exported defaults
+
+> Verification record: measurements, counts, versions and failures below describe the named runs. They are not a fresh acceptance claim for the current build. See [current build](../current-build.md) and [remaining work](../implementation-checklist.md), including eight-car scope and the owner's current verification policy.
+
+Source: root `tabletop-setup.json`, exported 5 October 2026. Its five `vehicle_baselines` are promoted into the vehicle definition resources (six-decimal rounding removes slider accumulation noise). Speedboat is unchanged. Earned player upgrades continue to compose on these defaults. The three identical buggy AI physics overrides are retained as vehicle-specific factory defaults in `tuning_defaults.gd`; session baseline edits and racer overrides take precedence. Factory defaults do not make races experimental. Handling version is bumped to `classes-2-export-defaults` so record signatures distinguish this tuning.
+
+Camera default is mode 0, the orthographic high isometric Chase view, overriding the export's mode 2 Close Chase. Camera preference version 1 adopts this default for older saved controls; subsequent saved camera choices are honoured. Reset Controls returns to high Chase.
+
+Rendered evidence: `tests/baselines/requirements_2026_10_05/export_defaults_02/`, probe `exported_defaults_verification.gd`. All assertions passed: every exported baseline property, player upgrade composition and AI defaults for all five types, ranked default state, session override/reset precedence, camera migration/reset/saved choice and high isometric position. Screenshot inspected. PID 112156 exited with code 0, no forced stop or shutdown errors. Profiles were read-only and hardware input isolated; writable controls were redirected into evidence. Run 01 is preserved: its state assertions passed, but the title backdrop obscured its camera capture; run 02 starts the race before capture.
+
+Strict verification remains failed solely for the preserved invalid track-script UID warning in `scenes/race/race.tscn:4`. No clean overall pass is claimed. These checks establish default application, not full-race balance for the increased boost factors.

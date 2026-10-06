@@ -1,0 +1,19 @@
+[gd_resource type="Resource" format=3 uid="uid://cbr1xjuy631m0"]
+
+[ext_resource type="PackedScene" uid="uid://b3a5bxohjp05o" path="res://environments/tabletop/topspeed_oval.tscn" id="1_ig6dk"]
+[ext_resource type="Texture2D" uid="uid://du2kqnvlndwyk" path="res://tracks/topspeed_oval/preview.res" id="2_ujnv0"]
+[ext_resource type="Resource" uid="uid://dmase7ridgmaw" path="res://tracks/topspeed_oval/definition.tres" id="3_s7st8"]
+[ext_resource type="Script" uid="uid://dfomhj1p8s58n" path="res://scripts/tracks/track_entry.gd" id="4_mmjxm"]
+
+[resource]
+script = ExtResource("4_mmjxm")
+presentation = "bedroom"
+id = "topspeed_oval"
+title = "Topspeed Oval"
+cup = "Tabletop"
+route = ExtResource("3_s7st8")
+environment = ExtResource("1_ig6dk")
+preview = ExtResource("2_ujnv0")
+eligible_classes = PackedStringArray("buggy")
+target_lap_seconds = Vector2(30, 70)
+description = "Raised stadium oval · sweeping curves and long straights"

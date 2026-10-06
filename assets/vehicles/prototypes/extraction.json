@@ -1,0 +1,52 @@
+{
+  "source_sha256": "bec2eb08e26cadfe83556c68a4e063d4a2f78ff7d98d829d66658eeab7aecfe0",
+  "parts": [
+    {
+      "name": "Body",
+      "triangles": 348171,
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "RearLeft",
+      "triangles": 38003,
+      "pivot": [
+        -0.235,
+        0.148,
+        -0.272
+      ]
+    },
+    {
+      "name": "RearRight",
+      "triangles": 37625,
+      "pivot": [
+        -0.235,
+        0.148,
+        0.272
+      ]
+    },
+    {
+      "name": "FrontLeft",
+      "triangles": 37624,
+      "pivot": [
+        0.328,
+        0.148,
+        -0.272
+      ]
+    },
+    {
+      "name": "FrontRight",
+      "triangles": 37967,
+      "pivot": [
+        0.328,
+        0.148,
+        0.272
+      ]
+    }
+  ],
+  "triangles_preserved": 499390,
+  "method": "Measured cylindrical face selection at four tyre hubs; prototype boundaries require rendered inspection."
+}

@@ -1,0 +1,27 @@
+{
+  "track": "res://audio/music/menu_pulsing.mp3",
+  "measured_bpm": 127.9974879489443,
+  "measured_first_beat": 0.030865523597353284,
+  "authored_bpm": 128,
+  "authored_first_beat": 0.03,
+  "scene_beats": [
+    0,
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    72,
+    82,
+    92
+  ],
+  "logo_beat": 96,
+  "logo_seconds": 45.03,
+  "not_impact_beat": 100,
+  "start_prompt_beat": 104,
+  "not_delay_seconds": 1.875,
+  "measured_drop_onset_seconds": 45.02766439909297,
+  "pre_drop_rms": 0.11987155303359032,
+  "drop_rms": 0.28693386912345886
+}

@@ -1,0 +1,21 @@
+{
+  "measured_bpm": 150.01231738257113,
+  "measured_first_beat": 0.024858138377302434,
+  "onset_fit_rms_seconds": 0.002944045848919141,
+  "measured_window_seconds": 16,
+  "authored_bpm": 150,
+  "authored_first_beat": 0.025,
+  "note": "Beat-synchronised editorial cut; vocal/chorus alignment requires listening review.",
+  "track": "audio\\music\\Main Theme - not The Real Thing.mp3",
+  "source_duration_seconds": 184.032625,
+  "logo_beat": 432,
+  "logo_seconds": 172.82500000000002,
+  "not_impact_beat": 436,
+  "prompt_beat": 440,
+  "fade_start_seconds": 179.2,
+  "fade_duration_seconds": 4.832625000000007,
+  "standalone_theme_start_seconds": 3.6,
+  "studio_visual_crossfade_seconds": 0.8,
+  "studio_audio_fade_start_seconds": 3.6,
+  "studio_audio_fade_end_seconds": 5.0
+}

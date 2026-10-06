@@ -1,0 +1,20 @@
+[
+  {
+    "id": "room-run",
+    "title": "Room Run",
+    "description": "The original breakfast-table grand prix",
+    "file": "res://tracks/room_run.json"
+  },
+  {
+    "id": "reverse-room",
+    "title": "Room Run · Reverse",
+    "description": "Familiar corners, a fresh racing line",
+    "file": "res://tracks/reverse_room.json"
+  },
+  {
+    "id": "carpet-sprint",
+    "title": "Carpet Sprint",
+    "description": "Wide floor-level straights and sweeping bends",
+    "file": "res://tracks/carpet_sprint.json"
+  }
+]

@@ -1,0 +1,562 @@
+{
+  "title": "Rusty Nuts Workshop",
+  "description": "Workshop circuit \u00b7 twin winding workbenches, carton ramps and connecting plate",
+  "revision": 1,
+  "start_station": 14.796376541003692,
+  "source_sha256": "52fe3012c9089159634a4db101b3b5993c315f343ba841e9fb492c927657c6e4",
+  "source": "C:\\Users\\jayte\\Downloads\\table_top_racing_-_rusty_nuts_workshop.glb",
+  "source_url": "https://sketchfab.com/3d-models/table-top-racing-rusty-nuts-workshop-8ac8eef11e404195985dee59dabd5eb7",
+  "author": "amogusstrikesback2",
+  "license": "CC BY 4.0",
+  "transform": {
+    "scale": 40,
+    "offset": [
+      12,
+      0,
+      -8
+    ]
+  },
+  "visible_meshes": [
+    "BAKE_01_tex_DIFF_BAKE_01_0",
+    "BAKE_02_tex_DIFF_BAKE_02_0",
+    "BAKE_03_tex_DIFF_BAKE_03_0",
+    "BAKE_04_tex_DIFF_BAKE_04_0",
+    "BAKE_05_tex_DIFF_BAKE_05_0",
+    "BAKE_06_tex_DIFF_BAKE_06_0",
+    "BAKE_07_tex_DIFF_BAKE_07_0",
+    "BAKE_09_tex_DIFF_BAKE_09_0",
+    "BAKE_08_tex_DIFF_BAKE_08_0"
+  ],
+  "collision_meshes": [
+    "BAKE_01_tex_DIFF_BAKE_01_0",
+    "BAKE_02_tex_DIFF_BAKE_02_0",
+    "BAKE_03_tex_DIFF_BAKE_03_0",
+    "BAKE_04_tex_DIFF_BAKE_04_0",
+    "BAKE_05_tex_DIFF_BAKE_05_0",
+    "BAKE_06_tex_DIFF_BAKE_06_0",
+    "BAKE_07_tex_DIFF_BAKE_07_0",
+    "BAKE_09_tex_DIFF_BAKE_09_0",
+    "BAKE_08_tex_DIFF_BAKE_08_0",
+    "collide_default_0"
+  ],
+  "section_surfaces": [
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "paper",
+    "paper",
+    "wood"
+  ],
+  "section_layers": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "height_surfaces": [
+    "BAKE_01_tex_DIFF_BAKE_01_0",
+    "BAKE_02_tex_DIFF_BAKE_02_0",
+    "BAKE_03_tex_DIFF_BAKE_03_0"
+  ],
+  "fit_profile": "tools/tabletop_reference/profiles/rusty_nuts_workshop.json",
+  "source_surface_labels": {
+    "BAKE_01_tex_DIFF_BAKE_01_0": "wood",
+    "BAKE_02_tex_DIFF_BAKE_02_0": "wood",
+    "BAKE_03_tex_DIFF_BAKE_03_0": "paper"
+  },
+  "mesh_compression": false,
+  "driving_height_range": [
+    -0.06,
+    1.15
+  ],
+  "sampling_spacing": 0.05,
+  "route_direction": "North on inner right workbench; clockwise through right upper lobe, around bottom and left upper lobe, down inner left and east across connector",
+  "uncertain_sections": [],
+  "unresolved_intervals": [],
+  "status": "integrated and verified",
+  "measurement_sha256": "b67963503a25b05d3dffc0b73390520082ea953a9e9aff739776847a4d1a11c4",
+  "profile_sha256": "22c671fb52aff7a921d93580776e59753198a2fe93bf6629c358af095c29ff60",
+  "raster": {
+    "origin": [
+      -55,
+      -55
+    ],
+    "shape": [
+      2200,
+      2200
+    ],
+    "spacing": 0.05
+  },
+  "texture_inventory": [
+    {
+      "mesh": "BAKE_01_tex_DIFF_BAKE_01_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "DIFF_BAKE_01",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.9577051494623774
+        }
+      },
+      "image_sha256": "fc937031524f0e82a69c38cde32c8f7a535b5a1f61a68070a731c25953b3d4e5",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 0
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "BAKE_02_tex_DIFF_BAKE_02_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "DIFF_BAKE_02",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.9577051494623774
+        }
+      },
+      "image_sha256": "3ff415191ff8204f1ac6b97569284cc2b41cb00716e7d11e6131d8328f2875e0",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 1
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "BAKE_03_tex_DIFF_BAKE_03_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "DIFF_BAKE_03",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 2
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.9577051494623774
+        }
+      },
+      "image_sha256": "b5d318b58ec4ca2d0be5f8811ae7c99120b2509be06e034d2a98e289978e7418",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 2
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "BAKE_04_tex_DIFF_BAKE_04_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "DIFF_BAKE_04",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 3
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.9577051494623774
+        }
+      },
+      "image_sha256": "2346e86fbe53ec8f90f81f338131fce8159c13be48e80888a19a0e5f82244d50",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 3
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "BAKE_05_tex_DIFF_BAKE_05_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "DIFF_BAKE_05",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 4
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.9577051494623774
+        }
+      },
+      "image_sha256": "4460307ccb3f72a8893eeb132f10714921189c484aa11842df07342d709a72e9",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 4
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "BAKE_06_tex_DIFF_BAKE_06_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "DIFF_BAKE_06",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 5
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.9577051494623774
+        }
+      },
+      "image_sha256": "0e72f0894fe671880bb4dcc8f6869ecfc7735d96b37f24388fa86a7d78c7ff64",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 5
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "BAKE_07_tex_DIFF_BAKE_07_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "DIFF_BAKE_07",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 6
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.9577051494623774
+        }
+      },
+      "image_sha256": "4a83270248cf4d30170ce7b971cf6f6f2a75c0cb9a85e4c99bf325916882501f",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 6
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "BAKE_09_tex_DIFF_BAKE_09_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "DIFF_BAKE_09",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 7
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.9577051494623774
+        }
+      },
+      "image_sha256": "0ac1f05bfe88fbd36326cbfef1d0698cabc02f7535cbfc72305605ce98c55434",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 7
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "BAKE_08_tex_DIFF_BAKE_08_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "DIFF_BAKE_08",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 8
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.9577051494623774
+        }
+      },
+      "image_sha256": "7b5b194ad597699741645c7fa36ea49f5838c92961ca762d1387c775e7788e0c",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 8
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    }
+  ],
+  "boundary_tolerance": 0.125,
+  "source_review": "All 60 source and rendered views align, including reviewed correspondence folds at samples 1260\u20131270, 1356\u20131358 and 1410\u20131429. Six weak samples on the connector corner were resolved by paint proximity and visual review. Initial overhead cue review missed the hanging START banner. Texture-atlas review and UV-to-vertex mapping locate it in BAKE_06 at Z -5.190 to -5.146; final gate zero uses station 14.7964 on that plane and reuses the banner. The previous generated FINISH cue is removed. Final race and all final gate views were rechecked after this correction. No road layers cross; the jack is a prop excluded from driving-height selection.",
+  "uncertainty_resolution": {
+    "weak_samples": [
+      [
+        1417,
+        0
+      ],
+      [
+        1424,
+        0
+      ],
+      [
+        1425,
+        0
+      ],
+      [
+        1426,
+        0
+      ],
+      [
+        1427,
+        0
+      ],
+      [
+        1428,
+        0
+      ]
+    ],
+    "folds_removed": [
+      {
+        "side": 0,
+        "start": 1260,
+        "end": 1268,
+        "max_shift": 0.1900291772935474
+      },
+      {
+        "side": 0,
+        "start": 1260,
+        "end": 1270,
+        "max_shift": 0.05057388195664564
+      },
+      {
+        "side": 0,
+        "start": 1356,
+        "end": 1358,
+        "max_shift": 0.006006756801483462
+      },
+      {
+        "side": 0,
+        "start": 1410,
+        "end": 1422,
+        "max_shift": 0.9441127679266422
+      },
+      {
+        "side": 0,
+        "start": 1423,
+        "end": 1428,
+        "max_shift": 0.28123235103804695
+      },
+      {
+        "side": 0,
+        "start": 1423,
+        "end": 1429,
+        "max_shift": 0.10811519442010713
+      }
+    ],
+    "ridge_snaps": [],
+    "support_snaps": []
+  },
+  "verification": {
+    "source": "tests/baselines/content/rusty_nuts_workshop/alignment/source_validation.json",
+    "landmarks": "tests/baselines/content/rusty_nuts_workshop/alignment/landmark_checks.json",
+    "race": "tests/baselines/content/rusty_nuts_workshop/verification_02/results.json",
+    "visual": "tests/baselines/content/rusty_nuts_workshop/visual_01/results.json",
+    "flags": "tests/baselines/content/rusty_nuts_workshop/flags_final_02/results.json"
+  },
+  "original_start_cue": {
+    "mesh": "BAKE_06_tex_DIFF_BAKE_06_0",
+    "texture_uv_region": [
+      0.15,
+      0.005,
+      0.72,
+      0.075
+    ],
+    "world_bounds": [
+      [
+        8.882880089814662,
+        2.6837998743996034,
+        -5.189959970341029
+      ],
+      [
+        14.753720031222997,
+        3.6898799071487782,
+        -5.145840136427281
+      ]
+    ],
+    "plane_z": -5.167900053384155
+  }
+}

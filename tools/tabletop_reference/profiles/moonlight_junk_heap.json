@@ -1,0 +1,286 @@
+{
+  "source": "C:\\Users\\jayte\\Downloads\\table_top_racing_-_moonlight_junk_heap.glb",
+  "scale": 40,
+  "offset": [
+    -32,
+    0,
+    -8
+  ],
+  "origin": [
+    -50,
+    -50
+  ],
+  "spacing": 0.05,
+  "shape": [
+    2100,
+    2000
+  ],
+  "output": "tests/baselines/content/moonlight_junk_heap/alignment",
+  "maps": {
+    "all_visible": {
+      "surfaces": [
+        "BAKE_08_tex_BAKE_08_0",
+        "BAKE_03_tex_BAKE_03_0",
+        "BAKE_01_tex_BAKE_01_0",
+        "BAKE_02_tex_BAKE_02_0",
+        "BAKE_04_tex_BAKE_04_0",
+        "BAKE_05_tex_BAKE_05_0",
+        "BAKE_06_tex_BAKE_06_0",
+        "BAKE_07_tex_BAKE_07_0"
+      ]
+    },
+    "floor_parts": {
+      "surfaces": [
+        "BAKE_01_tex_BAKE_01_0",
+        "BAKE_02_tex_BAKE_02_0",
+        "BAKE_03_tex_BAKE_03_0"
+      ]
+    }
+  },
+  "fit_map": "floor_parts.npz",
+  "section_count": 60,
+  "seed_display_width": 1536,
+  "nominal_half_width": 3.5,
+  "ridge_scale": 30,
+  "white_min": 110,
+  "white_range": 70,
+  "refinements": 2,
+  "paint_band_half_width": 0.075,
+  "snap_reviewed_ridge_bands": false,
+  "height_continuity_snap_radius": 0.05,
+  "seed_pixels": [
+    [
+      285,
+      900
+    ],
+    [
+      285,
+      700
+    ],
+    [
+      285,
+      500
+    ],
+    [
+      285,
+      330
+    ],
+    [
+      305,
+      255
+    ],
+    [
+      360,
+      215
+    ],
+    [
+      480,
+      210
+    ],
+    [
+      610,
+      220
+    ],
+    [
+      750,
+      245
+    ],
+    [
+      840,
+      300
+    ],
+    [
+      920,
+      400
+    ],
+    [
+      995,
+      520
+    ],
+    [
+      1060,
+      650
+    ],
+    [
+      1090,
+      770
+    ],
+    [
+      1065,
+      860
+    ],
+    [
+      1000,
+      910
+    ],
+    [
+      940,
+      915
+    ],
+    [
+      875,
+      880
+    ],
+    [
+      825,
+      805
+    ],
+    [
+      780,
+      710
+    ],
+    [
+      715,
+      620
+    ],
+    [
+      655,
+      575
+    ],
+    [
+      595,
+      567
+    ],
+    [
+      535,
+      600
+    ],
+    [
+      485,
+      665
+    ],
+    [
+      468,
+      735
+    ],
+    [
+      485,
+      800
+    ],
+    [
+      530,
+      870
+    ],
+    [
+      600,
+      950
+    ],
+    [
+      680,
+      1040
+    ],
+    [
+      760,
+      1130
+    ],
+    [
+      803,
+      1225
+    ],
+    [
+      800,
+      1290
+    ],
+    [
+      770,
+      1320
+    ],
+    [
+      710,
+      1320
+    ],
+    [
+      580,
+      1310
+    ],
+    [
+      440,
+      1310
+    ],
+    [
+      330,
+      1300
+    ],
+    [
+      295,
+      1260
+    ],
+    [
+      285,
+      1190
+    ],
+    [
+      285,
+      1050
+    ]
+  ],
+  "height_surfaces": [
+    "BAKE_01_tex_BAKE_01_0",
+    "BAKE_02_tex_BAKE_02_0",
+    "BAKE_03_tex_BAKE_03_0"
+  ],
+  "driving_height_range": [
+    -0.06,
+    1.16
+  ],
+  "ambiguous_source_sections": [],
+  "search_distances": [
+    0.5,
+    7,
+    0.03
+  ],
+  "ridge_neighborhood": 0.22,
+  "distance_bias": 0.015,
+  "continuity": 30,
+  "height_range_reason": "Named floor surfaces 01\u201303 contain the road and ramps to 1.14 units; no overlapping road decks.",
+  "boundary_reviews": [
+    {
+      "side": 1,
+      "start": 1095,
+      "end": 1160,
+      "pixels": [
+        [
+          979.98,
+          1553.01
+        ],
+        [
+          985,
+          1563
+        ],
+        [
+          985,
+          1574
+        ],
+        [
+          984,
+          1585
+        ],
+        [
+          980,
+          1596
+        ],
+        [
+          974,
+          1605
+        ],
+        [
+          965,
+          1615
+        ],
+        [
+          955,
+          1622
+        ],
+        [
+          944.71,
+          1626.42
+        ]
+      ]
+    }
+  ],
+  "source_surface_labels": {
+    "BAKE_01_tex_BAKE_01_0": "wood",
+    "BAKE_02_tex_BAKE_02_0": "paper",
+    "BAKE_03_tex_BAKE_03_0": "paper"
+  }
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="128" viewBox="0 0 256 128" shape-rendering="crispEdges">
+<path fill="#e8e0a9" d="M0 0h256v128H0z"/><path fill="#2c634c" d="M4 4h248v120H4z"/><path fill="#a5ba72" d="M8 8h240v112H8z"/><path fill="none" stroke="#2c634c" stroke-width="2" d="M12 12h232v104H12zM16 16h224v96H16z"/>
+<path fill="none" stroke="#688957" stroke-width="2" d="M24 36h64v54H24zM168 36h64v54h-64zM28 40h56v46H28zM172 40h56v46h-56zM32 44h48v38H32zM176 44h48v38h-48z"/>
+<path fill="#2c634c" d="M105 26h46v4h8v8h4v48h-4v8h-8v8h-46v-8h-8v-8h-4V38h4v-8h8z"/><path fill="#d2d396" d="M110 30h36v4h8v8h4v40h-4v8h-8v8h-36v-8h-8v-8h-4V42h4v-8h8z"/>
+<path fill="#426c4f" d="M118 37h21v4h6v18h-6v13h-7v8h14v6h7v10h-48V86h8v-6h12v-8h-9v-8h-5V46h7z"/><path fill="#a5ba72" d="M122 46h13v6h5v11h-5v6h-13V59h-4V49h4z"/><path fill="#2c634c" d="M133 51h4v3h-4z"/>
+<g fill="#2c634c" font-family="monospace" font-weight="bold"><text x="20" y="30" font-size="18">100</text><text x="203" y="30" font-size="18">100</text><text x="20" y="109" font-size="16">100</text><text x="203" y="109" font-size="16">100</text><text x="32" y="65" font-size="8">FELT</text><text x="179" y="65" font-size="8">FURY</text></g>
+<path fill="#e8e0a9" d="M18 18h3v3h-3zM235 18h3v3h-3zM18 107h3v3h-3zM235 107h3v3h-3z"/>
+</svg>

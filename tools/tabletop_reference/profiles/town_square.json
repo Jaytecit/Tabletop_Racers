@@ -1,0 +1,75 @@
+{
+  "id": "town_square",
+  "title": "Town Square",
+  "description": "Cobblestone village circuit around cottages and a fountain",
+  "source": "tracks/GLB Tracks/town_square_track.glb",
+  "source_sha256": "fc8a380a213968eb9d41309d8454c20a2fbac04f8af8dc5c192e06a46586a131",
+  "road_primitives": [
+    {
+      "name": "Track5_TownSquare_Collision_Track5_TownSquare_Collision_new_0",
+      "surface": 0
+    }
+  ],
+  "preview_primitives": [
+    {
+      "name": "Track5_TownSquare_Track5_TownSquare_01_Day_Map_0",
+      "surface": 0
+    },
+    {
+      "name": "Track5_TownSquare_Track5_TownSquare_02_Day_Map_0",
+      "surface": 0
+    },
+    {
+      "name": "Track5_TownSquare_Track5_TownSquare_03_Day_Map_0",
+      "surface": 0
+    }
+  ],
+  "visible_meshes": [
+    "Track5_TownSquare_Track5_TownSquare_01_Day_Map_0",
+    "Track5_TownSquare_Track5_TownSquare_02_Day_Map_0",
+    "Track5_TownSquare_Track5_TownSquare_03_Day_Map_0"
+  ],
+  "collision_meshes": [
+    "Track5_TownSquare_Collision_Track5_TownSquare_Collision_new_0",
+    "Track5_TownSquare_Collision_W_Track5_TownSquare_Collision_new_W_0",
+    "Track5_TownSquare_Track5_TownSquare_01_Day_Map_0",
+    "Track5_TownSquare_Track5_TownSquare_02_Day_Map_0",
+    "Track5_TownSquare_Track5_TownSquare_03_Day_Map_0"
+  ],
+  "boundary_definition": "Dedicated road collision perimeter at road-facing raised kerbs and barriers; junction exits excluded by source collision",
+  "source_height_tolerance": 1e-05,
+  "native_clearance_spacing": 0.005,
+  "transform": {
+    "scale": 100.0,
+    "offset": [
+      -3.69376,
+      0.0,
+      0.03596
+    ]
+  },
+  "scale_note": "Native minimum 0.07491 becomes 7.491 units; median 8.286 units",
+  "start_anchor_source": [
+    0.31,
+    0.018
+  ],
+  "clockwise_xz": true,
+  "start_cue": "Original checker stripe on eastern straight; exact UV stripe timing plane pending",
+  "handling_preset": "wood",
+  "handling_note": "Neutral dry handling preset on paved market floor; final class balance remains pending",
+  "height_tolerance": 0.02,
+  "minimum_width": 5.5,
+  "ring_spacing": 0.35,
+  "sample_spacing": 0.5,
+  "pairing_band": 160,
+  "max_pairing_cells": 4000000,
+  "boundary_tolerance": 0.05,
+  "refinement_attempts": 3,
+  "preview_spacing": 0.04,
+  "preview_height_range": [
+    -0.4,
+    0.4
+  ],
+  "max_preview_pixels": 6000000,
+  "bake_collision_transform": true,
+  "preserve_boundary_corners": true
+}

@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://c4dfqqhcfbkt7"]
+
+[ext_resource type="Script" uid="uid://c2ysnyjvi1ubr" path="res://tests/probes/toys_live.gd" id="1_2l10q"]
+
+[node name="" type="Node" unique_id=257758376]
+script = ExtResource("1_2l10q")

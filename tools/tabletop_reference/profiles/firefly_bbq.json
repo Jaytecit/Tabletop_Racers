@@ -1,0 +1,357 @@
+{
+  "source": "C:\\Users\\jayte\\Downloads\\table_top_racing_-_firefly_bbq.glb",
+  "scale": 40,
+  "offset": [
+    -2,
+    0,
+    9
+  ],
+  "origin": [
+    -65,
+    -75
+  ],
+  "spacing": 0.05,
+  "shape": [
+    3100,
+    2600
+  ],
+  "output": "tests/baselines/content/firefly_bbq/alignment",
+  "maps": {
+    "all_visible": {
+      "surfaces": [
+        "bake_01_tex_bake_01.002_0",
+        "bake_02_tex_bake_02.002_0",
+        "bake_02a_tex_default.007_0",
+        "bake_03_tex_bake_03.002_0",
+        "bake_03a_tex_default.008_0",
+        "bake_04_tex_bake_04.002_0",
+        "bake_04a_tex_default.009_0",
+        "bake_05_tex_bake_05.002_0",
+        "bake_06_tex_bake_06.002_0",
+        "bake_07_tex_bake_07.002_0",
+        "bake_08_tex_bake_08.002_0",
+        "bake_09_tex_bake_09.002_0"
+      ]
+    },
+    "floor_parts": {
+      "surfaces": [
+        "bake_01_tex_bake_01.002_0",
+        "bake_02_tex_bake_02.002_0",
+        "bake_02a_tex_default.007_0",
+        "bake_03_tex_bake_03.002_0",
+        "bake_03a_tex_default.008_0",
+        "bake_04_tex_bake_04.002_0",
+        "bake_04a_tex_default.009_0"
+      ],
+      "height_range": [
+        -0.1,
+        1.2
+      ]
+    }
+  },
+  "fit_map": "floor_parts.npz",
+  "section_count": 68,
+  "seed_display_width": 1200,
+  "search_distances": [
+    0.4,
+    8,
+    0.03
+  ],
+  "ridge_neighborhood": 0.22,
+  "ridge_scale": 28,
+  "white_min": 70,
+  "white_range": 110,
+  "distance_bias": 0.015,
+  "nominal_half_width": 3.5,
+  "continuity": 30,
+  "refinements": 2,
+  "paint_band_half_width": 0.07,
+  "ambiguous_source_sections": [
+    21,
+    22,
+    23,
+    26,
+    27,
+    28
+  ],
+  "snap_reviewed_ridge_bands": false,
+  "driving_height_range": [
+    -0.06,
+    1.2
+  ],
+  "height_continuity_snap_radius": 0.05,
+  "height_range_reason": "Driving bench tops, cloth ramps and grill pan inspected separately from legs and food props.",
+  "seed_pixels": [
+    [
+      585,
+      850
+    ],
+    [
+      585,
+      730
+    ],
+    [
+      583,
+      620
+    ],
+    [
+      577,
+      553
+    ],
+    [
+      554,
+      509
+    ],
+    [
+      522,
+      480
+    ],
+    [
+      476,
+      473
+    ],
+    [
+      440,
+      486
+    ],
+    [
+      410,
+      516
+    ],
+    [
+      387,
+      551
+    ],
+    [
+      350,
+      580
+    ],
+    [
+      303,
+      595
+    ],
+    [
+      266,
+      585
+    ],
+    [
+      242,
+      554
+    ],
+    [
+      236,
+      515
+    ],
+    [
+      247,
+      472
+    ],
+    [
+      279,
+      433
+    ],
+    [
+      355,
+      389
+    ],
+    [
+      445,
+      333
+    ],
+    [
+      536,
+      279
+    ],
+    [
+      621,
+      227
+    ],
+    [
+      658,
+      216
+    ],
+    [
+      693,
+      234
+    ],
+    [
+      735,
+      288
+    ],
+    [
+      783,
+      366
+    ],
+    [
+      826,
+      433
+    ],
+    [
+      873,
+      513
+    ],
+    [
+      920,
+      590
+    ],
+    [
+      966,
+      668
+    ],
+    [
+      1004,
+      732
+    ],
+    [
+      1008,
+      772
+    ],
+    [
+      991,
+      796
+    ],
+    [
+      955,
+      813
+    ],
+    [
+      898,
+      831
+    ],
+    [
+      844,
+      847
+    ],
+    [
+      803,
+      870
+    ],
+    [
+      792,
+      899
+    ],
+    [
+      804,
+      939
+    ],
+    [
+      831,
+      990
+    ],
+    [
+      837,
+      1024
+    ],
+    [
+      820,
+      1058
+    ],
+    [
+      775,
+      1090
+    ],
+    [
+      704,
+      1130
+    ],
+    [
+      654,
+      1135
+    ],
+    [
+      620,
+      1113
+    ],
+    [
+      595,
+      1080
+    ],
+    [
+      585,
+      1032
+    ],
+    [
+      585,
+      940
+    ]
+  ],
+  "source_surface_labels": {
+    "bake_01_tex_bake_01.002_0": "wood",
+    "bake_02_tex_bake_02.002_0": "wood",
+    "bake_02a_tex_default.007_0": "wood",
+    "bake_03_tex_bake_03.002_0": "fabric",
+    "bake_03a_tex_default.008_0": "fabric",
+    "bake_04_tex_bake_04.002_0": "wood",
+    "bake_04a_tex_default.009_0": "wood"
+  },
+  "section_surfaces": [
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "paper",
+    "paper",
+    "paper",
+    "wood",
+    "wood",
+    "paper",
+    "paper",
+    "paper",
+    "wood",
+    "wood",
+    "wood",
+    "fabric",
+    "fabric",
+    "fabric",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "fabric",
+    "fabric",
+    "fabric",
+    "fabric"
+  ]
+}

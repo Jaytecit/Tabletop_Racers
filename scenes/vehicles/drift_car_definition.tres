@@ -1,0 +1,24 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/vehicles/vehicle_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "drift_car"
+top_speed = 15.2
+acceleration = 18
+braking = 24
+grip = 1.2
+coast_grip = 2.5
+steering_low = 3.3
+steering_high = 2
+boost_drain = 32
+collision_size = Vector3(1.40, 0.62, 1.04)
+collision_height = 0.38
+traffic_half_width = 0.54
+surface_speed = {"sand": 0.72, "fabric": 0.85}
+surface_grip = {"sand": 0.85, "fabric": 1.15}
+boost_acceleration = 2
+boost_recharge = 14
+boost_speed = 2.35
+drag = 0.05
+recovery_immunity = 1.5
+reverse_speed = 3.5

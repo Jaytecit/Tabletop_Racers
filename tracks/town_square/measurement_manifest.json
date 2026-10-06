@@ -1,0 +1,289 @@
+{
+  "id": "town_square",
+  "title": "Town Square",
+  "description": "Cobblestone village circuit around cottages and a fountain",
+  "revision": 1,
+  "status": "integrated and verified for Quick Race, Time Trial and five-class Freestyle",
+  "source": "C:\\Users\\jayte\\Desktop\\Coding Projects\\Summer engine\\tabletop-racers\\tracks\\GLB Tracks\\town_square_track.glb",
+  "source_sha256": "fc8a380a213968eb9d41309d8454c20a2fbac04f8af8dc5c192e06a46586a131",
+  "source_metadata": {
+    "extras": {
+      "author": "amogusstrikesback2 (https://sketchfab.com/amogusstrikesback2)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/town-square-track-410edb9f4ce0433981e91c05e7a225dd",
+      "title": "town square track"
+    },
+    "generator": "Sketchfab-17.17.0",
+    "version": "2.0"
+  },
+  "transform": {
+    "scale": 100.0,
+    "offset": [
+      -3.69376,
+      0.0,
+      0.03596
+    ]
+  },
+  "road_primitives": [
+    {
+      "name": "Track5_TownSquare_Collision_Track5_TownSquare_Collision_new_0",
+      "surface": 0
+    }
+  ],
+  "road_meshes": [
+    "Track5_TownSquare_Collision_Track5_TownSquare_Collision_new_0"
+  ],
+  "boundary_definition": "Dedicated road collision perimeter at road-facing raised kerbs and barriers; junction exits excluded by source collision",
+  "start_station": 285.64941980348027,
+  "start_cue": "Original source START arch reused; actual timing plane intersects measured source checker stripe",
+  "route_direction": "clockwise X/Z",
+  "section_surfaces": [
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood"
+  ],
+  "section_layers": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "handling_note": "Neutral dry handling preset on paved market floor; final class balance remains pending",
+  "mesh_compression": false,
+  "topology": {
+    "components": 1,
+    "holes": 1,
+    "valid": true,
+    "conflicting_layers": false
+  },
+  "height_tolerance": 0.02,
+  "boundary_tolerance": 0.05,
+  "native_clearance_percentiles": [
+    0.07490713877297674,
+    0.07532500106825676,
+    0.08285548450859816,
+    0.10456067208338551,
+    0.10884106834329396
+  ],
+  "uncertainty": [],
+  "geometry_checks": {
+    "passed": true,
+    "failures": [],
+    "rows": 1296,
+    "sections": 54,
+    "length": 285.7908415334425,
+    "width_percentiles": [
+      7.482761015135271,
+      7.532943623252802,
+      8.327253275476213,
+      10.545185518906601,
+      11.129374236994902
+    ],
+    "sampled_boundary_residual_max": 8.828794662526226e-15,
+    "sampled_boundary_residual_p99": 5.286911933782592e-15,
+    "source_checks": 12960,
+    "boundary_residual_samples": 7776,
+    "attempt": 0,
+    "sample_spacing": 0.5
+  },
+  "source_landmarks_game": [
+    [
+      -22.013320595164576,
+      1.5342903117688912e-06,
+      -35.06451071202532
+    ],
+    [
+      22.428279211048785,
+      -1.6281316294440922e-06,
+      37.28326980588543
+    ],
+    [
+      -32.35353223232896,
+      -9.051332341309844e-07,
+      20.742994601858943
+    ]
+  ],
+  "landmark_tolerance": 0.001,
+  "visible_meshes": [
+    "Track5_TownSquare_Track5_TownSquare_01_Day_Map_0",
+    "Track5_TownSquare_Track5_TownSquare_02_Day_Map_0",
+    "Track5_TownSquare_Track5_TownSquare_03_Day_Map_0"
+  ],
+  "collision_meshes": [
+    "Track5_TownSquare_Collision_Track5_TownSquare_Collision_new_0",
+    "Track5_TownSquare_Collision_W_Track5_TownSquare_Collision_new_W_0",
+    "Track5_TownSquare_Track5_TownSquare_01_Day_Map_0",
+    "Track5_TownSquare_Track5_TownSquare_02_Day_Map_0",
+    "Track5_TownSquare_Track5_TownSquare_03_Day_Map_0"
+  ],
+  "bake_collision_transform": true,
+  "source_start_cue": {
+    "source_sha256": "fc8a380a213968eb9d41309d8454c20a2fbac04f8af8dc5c192e06a46586a131",
+    "start_station": 285.64941980348027,
+    "source_midpoint_xz": [
+      0.31825111111111104,
+      0.018046666666666544
+    ],
+    "game_position_xz": [
+      27.72760131377469,
+      1.8566676288471433
+    ],
+    "stripe_normal_xz": [
+      0.03969863804123527,
+      0.9992116983590968
+    ],
+    "direction_xz": [
+      -0.07217107091540877,
+      -0.9973922681287052
+    ],
+    "gate_edge_plane_residuals": [
+      0.1403981696151643,
+      0.14063070436063232
+    ],
+    "stripe_half_width": 0.2419385063689352,
+    "source_analysis_spacing": 0.0005,
+    "game_analysis_spacing": 0.05,
+    "pixels": 450,
+    "method": "Reviewed UV checker mask; least-squares band midplane, centreline intersection and actual gate-plane boundary residuals"
+  },
+  "height_surfaces": [
+    "Track5_TownSquare_Collision_Track5_TownSquare_Collision_new_0"
+  ],
+  "unresolved_intervals": [],
+  "physics_support_tolerance": 0.02,
+  "section_count": 54,
+  "route_sample_count": 1296,
+  "source_url": "https://sketchfab.com/3d-models/town-square-track-410edb9f4ce0433981e91c05e7a225dd",
+  "author": "amogusstrikesback2 (https://sketchfab.com/amogusstrikesback2)",
+  "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+  "group": "ROAD",
+  "assigned_vehicle": "racing_car",
+  "target_lap_seconds": [
+    25,
+    60
+  ],
+  "measurement_sha256": "7f9477357391a0da98b8cac87591dafab08fed8e23a1e6b351fe519a80e41eb2",
+  "source_review": "All 54 depth-tested sections, seam, three landmarks and original source START arch/checker inspected; road-facing kerbs/barriers define boundaries; side-road exits excluded by driving collision",
+  "enabled_modes": [
+    "quick",
+    "trial",
+    "freestyle"
+  ],
+  "pending_modes": [
+    "challenge",
+    "time_attack",
+    "elimination",
+    "tournament",
+    "drift"
+  ],
+  "verification": {
+    "source": "tests/baselines/content/town_square/extraction01/geometry_checks.json",
+    "candidate": "tests/baselines/content/town_square/candidate02/results.json",
+    "race": "tests/baselines/content/town_square/full01/results.json",
+    "classes": "tests/baselines/content/town_square/classes02/results.json",
+    "menu": "tests/baselines/content/town_square/registered-menu01/results.json",
+    "loading_lifecycle": "tests/baselines/content/town_square/registered-lifecycle02/results.json",
+    "loading": "tests/baselines/content/town_square/registered-loading01/results.json"
+  }
+}

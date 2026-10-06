@@ -1,0 +1,473 @@
+{
+  "source": "C:\\Users\\jayte\\Downloads\\table_top_racing_-_nighttime_noodles.glb",
+  "scale": 40,
+  "offset": [
+    43,
+    0,
+    -8
+  ],
+  "origin": [
+    -65,
+    -55
+  ],
+  "spacing": 0.05,
+  "shape": [
+    2400,
+    2500
+  ],
+  "output": "tests/baselines/content/nighttime_noodles/alignment",
+  "maps": {
+    "all_visible": {
+      "surfaces": [
+        "bake_03_tex_bake_03_0",
+        "bake_08_tex_bake_08_0",
+        "bake_02_tex_bake_02_0",
+        "bake_06_tex_bake_06_0",
+        "bake_01_tex_bake_01_0",
+        "bake_04_tex_bake_04_0",
+        "bake_05_tex_bake_05_0",
+        "bake_09_tex_bake_09_0",
+        "bake_07_tex_bake_07_0",
+        "bake_05_nospec_tex_default_0"
+      ]
+    },
+    "floor_parts": {
+      "surfaces": [
+        "bake_01_tex_bake_01_0",
+        "bake_02_tex_bake_02_0",
+        "bake_03_tex_bake_03_0",
+        "bake_06_tex_bake_06_0",
+        "bake_05_tex_bake_05_0"
+      ],
+      "height_range": [
+        -0.06,
+        1.4
+      ]
+    }
+  },
+  "fit_map": "floor_parts.npz",
+  "section_count": 64,
+  "seed_display_width": 1200,
+  "search_distances": [
+    0.5,
+    8,
+    0.03
+  ],
+  "ridge_neighborhood": 0.22,
+  "ridge_scale": 30,
+  "white_min": 90,
+  "white_range": 95,
+  "distance_bias": 0.015,
+  "nominal_half_width": 3.5,
+  "continuity": 30,
+  "refinements": 2,
+  "paint_band_half_width": 0.075,
+  "ambiguous_source_sections": [],
+  "snap_reviewed_ridge_bands": false,
+  "driving_height_range": [
+    -0.06,
+    1.4
+  ],
+  "height_continuity_snap_radius": 0.05,
+  "height_range_reason": "Measured wooden tables, connecting plank in bake_05 and grill surround in bake_03, excluding their legs and dining props by source interval review.",
+  "seed_pixels": [
+    [
+      1038,
+      460
+    ],
+    [
+      1038,
+      555
+    ],
+    [
+      1038,
+      640
+    ],
+    [
+      1028,
+      686
+    ],
+    [
+      1005,
+      710
+    ],
+    [
+      974,
+      719
+    ],
+    [
+      917,
+      719
+    ],
+    [
+      864,
+      722
+    ],
+    [
+      821,
+      739
+    ],
+    [
+      782,
+      774
+    ],
+    [
+      746,
+      817
+    ],
+    [
+      711,
+      844
+    ],
+    [
+      671,
+      849
+    ],
+    [
+      619,
+      843
+    ],
+    [
+      562,
+      838
+    ],
+    [
+      506,
+      838
+    ],
+    [
+      449,
+      843
+    ],
+    [
+      393,
+      850
+    ],
+    [
+      336,
+      853
+    ],
+    [
+      295,
+      844
+    ],
+    [
+      264,
+      821
+    ],
+    [
+      258,
+      790
+    ],
+    [
+      277,
+      751
+    ],
+    [
+      300,
+      716
+    ],
+    [
+      310,
+      687
+    ],
+    [
+      299,
+      663
+    ],
+    [
+      269,
+      646
+    ],
+    [
+      236,
+      633
+    ],
+    [
+      209,
+      606
+    ],
+    [
+      196,
+      575
+    ],
+    [
+      204,
+      543
+    ],
+    [
+      222,
+      531
+    ],
+    [
+      247,
+      523
+    ],
+    [
+      279,
+      535
+    ],
+    [
+      324,
+      551
+    ],
+    [
+      366,
+      553
+    ],
+    [
+      397,
+      543
+    ],
+    [
+      417,
+      520
+    ],
+    [
+      430,
+      478
+    ],
+    [
+      434,
+      423
+    ],
+    [
+      430,
+      389
+    ],
+    [
+      414,
+      363
+    ],
+    [
+      390,
+      342
+    ],
+    [
+      357,
+      332
+    ],
+    [
+      302,
+      329
+    ],
+    [
+      249,
+      327
+    ],
+    [
+      218,
+      317
+    ],
+    [
+      199,
+      294
+    ],
+    [
+      193,
+      270
+    ],
+    [
+      204,
+      246
+    ],
+    [
+      230,
+      233
+    ],
+    [
+      272,
+      230
+    ],
+    [
+      331,
+      230
+    ],
+    [
+      392,
+      230
+    ],
+    [
+      447,
+      230
+    ],
+    [
+      507,
+      236
+    ],
+    [
+      561,
+      246
+    ],
+    [
+      614,
+      264
+    ],
+    [
+      659,
+      274
+    ],
+    [
+      716,
+      278
+    ],
+    [
+      767,
+      283
+    ],
+    [
+      811,
+      281
+    ],
+    [
+      848,
+      272
+    ],
+    [
+      880,
+      257
+    ],
+    [
+      908,
+      234
+    ],
+    [
+      938,
+      219
+    ],
+    [
+      970,
+      216
+    ],
+    [
+      997,
+      225
+    ],
+    [
+      1020,
+      246
+    ],
+    [
+      1035,
+      272
+    ],
+    [
+      1038,
+      312
+    ],
+    [
+      1038,
+      374
+    ]
+  ],
+  "boundary_reviews": [
+    {
+      "side": 1,
+      "start": 650,
+      "end": 700,
+      "pixels": [
+        [
+          494.24,
+          1236.37
+        ],
+        [
+          493,
+          1227
+        ],
+        [
+          496,
+          1212
+        ],
+        [
+          501,
+          1198
+        ],
+        [
+          510,
+          1184
+        ],
+        [
+          519,
+          1172
+        ],
+        [
+          523.26,
+          1166.19
+        ]
+      ]
+    }
+  ],
+  "source_surface_labels": {
+    "bake_01_tex_bake_01_0": "wood",
+    "bake_02_tex_bake_02_0": "wood",
+    "bake_03_tex_bake_03_0": "paper",
+    "bake_06_tex_bake_06_0": "wood",
+    "bake_05_tex_bake_05_0": "wood"
+  },
+  "section_surfaces": [
+    "wood",
+    "fabric",
+    "fabric",
+    "fabric",
+    "wood",
+    "wood",
+    "fabric",
+    "fabric",
+    "wood",
+    "wood",
+    "wood",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "fabric",
+    "fabric",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "fabric",
+    "fabric",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "fabric",
+    "fabric",
+    "wood"
+  ]
+}

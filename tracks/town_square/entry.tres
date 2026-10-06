@@ -1,0 +1,19 @@
+[gd_resource type="Resource" format=3 uid="uid://c80k5md65k6a4"]
+
+[ext_resource type="PackedScene" uid="uid://d13qx1wjqb2x6" path="res://environments/tabletop/town_square.tscn" id="1_jbxnk"]
+[ext_resource type="Texture2D" uid="uid://duinqqrhw2aj8" path="res://tracks/town_square/preview.res" id="2_tkng1"]
+[ext_resource type="Resource" uid="uid://chcg571jvjwow" path="res://tracks/town_square/definition.tres" id="3_irybr"]
+[ext_resource type="Script" uid="uid://dfomhj1p8s58n" path="res://scripts/tracks/track_entry.gd" id="4_16ak1"]
+
+[resource]
+script = ExtResource("4_16ak1")
+id = "town_square"
+title = "Town Square"
+cup = "ROAD"
+route = ExtResource("3_irybr")
+environment = ExtResource("1_jbxnk")
+preview = ExtResource("2_tkng1")
+eligible_classes = PackedStringArray("racing_car")
+target_lap_seconds = Vector2(25, 60)
+description = "Cobblestone village circuit around cottages and a fountain"
+presentation = "bedroom"

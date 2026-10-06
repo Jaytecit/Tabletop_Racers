@@ -1,0 +1,91 @@
+[gd_scene format=3 uid="uid://cwxu53cd0x836"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_tvbno"]
+size = Vector3(118, 0.08, 86)
+
+[sub_resource type="Shader" id="Shader_q3n1x"]
+code = "shader_type spatial; varying vec3 world_pos; void vertex(){world_pos=(MODEL_MATRIX*vec4(VERTEX,1.0)).xyz;} float hash(vec2 p){return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453);} void fragment(){float grain=hash(floor(world_pos.xz*100.0)); float weave=sin(world_pos.x*150.0)*sin(world_pos.z*150.0); ALBEDO=vec3(0.013,0.19,0.12)*(0.91+grain*0.16+weave*0.025); ROUGHNESS=1.0;}"
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_5t8fl"]
+render_priority = 0
+shader = SubResource("Shader_q3n1x")
+
+[sub_resource type="BoxMesh" id="BoxMesh_eaw7h"]
+size = Vector3(118, 0.08, 86)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e1aci"]
+albedo_color = Color(0.5921569, 0.3647059, 0.19607843, 1)
+roughness = 0.85
+
+[sub_resource type="BoxMesh" id="BoxMesh_6tbyq"]
+size = Vector3(119, 1, 87)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qb6sk"]
+albedo_color = Color(0.2901961, 0.26666668, 0.23529412, 1)
+roughness = 0.85
+
+[sub_resource type="BoxMesh" id="BoxMesh_4e33h"]
+size = Vector3(155, 0.1, 125)
+
+[sub_resource type="BoxMesh" id="BoxMesh_apvlo"]
+size = Vector3(0.8, 3, 0.8)
+
+[sub_resource type="BoxMesh" id="BoxMesh_vqpnn"]
+size = Vector3(0.8, 3, 0.8)
+
+[sub_resource type="BoxMesh" id="BoxMesh_qxgbo"]
+size = Vector3(0.8, 3, 0.8)
+
+[sub_resource type="BoxMesh" id="BoxMesh_efyqs"]
+size = Vector3(0.8, 3, 0.8)
+
+[node name="Support" type="Node3D" unique_id=1931969304]
+
+[node name="FeltTable" type="StaticBody3D" parent="." unique_id=1781953339]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.04, 0)
+collision_mask = 2
+
+[node name="_CollisionShape3D_22170" type="CollisionShape3D" parent="FeltTable" unique_id=807480996]
+shape = SubResource("BoxShape3D_tvbno")
+
+[node name="Mesh" type="MeshInstance3D" parent="FeltTable" unique_id=603728454]
+material_override = SubResource("ShaderMaterial_5t8fl")
+mesh = SubResource("BoxMesh_eaw7h")
+
+[node name="TableEdge" type="MeshInstance3D" parent="." unique_id=793731692]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.52, 0)
+material_override = SubResource("StandardMaterial3D_e1aci")
+mesh = SubResource("BoxMesh_6tbyq")
+
+[node name="RoomFloor" type="MeshInstance3D" parent="." unique_id=371515818]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -4, 0)
+material_override = SubResource("StandardMaterial3D_qb6sk")
+mesh = SubResource("BoxMesh_4e33h")
+
+[node name="TableLeg" type="MeshInstance3D" parent="." unique_id=2082362869]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13, -2.4, -9)
+material_override = SubResource("StandardMaterial3D_e1aci")
+mesh = SubResource("BoxMesh_apvlo")
+
+[node name="_MeshInstance3D_22171" type="MeshInstance3D" parent="." unique_id=160204439]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13, -2.4, 9)
+material_override = SubResource("StandardMaterial3D_e1aci")
+mesh = SubResource("BoxMesh_vqpnn")
+
+[node name="_MeshInstance3D_22172" type="MeshInstance3D" parent="." unique_id=1937661032]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, -2.4, -9)
+material_override = SubResource("StandardMaterial3D_e1aci")
+mesh = SubResource("BoxMesh_qxgbo")
+
+[node name="_MeshInstance3D_22173" type="MeshInstance3D" parent="." unique_id=667332316]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, -2.4, 9)
+material_override = SubResource("StandardMaterial3D_e1aci")
+mesh = SubResource("BoxMesh_efyqs")
+
+[node name="_Label3D_22197" type="Label3D" parent="." unique_id=1739776286]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -9, 0.025, -9.6)
+pixel_size = 0.009
+modulate = Color(1, 0.9411765, 0.7490196, 1)
+text = "START"
+font_size = 64
+outline_size = 0

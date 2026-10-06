@@ -1,0 +1,517 @@
+{
+  "title": "Moonlight Junk Heap",
+  "description": "Moonlit workshop circuit",
+  "revision": 1,
+  "start_station": 16.570616168362598,
+  "source_sha256": "e18d779405452b4bf5abedb8ac3b8168e9d5a6c73fb99f285b533e39173a9388",
+  "source": "C:\\Users\\jayte\\Downloads\\table_top_racing_-_moonlight_junk_heap.glb",
+  "source_url": "https://sketchfab.com/3d-models/table-top-racing-moonlight-junk-heap-70903adf67624d2e90c2dae0d5cee467",
+  "author": "amogusstrikesback2",
+  "license": "CC BY 4.0",
+  "transform": {
+    "scale": 40,
+    "offset": [
+      -32,
+      0,
+      -8
+    ]
+  },
+  "visible_meshes": [
+    "BAKE_08_tex_BAKE_08_0",
+    "BAKE_03_tex_BAKE_03_0",
+    "BAKE_01_tex_BAKE_01_0",
+    "BAKE_02_tex_BAKE_02_0",
+    "BAKE_04_tex_BAKE_04_0",
+    "BAKE_05_tex_BAKE_05_0",
+    "BAKE_06_tex_BAKE_06_0",
+    "BAKE_07_tex_BAKE_07_0"
+  ],
+  "collision_meshes": [
+    "BAKE_08_tex_BAKE_08_0",
+    "BAKE_03_tex_BAKE_03_0",
+    "BAKE_01_tex_BAKE_01_0",
+    "BAKE_02_tex_BAKE_02_0",
+    "BAKE_04_tex_BAKE_04_0",
+    "BAKE_05_tex_BAKE_05_0",
+    "BAKE_06_tex_BAKE_06_0",
+    "BAKE_07_tex_BAKE_07_0",
+    "collide_default_0"
+  ],
+  "section_surfaces": [
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "wood",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "wood",
+    "wood",
+    "wood",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper",
+    "paper"
+  ],
+  "section_layers": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "height_surfaces": [
+    "BAKE_01_tex_BAKE_01_0",
+    "BAKE_02_tex_BAKE_02_0",
+    "BAKE_03_tex_BAKE_03_0"
+  ],
+  "fit_profile": "tools/tabletop_reference/profiles/moonlight_junk_heap.json",
+  "source_surface_labels": {
+    "BAKE_01_tex_BAKE_01_0": "wood",
+    "BAKE_02_tex_BAKE_02_0": "paper",
+    "BAKE_03_tex_BAKE_03_0": "paper"
+  },
+  "mesh_compression": false,
+  "driving_height_range": [
+    -0.06,
+    1.16
+  ],
+  "sampling_spacing": 0.05,
+  "route_direction": "North on left straight, clockwise upper bench and right hairpin, through central bend and bottom loop",
+  "uncertain_sections": [],
+  "unresolved_intervals": [],
+  "status": "integrated and verified",
+  "original_start_cue": {
+    "mesh": "BAKE_06_tex_BAKE_06_0",
+    "texture_uv_region": [
+      0.2,
+      0.857,
+      0.762,
+      0.904
+    ],
+    "world_bounds": [
+      [
+        -35.314,
+        2.684,
+        -7.999
+      ],
+      [
+        -29.475,
+        3.645,
+        -7.95
+      ]
+    ],
+    "plane_z": -7.975
+  },
+  "measurement_sha256": "edbf5afd69ade7cd67aa9ad6c0a343c895ddd1e3e54691a2fff157009fb807fb",
+  "profile_sha256": "0a6f5661f5c65f0005665c8b9e24b1de12e977298fe2465f12782085a0f82975",
+  "raster": {
+    "origin": [
+      -50,
+      -50
+    ],
+    "shape": [
+      2100,
+      2000
+    ],
+    "spacing": 0.05
+  },
+  "texture_inventory": [
+    {
+      "mesh": "BAKE_08_tex_BAKE_08_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "BAKE_08",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.9577051494623774
+        }
+      },
+      "image_sha256": "330945d48055f10f1db4b4aa48b9459428de0e0e34095ffbe136746a5d39f9e7",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 0
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "BAKE_03_tex_BAKE_03_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "BAKE_03",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.9577051494623774
+        }
+      },
+      "image_sha256": "af679cf7b1cdc06f112dc2c26b93c1b84774f07f4f7b2de60b8e70651eec96c6",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 1
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "BAKE_01_tex_BAKE_01_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "BAKE_01",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 2
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.9577051494623774
+        }
+      },
+      "image_sha256": "3ecc9af00b60ee6c068b6a2dadfcfafed1cf82316a6239e16899457e1fa2f510",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 2
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "BAKE_02_tex_BAKE_02_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "BAKE_02",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 3
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.9577051494623774
+        }
+      },
+      "image_sha256": "71ab587a0526d58205d1b9c3747a610a164874e94936fe409b861c6e37b1a1e2",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 3
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "BAKE_04_tex_BAKE_04_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "BAKE_04",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 4
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.9577051494623774
+        }
+      },
+      "image_sha256": "c5824ca5ba04fcc19b50f95d7ee081ea2724d163b4a3f0b960fbfe55c789e5cd",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 4
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "BAKE_05_tex_BAKE_05_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "BAKE_05",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 5
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.9577051494623774
+        }
+      },
+      "image_sha256": "57831162e88b10276b8cc9b53578842e3893d1b950405358456c8d7a96d038aa",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 5
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "BAKE_06_tex_BAKE_06_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "BAKE_06",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 6
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.9577051494623774
+        }
+      },
+      "image_sha256": "d7efa95ad8f1ccdedcb6964b45b1b7128e0efecb72440141a151e70ef0e01d78",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 6
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    },
+    {
+      "mesh": "BAKE_07_tex_BAKE_07_0",
+      "surface": 0,
+      "material": {
+        "doubleSided": true,
+        "name": "BAKE_07",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 7
+          },
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.9577051494623774
+        }
+      },
+      "image_sha256": "ec7e6728b6abe4c9911c56b421c11998fbf9ecd0c8cb1f6d69d852235fdeb77a",
+      "size": [
+        2048,
+        2048
+      ],
+      "texture_info": {
+        "index": 7
+      },
+      "sampler": {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    }
+  ],
+  "boundary_tolerance": 0.125,
+  "source_review": "Distinct geometry from Rusty Nuts, independently measured. All 60 source and rendered sections align, including carton seams and both hairpins. Weak samples and the section 46\u201348 inner-corner fold were resolved with UV paint anchors, with initial failed source validation preserved. The measured START banner in BAKE_06 spans Z -7.999 to -7.950; gate zero is aligned at Z -7.975 (station 16.5706) and reuses it. Final gate views show clear supported cues, no duplicates and no permanent edges. One road layer, no stacked crossing; intended driving triangles exclude all props.",
+  "uncertainty_resolution": {
+    "weak_samples": [
+      [
+        1141,
+        1
+      ],
+      [
+        1142,
+        1
+      ],
+      [
+        1143,
+        1
+      ],
+      [
+        1144,
+        1
+      ],
+      [
+        1145,
+        1
+      ],
+      [
+        1146,
+        1
+      ],
+      [
+        1147,
+        1
+      ],
+      [
+        1148,
+        1
+      ],
+      [
+        1149,
+        1
+      ],
+      [
+        1150,
+        1
+      ]
+    ],
+    "folds_removed": [
+      {
+        "side": 1,
+        "start": 646,
+        "end": 663,
+        "max_shift": 0.3598509731493593
+      }
+    ],
+    "ridge_snaps": [],
+    "support_snaps": []
+  },
+  "verification": {
+    "source": "tests/baselines/content/moonlight_junk_heap/alignment/source_validation.json",
+    "landmarks": "tests/baselines/content/moonlight_junk_heap/alignment/landmark_checks.json",
+    "race": "tests/baselines/content/moonlight_junk_heap/verification_02/results.json",
+    "visual": "tests/baselines/content/moonlight_junk_heap/visual_01/results.json",
+    "flags": "tests/baselines/content/moonlight_junk_heap/flags_final/results.json"
+  }
+}

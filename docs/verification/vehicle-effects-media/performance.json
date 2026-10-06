@@ -1,0 +1,98 @@
+{
+  "before-final-normal": {
+    "course": "toys_r_you",
+    "gpu": "NVIDIA GeForce RTX 4060 Ti",
+    "median_draw_calls": 120.0,
+    "median_frame_ms": 16.651,
+    "p95_frame_ms": 17.741,
+    "p95_process_ms": 4.051,
+    "pixelation": true,
+    "reduced": false,
+    "renderer": "forward_plus",
+    "samples": 600,
+    "version": {
+      "build": "custom_build",
+      "hash": "5fcbefdcf2762ab19b3eebdde62f6cc7ff5d9a7f",
+      "hex": 263938,
+      "major": 4,
+      "minor": 7,
+      "patch": 2,
+      "status": "stable",
+      "string": "4.7.2-stable (custom_build)",
+      "timestamp": 1789440074
+    },
+    "viewport": "(1200.0, 800.0)"
+  },
+  "before-final-reduced": {
+    "course": "toys_r_you",
+    "gpu": "NVIDIA GeForce RTX 4060 Ti",
+    "median_draw_calls": 120.0,
+    "median_frame_ms": 16.659,
+    "p95_frame_ms": 17.911,
+    "p95_process_ms": 4.052,
+    "pixelation": true,
+    "reduced": true,
+    "renderer": "forward_plus",
+    "samples": 600,
+    "version": {
+      "build": "custom_build",
+      "hash": "5fcbefdcf2762ab19b3eebdde62f6cc7ff5d9a7f",
+      "hex": 263938,
+      "major": 4,
+      "minor": 7,
+      "patch": 2,
+      "status": "stable",
+      "string": "4.7.2-stable (custom_build)",
+      "timestamp": 1789440074
+    },
+    "viewport": "(1200.0, 800.0)"
+  },
+  "after-final-normal": {
+    "course": "toys_r_you",
+    "gpu": "NVIDIA GeForce RTX 4060 Ti",
+    "median_draw_calls": 125.0,
+    "median_frame_ms": 16.585,
+    "p95_frame_ms": 18.978,
+    "p95_process_ms": 4.517,
+    "pixelation": true,
+    "reduced": false,
+    "renderer": "forward_plus",
+    "samples": 597,
+    "version": {
+      "build": "custom_build",
+      "hash": "5fcbefdcf2762ab19b3eebdde62f6cc7ff5d9a7f",
+      "hex": 263938,
+      "major": 4,
+      "minor": 7,
+      "patch": 2,
+      "status": "stable",
+      "string": "4.7.2-stable (custom_build)",
+      "timestamp": 1789440074
+    },
+    "viewport": "(1200.0, 800.0)"
+  },
+  "after-final-reduced": {
+    "course": "toys_r_you",
+    "gpu": "NVIDIA GeForce RTX 4060 Ti",
+    "median_draw_calls": 125.0,
+    "median_frame_ms": 16.567,
+    "p95_frame_ms": 19.129,
+    "p95_process_ms": 4.4,
+    "pixelation": true,
+    "reduced": true,
+    "renderer": "forward_plus",
+    "samples": 600,
+    "version": {
+      "build": "custom_build",
+      "hash": "5fcbefdcf2762ab19b3eebdde62f6cc7ff5d9a7f",
+      "hex": 263938,
+      "major": 4,
+      "minor": 7,
+      "patch": 2,
+      "status": "stable",
+      "string": "4.7.2-stable (custom_build)",
+      "timestamp": 1789440074
+    },
+    "viewport": "(1200.0, 800.0)"
+  }
+}

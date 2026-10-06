@@ -1,0 +1,55 @@
+{
+  "source_sha256": "826bcfc8e4d3ac62581d766509630e6caf4944a92ee5b5311e9949ec7fff7e66",
+  "vehicle": "drift_car",
+  "radius": 0.1,
+  "cut_plane": 0.212,
+  "parts": [
+    {
+      "name": "Body",
+      "triangles": 394851,
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "RearLeft",
+      "triangles": 27184,
+      "pivot": [
+        -0.276,
+        0.1,
+        -0.246
+      ]
+    },
+    {
+      "name": "RearRight",
+      "triangles": 26321,
+      "pivot": [
+        -0.276,
+        0.1,
+        0.246
+      ]
+    },
+    {
+      "name": "FrontLeft",
+      "triangles": 25985,
+      "pivot": [
+        0.35,
+        0.1,
+        -0.246
+      ]
+    },
+    {
+      "name": "FrontRight",
+      "triangles": 25453,
+      "pivot": [
+        0.35,
+        0.1,
+        0.246
+      ]
+    }
+  ],
+  "triangles_preserved": 499794,
+  "method": "Measured cylindrical face selection at four tyre hubs; prototype boundaries require rendered inspection."
+}

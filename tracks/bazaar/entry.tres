@@ -1,0 +1,19 @@
+[gd_resource type="Resource" format=3 uid="uid://vw7nyx8lgw0r"]
+
+[ext_resource type="PackedScene" uid="uid://b0rjl5qefg1lj" path="res://environments/tabletop/bazaar.tscn" id="1_5wgbo"]
+[ext_resource type="Texture2D" uid="uid://c63mdjcqjox2p" path="res://tracks/bazaar/preview.res" id="2_86adc"]
+[ext_resource type="Resource" uid="uid://cokg8sgoeqiu6" path="res://tracks/bazaar/definition.tres" id="3_qmpy3"]
+[ext_resource type="Script" uid="uid://dfomhj1p8s58n" path="res://scripts/tracks/track_entry.gd" id="4_3gra5"]
+
+[resource]
+script = ExtResource("4_3gra5")
+presentation = "bedroom"
+id = "bazaar"
+title = "Bazaar"
+cup = "ROAD"
+route = ExtResource("3_qmpy3")
+environment = ExtResource("1_5wgbo")
+preview = ExtResource("2_86adc")
+eligible_classes = PackedStringArray("racing_car")
+target_lap_seconds = Vector2(20, 24)
+description = "Colourful market circuit with tight walled hairpins"

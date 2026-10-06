@@ -1,0 +1,302 @@
+[gd_resource type="Resource" format=3 uid="uid://cjndacn583ram"]
+
+[ext_resource type="Script" uid="uid://nknri71regj" path="res://scripts/tracks/track_definition.gd" id="1"]
+[ext_resource type="Script" uid="uid://b5450eqlx2ihr" path="res://scripts/tracks/route_section.gd" id="2"]
+
+[sub_resource type="Resource" id="Resource_kdhdb"]
+script = ExtResource("2")
+id = "roulette_00"
+next_id = "roulette_01"
+start = Vector3(15, 0, 25)
+end = Vector3(40, 0, 25)
+before = Vector3(3, 0, 25)
+after = Vector3(87, 0, 26)
+curved = true
+height_samples = PackedFloat32Array()
+center_samples = PackedVector3Array()
+left_samples = PackedVector3Array()
+right_samples = PackedVector3Array()
+
+[sub_resource type="Resource" id="Resource_pitux"]
+script = ExtResource("2")
+id = "roulette_01"
+next_id = "roulette_02"
+start = Vector3(40, 0, 25)
+end = Vector3(87, 0, 26)
+before = Vector3(15, 0, 25)
+after = Vector3(99, 0, 8)
+curved = true
+height_samples = PackedFloat32Array()
+center_samples = PackedVector3Array()
+left_samples = PackedVector3Array()
+right_samples = PackedVector3Array()
+
+[sub_resource type="Resource" id="Resource_3kgjb"]
+script = ExtResource("2")
+id = "roulette_02"
+next_id = "roulette_03"
+start = Vector3(87, 0, 26)
+end = Vector3(99, 0, 8)
+before = Vector3(40, 0, 25)
+after = Vector3(90, 0, -14)
+curved = true
+height_samples = PackedFloat32Array()
+center_samples = PackedVector3Array()
+left_samples = PackedVector3Array()
+right_samples = PackedVector3Array()
+
+[sub_resource type="Resource" id="Resource_tra2l"]
+script = ExtResource("2")
+id = "roulette_03"
+next_id = "roulette_04"
+start = Vector3(99, 0, 8)
+end = Vector3(90, 0, -14)
+before = Vector3(87, 0, 26)
+after = Vector3(48, 0, -15)
+curved = true
+height_samples = PackedFloat32Array()
+center_samples = PackedVector3Array()
+left_samples = PackedVector3Array()
+right_samples = PackedVector3Array()
+
+[sub_resource type="Resource" id="Resource_ruxpt"]
+script = ExtResource("2")
+id = "roulette_04"
+next_id = "roulette_05"
+start = Vector3(90, 0, -14)
+end = Vector3(48, 0, -15)
+before = Vector3(99, 0, 8)
+after = Vector3(20, 0, -15)
+curved = true
+height_samples = PackedFloat32Array()
+center_samples = PackedVector3Array()
+left_samples = PackedVector3Array()
+right_samples = PackedVector3Array()
+
+[sub_resource type="Resource" id="Resource_isqf3"]
+script = ExtResource("2")
+id = "roulette_05"
+next_id = "roulette_06"
+start = Vector3(48, 0, -15)
+end = Vector3(20, 0, -15)
+before = Vector3(90, 0, -14)
+after = Vector3(-15, 0, -22)
+curved = true
+height_samples = PackedFloat32Array()
+center_samples = PackedVector3Array()
+left_samples = PackedVector3Array()
+right_samples = PackedVector3Array()
+
+[sub_resource type="Resource" id="Resource_jg2ms"]
+script = ExtResource("2")
+id = "roulette_06"
+next_id = "roulette_07"
+start = Vector3(20, 0, -15)
+end = Vector3(-15, 0, -22)
+before = Vector3(48, 0, -15)
+after = Vector3(-43, 0, -41)
+curved = true
+height_samples = PackedFloat32Array()
+center_samples = PackedVector3Array()
+left_samples = PackedVector3Array()
+right_samples = PackedVector3Array()
+
+[sub_resource type="Resource" id="Resource_onnfc"]
+script = ExtResource("2")
+id = "roulette_07"
+next_id = "roulette_08"
+start = Vector3(-15, 0, -22)
+end = Vector3(-43, 0, -41)
+before = Vector3(20, 0, -15)
+after = Vector3(-90, 8, -38)
+curved = true
+width = 4.8
+height_samples = PackedFloat32Array()
+center_samples = PackedVector3Array()
+left_samples = PackedVector3Array()
+right_samples = PackedVector3Array()
+
+[sub_resource type="Resource" id="Resource_nk0al"]
+script = ExtResource("2")
+id = "roulette_08"
+next_id = "roulette_09"
+start = Vector3(-43, 0, -41)
+end = Vector3(-90, 8, -38)
+before = Vector3(-15, 0, -22)
+after = Vector3(-114, 8, -24)
+curved = true
+width = 8.0
+surface = "wood"
+edge = "raised"
+height_samples = PackedFloat32Array()
+center_samples = PackedVector3Array()
+left_samples = PackedVector3Array()
+right_samples = PackedVector3Array()
+
+[sub_resource type="Resource" id="Resource_ddaut"]
+script = ExtResource("2")
+id = "roulette_09"
+next_id = "roulette_10"
+start = Vector3(-90, 8, -38)
+end = Vector3(-114, 8, -24)
+before = Vector3(-43, 0, -41)
+after = Vector3(-126, 8, 0)
+curved = true
+width = 8.0
+surface = "wood"
+edge = "raised"
+height_samples = PackedFloat32Array()
+center_samples = PackedVector3Array()
+left_samples = PackedVector3Array()
+right_samples = PackedVector3Array()
+
+[sub_resource type="Resource" id="Resource_l4525"]
+script = ExtResource("2")
+id = "roulette_10"
+next_id = "roulette_11"
+start = Vector3(-114, 8, -24)
+end = Vector3(-126, 8, 0)
+before = Vector3(-90, 8, -38)
+after = Vector3(-126, 8, 24)
+curved = true
+width = 5.0
+surface = "wood"
+edge = "raised"
+height_samples = PackedFloat32Array()
+center_samples = PackedVector3Array()
+left_samples = PackedVector3Array()
+right_samples = PackedVector3Array()
+
+[sub_resource type="Resource" id="Resource_1k3vy"]
+script = ExtResource("2")
+id = "roulette_11"
+next_id = "roulette_12"
+start = Vector3(-126, 8, 0)
+end = Vector3(-126, 8, 24)
+before = Vector3(-114, 8, -24)
+after = Vector3(-110, 8, 64)
+curved = true
+width = 3.8
+surface = "wood"
+edge = "raised"
+height_samples = PackedFloat32Array()
+center_samples = PackedVector3Array()
+left_samples = PackedVector3Array()
+right_samples = PackedVector3Array()
+
+[sub_resource type="Resource" id="Resource_jjxo3"]
+script = ExtResource("2")
+id = "roulette_12"
+next_id = "roulette_13"
+start = Vector3(-126, 8, 24)
+end = Vector3(-110, 8, 64)
+before = Vector3(-126, 8, 0)
+after = Vector3(-76, 8, 64)
+curved = true
+width = 3.8
+surface = "wood"
+edge = "raised"
+height_samples = PackedFloat32Array()
+center_samples = PackedVector3Array()
+left_samples = PackedVector3Array()
+right_samples = PackedVector3Array()
+
+[sub_resource type="Resource" id="Resource_pjmot"]
+script = ExtResource("2")
+id = "roulette_13"
+next_id = "roulette_14"
+start = Vector3(-110, 8, 64)
+end = Vector3(-76, 8, 64)
+before = Vector3(-126, 8, 24)
+after = Vector3(-47, 8, 54)
+curved = true
+width = 3.8
+surface = "wood"
+edge = "raised"
+height_samples = PackedFloat32Array()
+center_samples = PackedVector3Array()
+left_samples = PackedVector3Array()
+right_samples = PackedVector3Array()
+
+[sub_resource type="Resource" id="Resource_jdla2"]
+script = ExtResource("2")
+id = "roulette_14"
+next_id = "roulette_15"
+start = Vector3(-76, 8, 64)
+end = Vector3(-47, 8, 54)
+before = Vector3(-110, 8, 64)
+after = Vector3(-36, 6.5, 44)
+curved = true
+width = 3.8
+surface = "wood"
+edge = "raised"
+height_samples = PackedFloat32Array()
+center_samples = PackedVector3Array()
+left_samples = PackedVector3Array()
+right_samples = PackedVector3Array()
+
+[sub_resource type="Resource" id="Resource_xg3gy"]
+script = ExtResource("2")
+id = "roulette_15"
+next_id = "roulette_16"
+start = Vector3(-47, 8, 54)
+end = Vector3(-36, 6.5, 44)
+before = Vector3(-76, 8, 64)
+after = Vector3(-6, 0, 35)
+curved = true
+surface = "wood"
+edge = "raised"
+height_samples = PackedFloat32Array()
+center_samples = PackedVector3Array()
+left_samples = PackedVector3Array()
+right_samples = PackedVector3Array()
+
+[sub_resource type="Resource" id="Resource_flw6j"]
+script = ExtResource("2")
+id = "roulette_16"
+next_id = "roulette_17"
+start = Vector3(-36, 6.5, 44)
+end = Vector3(-6, 0, 35)
+before = Vector3(-47, 8, 54)
+after = Vector3(3, 0, 25)
+curved = true
+surface = "wood"
+edge = "raised"
+height_samples = PackedFloat32Array()
+center_samples = PackedVector3Array()
+left_samples = PackedVector3Array()
+right_samples = PackedVector3Array()
+
+[sub_resource type="Resource" id="Resource_7tpxi"]
+script = ExtResource("2")
+id = "roulette_17"
+next_id = "roulette_18"
+start = Vector3(-6, 0, 35)
+end = Vector3(3, 0, 25)
+before = Vector3(-36, 6.5, 44)
+after = Vector3(15, 0, 25)
+curved = true
+height_samples = PackedFloat32Array()
+center_samples = PackedVector3Array()
+left_samples = PackedVector3Array()
+right_samples = PackedVector3Array()
+
+[sub_resource type="Resource" id="Resource_jd6n5"]
+script = ExtResource("2")
+id = "roulette_18"
+next_id = "roulette_00"
+start = Vector3(3, 0, 25)
+end = Vector3(15, 0, 25)
+before = Vector3(-6, 0, 35)
+after = Vector3(40, 0, 25)
+curved = true
+height_samples = PackedFloat32Array()
+center_samples = PackedVector3Array()
+left_samples = PackedVector3Array()
+right_samples = PackedVector3Array()
+
+[resource]
+script = ExtResource("1")
+sections = Array[Resource]([SubResource("Resource_kdhdb"), SubResource("Resource_pitux"), SubResource("Resource_3kgjb"), SubResource("Resource_tra2l"), SubResource("Resource_ruxpt"), SubResource("Resource_isqf3"), SubResource("Resource_jg2ms"), SubResource("Resource_onnfc"), SubResource("Resource_nk0al"), SubResource("Resource_ddaut"), SubResource("Resource_l4525"), SubResource("Resource_1k3vy"), SubResource("Resource_jjxo3"), SubResource("Resource_pjmot"), SubResource("Resource_jdla2"), SubResource("Resource_xg3gy"), SubResource("Resource_flw6j"), SubResource("Resource_7tpxi"), SubResource("Resource_jd6n5")])
+start_station = 8.0
+revision = 6

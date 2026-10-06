@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dx032ug8poy50"]
+
+[ext_resource type="Script" uid="uid://dudqv6tdvg2a6" path="res://tests/probes/roulette_live.gd" id="1_wbsny"]
+
+[node name="RouletteProof" type="Node" unique_id=704296536]
+script = ExtResource("1_wbsny")

@@ -1,0 +1,43 @@
+# Summer Engine defaults
+.godot/
+*.import
+*.translation
+.DS_Store
+Thumbs.db
+
+# AI tooling
+.claude/
+.specstory/
+
+# Summer Engine local-only state (SummerGit, caches, locks)
+.summer/local/
+
+# Dependencies & build output
+node_modules/
+.next/
+
+# Environment
+.env*
+
+# Python analysis scratch
+__pycache__/
+*.pyc
+*.tmp
+builds/
+
+# Local databases, media deliveries and raw verification evidence
+.assetmanager/
+/marketing/
+/tests/baselines/
+/tests/evidence/
+/archive/
+!/archive/documentation-before-cleanup.zip
+!/archive/documentation-before-maintenance-20261006.zip
+!/archive/documentation-before-maintenance-20261006.json
+/docs/asset-catalogue/manager-entries.json
+/project.godot.bak
+
+# Standalone review renders; original inputs and live opening remain versioned
+/assets/video/opening/theme-review/opening-coming-soon-promo.mp4
+/assets/video/opening/theme-review/opening-theme-review*.mp4
+/assets/video/opening/theme-review/jaylabs-transition-review*.mp4

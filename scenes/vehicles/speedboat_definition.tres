@@ -1,0 +1,19 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/vehicles/vehicle_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "speedboat"
+watercraft = true
+top_speed = 16.0
+acceleration = 13.5
+braking = 17.0
+reverse_speed = 3.0
+grip = 2.5
+coast_grip = 3.4
+steering_low = 2.8
+steering_high = 1.6
+drag = 0.22
+boost_drain = 32.0
+collision_size = Vector3(1.64, 0.58, 0.76)
+collision_height = 0.36
+traffic_half_width = 0.45
