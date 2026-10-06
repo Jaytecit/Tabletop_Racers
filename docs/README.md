@@ -6,6 +6,7 @@ Reconciled **6 October 2026** against the inspected build. Start with [current b
 
 - [Project overview](../README.md), [repository workflow](repository-workflow.md) and [maintenance record](project-maintenance.md)
 - [Eight-car expansion and solid finishers](eight-car-experience-audit.md)
+- [Developer baseline layers and tuning workflow](developer-tuning.md), [rendered verification](verification/layered-developer-baselines.md)
 - [Course catalogue](../tracks/README.md), [rollout priorities](../.summer/plans/2026-10-03-tabletop-glb-rollout.md), [authoring](../tracks/AUTHORING.md)
 - [Extraction gates](tabletop-track-extraction-guide.md), [dedicated-road extraction](automated-road-extraction.md), [reference-tool limits](../tools/tabletop_reference/README.md)
 - [Source survey](glb-track-usability-audit.md), [disposition register](glb-track-disposition.md), [asset inventory](asset-catalogue/AUDIT.md), [credits](credits.md)

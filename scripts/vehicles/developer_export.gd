@@ -59,7 +59,7 @@ static func controls(race: Node3D) -> Dictionary:
 
 static func snapshot(race: Node3D) -> Dictionary:
 	race.identities.refresh_identity()
-	var result: Dictionary = {"schema_version":2,"experimental":race.experimental(),"vehicle_baselines":{},"settings":{},"racers":[],"vehicle_definitions":{},"context":{
+	var result: Dictionary = {"schema_version":3,"experimental":race.experimental(),"vehicle_baselines":{},"settings":{},"racers":[],"vehicle_definitions":{},"context":{
 		"game":preload("res://scripts/race/game_brand.gd").NAME,"game_version":ProjectSettings.get_setting("application/config/version","development"),
 		"engine_version":Engine.get_version_info().string,"handling_version":race.player_car.base_tuning.HANDLING_VERSION,"stats_version":STATS.VERSION,
 		"course_id":race.track_id,"course_resource":race.track.definition.resource_path,"route_revision":race.track.definition.revision,"route_signature":race.trial.signature,
@@ -67,6 +67,11 @@ static func snapshot(race: Node3D) -> Dictionary:
 		"profile_id":race.active_profile_id,"identity":race.profile.data.identity.duplicate(true),"setup":race.machine_settings.data.duplicate(true),
 		"stat_test_mode":race.stats_test_mode,"benchmark_enabled":race.benchmark.active(),"time_attack":race.session.time_attack_settings.duplicate(true),
 		"tournament_series":race.profile.data.tournament_series,"phase":race.phase,"paused":race.paused_race,"controls":controls(race)}}
+	result.baseline_layers = race.developer.layers()
+	result.composition_order = ["factory vehicle / accepted AI factory compensation","shared vehicle multipliers","individual vehicle overrides","overall AI physics multipliers (AI only)","shared character modifiers / individual character overrides","driver upgrade build"]
+	result.character_baselines = {}
+	for character: int in range(MODEL.CHARACTERS.NAMES.size()):
+		result.character_baselines[str(character)] = {"name":MODEL.CHARACTERS.NAMES[character],"overrides":race.developer.characters.get(str(character),{}).duplicate(true)}
 	for id: String in MODEL.CATALOG.IDS:
 		result.vehicle_baselines[id] = {"overrides":race.developer.baselines.get(id,{}).duplicate(true),"properties":tuning(race.developer.baseline(MODEL.CATALOG.definition(id)))}
 	if race.course.entry!=null:
@@ -82,13 +87,13 @@ static func snapshot(race: Node3D) -> Dictionary:
 	for section: Resource in race.track.definition.sections: route_surfaces[section.surface] = true
 	for car: CharacterBody3D in race.all_cars:
 		var id: String = car.base_tuning.id
-		var derived: Resource = STATS.compose(race.developer.baseline(car.base_tuning,car.player!=1),race.active_stats() if car.player==1 else STATS.neutral())
+		var derived: Resource = STATS.compose(race.developer.character_baseline(car),race.active_stats() if car.player==1 else STATS.neutral())
 		var requested: Resource = race.developer.resolved(car)
 		var row: Dictionary = {"slot":car.player-1,"active":car in race.cars,"ai":car.ai,"vehicle_id":id,"identity":race.identities.racers[car.player].duplicate(true),
 			"base":tuning(car.base_tuning),"derived":tuning(derived),"effective":tuning(car.tuning),"requested":tuning(requested),
 			"earned_build":race.profile.data.vehicles[id].duplicate(true) if car.player==1 else STATS.neutral(),
 			"ai_difficulty":car.ai_driver.difficulty,"ai_seed":race.race_seed+car.player*104729,"ai_profile":car.ai_driver.PROFILES[clampi(car.ai_driver.difficulty,0,3)].duplicate(true),
-			"settings":{},"surfaces":{},"overrides":race.developer.edits.get(car.player,{}).duplicate(true)}
+			"settings":{},"surfaces":{},"character_id":race.developer.character_for(car),"overrides":race.developer.combined_edits(car)}
 		row.ai_profile.merge(car.ai_driver.overrides,true)
 		for surface: String in car.surface_presets: row.surfaces[surface] = tuning(car.surface_presets[surface])
 		var target: String = "player" if car.player==1 else "ai_%d" % (car.player-1)

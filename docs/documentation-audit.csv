@@ -51,6 +51,7 @@ docs/automated-road-extraction.md,current project documentation,reconciled with 
 docs/character-roster-and-colours.md,current project documentation,reconciled with current-build authority,docs/current-build.md
 docs/credits.md,source attribution,retain original run/source meaning,scoped source notice
 docs/current-build.md,current project documentation,reconciled with current-build authority,docs/current-build.md
+docs/developer-tuning.md,current project documentation,reconciled with current-build authority,docs/current-build.md
 docs/eight-car-experience-audit.md,current project documentation,reconciled with current-build authority,docs/current-build.md
 docs/game-brand.md,current project documentation,reconciled with current-build authority,docs/current-build.md
 docs/gamepad-driver-name-entry.md,current project documentation,reconciled with current-build authority,docs/current-build.md
@@ -86,6 +87,7 @@ docs/verification/eight-car-tuning.md,historical evidence,retain original run/so
 docs/verification/exported-tuning-defaults.md,historical evidence,retain original run/source meaning,docs/current-build.md
 docs/verification/firefly_bbq.md,historical evidence,retain original run/source meaning,docs/current-build.md
 docs/verification/jaylabs-opening.md,historical evidence,retain original run/source meaning,docs/current-build.md
+docs/verification/layered-developer-baselines.md,historical evidence,retain original run/source meaning,docs/current-build.md
 docs/verification/menu-music.md,historical evidence,retain original run/source meaning,docs/current-build.md
 docs/verification/menu-navigation.md,historical evidence,retain original run/source meaning,docs/current-build.md
 docs/verification/menu-selection-flow.md,historical evidence,retain original run/source meaning,docs/current-build.md
@@ -1171,6 +1173,26 @@ tests/evidence/imported-vehicles-2026-10-04-run3/pid.txt,historical evidence,ret
 tests/evidence/imported-vehicles-2026-10-04-run3/process-exit.txt,historical evidence,retain original run/source meaning,docs/current-build.md
 tests/evidence/imported-vehicles-2026-10-04-run4/pid.txt,historical evidence,retain original run/source meaning,docs/current-build.md
 tests/evidence/imported-vehicles-2026-10-04-run4/process-exit.txt,historical evidence,retain original run/source meaning,docs/current-build.md
+tests/evidence/layered-baselines-20261006/final/pid.txt,historical evidence,retain original run/source meaning,docs/current-build.md
+tests/evidence/layered-baselines-20261006/final/process-exit.txt,historical evidence,retain original run/source meaning,docs/current-build.md
+tests/evidence/layered-baselines-20261006/final2/pid.txt,historical evidence,retain original run/source meaning,docs/current-build.md
+tests/evidence/layered-baselines-20261006/final2/process-exit.txt,historical evidence,retain original run/source meaning,docs/current-build.md
+tests/evidence/layered-baselines-20261006/run1/pid.txt,historical evidence,retain original run/source meaning,docs/current-build.md
+tests/evidence/layered-baselines-20261006/run1/process-exit.txt,historical evidence,retain original run/source meaning,docs/current-build.md
+tests/evidence/layered-baselines-20261006/run2/pid.txt,historical evidence,retain original run/source meaning,docs/current-build.md
+tests/evidence/layered-baselines-20261006/run2/process-exit.txt,historical evidence,retain original run/source meaning,docs/current-build.md
+tests/evidence/layered-baselines-20261006/run3/pid.txt,historical evidence,retain original run/source meaning,docs/current-build.md
+tests/evidence/layered-baselines-20261006/run3/process-exit.txt,historical evidence,retain original run/source meaning,docs/current-build.md
+tests/evidence/layered-baselines-20261006/run4/pid.txt,historical evidence,retain original run/source meaning,docs/current-build.md
+tests/evidence/layered-baselines-20261006/run4/process-exit.txt,historical evidence,retain original run/source meaning,docs/current-build.md
+tests/evidence/layered-baselines-20261006/run5/pid.txt,historical evidence,retain original run/source meaning,docs/current-build.md
+tests/evidence/layered-baselines-20261006/run5/process-exit.txt,historical evidence,retain original run/source meaning,docs/current-build.md
+tests/evidence/layered-baselines-20261006/run6/pid.txt,historical evidence,retain original run/source meaning,docs/current-build.md
+tests/evidence/layered-baselines-20261006/run6/process-exit.txt,historical evidence,retain original run/source meaning,docs/current-build.md
+tests/evidence/layered-baselines-20261006/run7/pid.txt,historical evidence,retain original run/source meaning,docs/current-build.md
+tests/evidence/layered-baselines-20261006/run7/process-exit.txt,historical evidence,retain original run/source meaning,docs/current-build.md
+tests/evidence/layered-baselines-20261006/run8/pid.txt,historical evidence,retain original run/source meaning,docs/current-build.md
+tests/evidence/layered-baselines-20261006/run8/process-exit.txt,historical evidence,retain original run/source meaning,docs/current-build.md
 tests/evidence/menu-flyover-2026-10-05/pid.txt,historical evidence,retain original run/source meaning,docs/current-build.md
 tests/evidence/menu-flyover-2026-10-05/process-exit.txt,historical evidence,retain original run/source meaning,docs/current-build.md
 tests/evidence/menu-music-2026-10-04-final/pid.txt,historical evidence,retain original run/source meaning,docs/current-build.md

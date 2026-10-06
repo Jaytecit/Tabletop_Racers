@@ -3,7 +3,9 @@ const SKIN: Script = preload("res://scripts/race/arcade_presentation.gd")
 const MODEL: Script = preload("res://scripts/vehicles/developer_tuning.gd")
 const EXPORT: Script = preload("res://scripts/vehicles/developer_export.gd")
 const GROUPS: Array[String] = ["Physics","Boost / Recovery","Surfaces","AI","Vehicle Details","Effects"]
-const TARGETS: Array[String] = ["player","all_ai","ai_1","ai_2","ai_3","vehicle:buggy","vehicle:monster_truck","vehicle:racing_car","vehicle:drift_car","vehicle:speedboat"]
+const TARGETS: Array[String] = ["shared_vehicle","shared_character","overall_ai","vehicle:buggy","vehicle:monster_truck","vehicle:racing_car","vehicle:drift_car","vehicle:speedboat","character:0","character:1","character:2","character:3","character:4","character:5","character:6","character:7"]
+var scope: Label
+var preview: Label
 var race: Node3D
 var root: Control
 var panel: PanelContainer
@@ -68,14 +70,15 @@ func setup(owner: Node3D) -> void:
 	var column: VBoxContainer = VBoxContainer.new()
 	column.add_theme_constant_override("separation",10)
 	margin.add_child(column)
-	label(column,"DEVELOPER TUNING / SESSION OVERRIDES").add_theme_font_size_override("font_size",22)
+	label(column,"DEVELOPER TUNING / BASELINES").add_theme_font_size_override("font_size",22)
 	status = label(column,"")
 	var selectors: HBoxContainer = HBoxContainer.new()
 	column.add_child(selectors)
 	target = OptionButton.new()
 	target.custom_minimum_size = Vector2(280,34)
-	for title: String in ["PLAYER","ALL AI","AI 1","AI 2","AI 3"]: target.add_item(title)
-	for title: String in preload("res://scripts/vehicles/vehicle_catalog.gd").TITLES: target.add_item(title+" BASELINE")
+	for title: String in ["ALL VEHICLES / SHARED","ALL CHARACTERS / SHARED","OVERALL AI"]: target.add_item(title)
+	for title: String in preload("res://scripts/vehicles/vehicle_catalog.gd").TITLES: target.add_item("VEHICLE / "+title)
+	for title: String in MODEL.CHARACTERS.NAMES: target.add_item("CHARACTER / "+title.to_upper())
 	selectors.add_child(target)
 	target.item_selected.connect(func(_index: int) -> void: rebuild())
 	group = OptionButton.new()
@@ -83,8 +86,13 @@ func setup(owner: Node3D) -> void:
 	for title: String in GROUPS: group.add_item(title)
 	selectors.add_child(group)
 	group.item_selected.connect(func(_index: int) -> void: rebuild())
+	scope = label(column,"")
+	scope.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	scope.custom_minimum_size.y = 34
+	preview = label(column,"")
+	preview.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	var scroll: ScrollContainer = ScrollContainer.new()
-	scroll.custom_minimum_size = Vector2(0,332)
+	scroll.custom_minimum_size = Vector2(0,270)
 	scroll.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
 	scroll.follow_focus = true
@@ -92,16 +100,19 @@ func setup(owner: Node3D) -> void:
 	rows = VBoxContainer.new()
 	rows.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	scroll.add_child(rows)
-	label(column,"Enter a number, then APPLY. Fine: 0.01 / coarse: 0.1. Geometry and watercraft apply on race reset.")
+	label(column,"1x = unchanged. APPLY edits this layer. INHERIT removes its override. Vehicle geometry applies on race reset.")
 	notice = label(column,"")
 	notice.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	notice.custom_minimum_size.y = 38
 	var actions: HBoxContainer = HBoxContainer.new()
 	column.add_child(actions)
-	button(actions,"RESET TARGET",func() -> void: race.developer.reset_target(TARGETS[target.selected]); rebuild())
-	button(actions,"RESET ALL",func() -> void: race.developer.reset_all(); rebuild())
-	button(actions,"EXPORT SETUP JSON",export_dialog)
-	button(actions,"CLEAR EARNED AND SPENT REWARDS",confirm_reset)
+	button(actions,"RESET LAYER",func() -> void: race.developer.reset_target(TARGETS[target.selected]); rebuild())
+	button(actions,"RESET ALL LAYERS",func() -> void: race.developer.reset_all(); rebuild())
+	button(actions,"SAVE BASELINES",save_baselines)
+	button(actions,"EXPORT SETUP",export_dialog)
+	var secondary: HBoxContainer = HBoxContainer.new()
+	column.add_child(secondary)
+	button(secondary,"CLEAR EARNED AND SPENT REWARDS",confirm_reset)
 	button(actions,"BACK",close)
 	dialog = FileDialog.new()
 	dialog.file_mode = FileDialog.FILE_MODE_SAVE_FILE
@@ -126,7 +137,7 @@ func _process(_delta: float) -> void:
 	pause_launch.visible = race.paused_race and race.phase in [1,2,5] and not root.visible
 	launch.visible = race.phase==0 and race.menu_flow.step==0
 	if root.visible:
-		status.text = "EXPERIMENTAL / UNRANKED / RECORDS AND REWARDS DISABLED" if race.experimental() else "Earned setup / edits start an unranked experiment"
+		status.text = ("EXPERIMENTAL / UNRANKED" if race.experimental() else "FACTORY BASELINES")+" / "+("UNSAVED CHANGES" if race.developer.dirty() else race.developer.storage_status)
 
 func _unhandled_input(event: InputEvent) -> void:
 	if root.visible and not dialog.visible and not reset_dialog.visible and event.is_action_pressed("ui_cancel"):
@@ -144,7 +155,7 @@ func open() -> void:
 		if control==root or root.is_ancestor_of(control): continue
 		old_modes[control] = control.focus_mode
 		control.focus_mode = Control.FOCUS_NONE
-	notice.text = "Session only. Vehicle baselines apply before earned upgrades and racer overrides. Zero boost drain is unlimited."
+	notice.text = "Order: vehicle defaults > shared vehicle scale > vehicle override > AI scale (AI only) > character modifier > driver upgrade build. SAVE keeps developer baselines across launches; tuning remains unranked."
 	rebuild()
 	root.show()
 	target.grab_focus()
@@ -178,18 +189,32 @@ func rebuild() -> void:
 	fields.clear()
 	var selected_target: String = TARGETS[target.selected]
 	var cars: Array = race.developer.targets(selected_target)
+	var id: String = race.developer.vehicle_id(selected_target)
+	var character: int = race.developer.character_id(selected_target)
+	var active_count: int = 0
+	for car: CharacterBody3D in cars:
+		if car in race.cars: active_count += 1
+	var descriptions: Dictionary = {
+		"shared_vehicle":"Shared vehicle multipliers: scale factory handling for every vehicle. Individual vehicle overrides take priority. Geometry is vehicle-specific.",
+		"shared_character":"Shared character multipliers: apply to every character after vehicle / AI physics, before the driver's upgrade build.",
+		"overall_ai":"AI-only physics multipliers and behaviour overrides. Untouched behaviour follows the selected difficulty; character AI overrides take priority."}
+	scope.text = descriptions.get(selected_target,"Individual vehicle absolute values replace the shared vehicle result; upgrades still apply afterwards." if not id.is_empty() else "Character modifiers follow portrait identity in any vehicle or race slot. Untouched fields inherit the shared character / overall AI settings. AI fields affect AI drivers only.")
+	scope.text += " Affected: %d active / %d available racers." % [active_count,cars.size()]
+	preview.text = "Driver upgrades, rewards, controls, audio and video are not edited here."
+	if not cars.is_empty():
+		var car: CharacterBody3D = cars[0]
+		preview.text += " Preview slot %d: %s / %s | speed %.2f m/s, grip %.2f, accel %.2f m/s/s (includes driver build)." % [car.player,MODEL.CHARACTERS.NAMES[race.developer.character_for(car)],MODEL.CATALOG.title(car.base_tuning.id),car.tuning.top_speed,car.tuning.grip,car.tuning.acceleration]
 	for item: Dictionary in race.developer.target_descriptors(selected_target):
 		if section(item.field)!=group.selected: continue
-		if item.target=="ai" and target.selected==0: continue
 		var row: HBoxContainer = HBoxContainer.new()
 		rows.add_child(row)
 		var caption: Label = label(row,"SMOKE / SQUEAL THRESHOLD" if item.field=="tyre_effect_threshold" else item.field.replace("_"," ").to_upper())
-		caption.custom_minimum_size.x = 270
+		caption.custom_minimum_size.x = 230
 		caption.clip_text = true
 		caption.tooltip_text = "Higher values require more sliding or dirt speed before smoke and squeal start. 1 = original threshold." if item.field=="tyre_effect_threshold" else item.field
 		var state: Dictionary = race.developer.values(TARGETS[target.selected],item.field)
-		var reference: Label = label(row,"stock %s %s\nrange %s - %s\n%s" % [str(item.default),item.unit.replace("×","x").replace("²","^2"),str(item.min),str(item.max),"RESET REQUIRED" if state.restart_required else ("APPLIES ON RESET" if item.apply=="restart" else "LIVE")])
-		reference.custom_minimum_size.x = 185
+		var reference: Label = label(row,"inherited %s %s\n%s / %s\nrange %s - %s" % [str(item.default),item.unit,"OVERRIDE" if state.overridden else "INHERITING","RESET REQUIRED" if state.restart_required else ("ON RESET" if item.apply=="restart" else "LIVE"),str(item.min),str(item.max)])
+		reference.custom_minimum_size.x = 240
 		reference.clip_text = true
 		reference.tooltip_text = reference.text
 		if item.type=="bool":
@@ -210,11 +235,12 @@ func rebuild() -> void:
 			button(row,"APPLY",func() -> void: apply_text(item.field,entry.text))
 			for amount: float in [-float(item.coarse),-float(item.fine),float(item.fine),float(item.coarse)]:
 				button(row,("+" if amount>0 else "")+str(amount),func() -> void: adjust(item.field,amount))
-	if group.selected==3 and (target.selected==0 or not race.developer.vehicle_id(selected_target).is_empty()): label(rows,"Select All AI or an individual AI to edit behaviour.")
+		button(row,"INHERIT",func() -> void: race.developer.inherit_field(selected_target,item.field); rebuild())
+	if group.selected==3 and selected_target!="overall_ai" and character<0: label(rows,"AI behaviour lives in OVERALL AI and individual CHARACTER layers.")
 	if group.selected==4:
-		var id: String = race.developer.vehicle_id(selected_target)
+		if id.is_empty(): label(rows,"Collision geometry and watercraft belong to individual VEHICLE layers.")
 		var base: Resource = preload("res://scripts/vehicles/vehicle_catalog.gd").definition(id) if not id.is_empty() else (cars[0].base_tuning if not cars.is_empty() else null)
-		if base!=null:
+		if base!=null and not id.is_empty():
 			label(rows,"VEHICLE: "+base.id+" / "+base.resource_path)
 			label(rows,"SOURCE: "+preload("res://scripts/vehicles/imported_visual.gd").MODELS[base.id])
 
@@ -240,6 +266,11 @@ func apply_value(field: String, value: Variant) -> void:
 	notice.text = field.replace("_"," ")+" applied"+(" / RESET RACE TO APPLY GEOMETRY" if state.restart_required else " / LIVE")
 	rebuild()
 	if fields.has(focus_field): fields[focus_field].grab_focus()
+
+func save_baselines() -> void:
+	var error: Error = race.developer.save_settings()
+	notice.text = "Baselines saved for all profiles and future launches. Developer tuning remains unranked." if error==OK else "Save failed: "+error_string(error)+". Changes retained in this session."
+	rebuild()
 
 func export_dialog() -> void:
 	dialog.popup_centered()
