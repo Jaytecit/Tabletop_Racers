@@ -12,13 +12,13 @@ This is the current checkpoint. [Current build](current-build.md) defines the in
 | Profiles/progression | Named isolated profiles, eight portraits and palettes, wallet/per-vehicle upgrades, machine settings, gamepad name keyboard. Schema 17. [Profiles](verification/saved-player-profiles.md), [identity](character-roster-and-colours.md), [progression](vehicle-progression.md). |
 | Eight-car circuit racing | Quick/Freestyle, seven AI selector, Moonlight Hard shortcut, rank/minimap/results/lighting and profile/record support. Owner says the eight-player race works perfectly (6 October). [Race](verification/eight-car-race.md), [tuning](verification/eight-car-tuning.md). |
 | Modes | Tournament, Challenge, Elimination, Time Attack, Drift and solo PB ghost paths implemented with specific evidence. Tournament/Elimination still four-car. [Rules](racing-modes.md), [roadmaps](verification/challenge-roadmaps.md). |
-| Development tools | Overrides, reset rewards, descriptor-driven export, accepted base defaults; individual menu targets currently stop at AI 3. [Override evidence](verification/developer-tuning-overrides.md), [menu/export](verification/developer-menu-export.md). |
+| Development tools | Shared vehicle/character and overall AI layers, five vehicle baselines, eight character targets, saved developer baselines and schema-3 export. [Workflow](developer-tuning.md), [verification](verification/layered-developer-baselines.md). [Override evidence](verification/developer-tuning-overrides.md), [menu/export](verification/developer-menu-export.md). |
 | Presentation/loading | Mode-dependent menu flow, panels, live ranks, dot minimap, camera/reduced-effects, preview flyovers, async loading/projection optimisation and road-course panorama implemented. [Index](README.md) links evidence. |
 | Audio/video | Current full-theme opening, music and existing effects remain implemented. No alteration is required for the eight-car work. [Opening](opening-sequence.md). |
 
 ## Required next work
 
-1. **Eight-car competitive modes:** shared field policy, tournament field/scoring/state/standings, Elimination setup, AI 4–7 developer targets and relevant copy. [Detailed audit](eight-car-experience-audit.md).
+1. **Eight-car competitive modes:** shared field policy, tournament field/scoring/state/standings, Elimination setup, relevant field-size copy. [Detailed audit](eight-car-experience-audit.md).
 2. **Solid finishers:** separate result accounting from physical run-out/parking; keep traffic avoidance/recovery aware of them. Validate exits/parking per course and vehicle footprint; do not just enable collision on stationary finish-line cars.
 3. **Targeted expansion acceptance:** relevant state/persistence/layout tests and isolated rendered checks for changed modes/finisher behaviour. Preserve failures and confirm each owned PID exits.
 4. **Performance:** current tuned eight-car Moonlight wall p95 is 21.768 ms; the 16.7 ms target remains unmet. Profile before further optimisation; retain measured support and route parity.

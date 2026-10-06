@@ -45,12 +45,12 @@
     "addons": 766,
     "assets": 605,
     "audio": 51,
-    "docs": 123,
+    "docs": 125,
     "environments": 50,
     "marketing": 28675,
     "scenes": 11,
     "scripts": 210,
-    "tests": 18387,
+    "tests": 18487,
     "tools": 63,
     "tracks": 2433,
     ".summer": 5
@@ -101,14 +101,14 @@
     "scripts/profiles/profile_directory.gd",
     "scripts/profiles/profile_menu.gd"
   ],
-  "documentation_files": 1208,
+  "documentation_files": 1230,
   "documentation_classes": {
-    "current project documentation": 34,
+    "current project documentation": 35,
     "retained specification with current-status override": 4,
     "vendor source documentation": 23,
     "source attribution": 8,
     "editorial/reference documentation": 55,
-    "historical evidence": 1084
+    "historical evidence": 1105
   },
   "broken_current_document_links": [],
   "current_build_consistency": {
